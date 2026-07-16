@@ -187,6 +187,8 @@ Declaration(Class(pmdco:PMD_0025011))
 Declaration(Class(pmdco:PMD_0025016))
 Declaration(Class(pmdco:PMD_0025017))
 Declaration(Class(pmdco:PMD_0025018))
+Declaration(Class(pmdco:PMD_0025019))
+Declaration(Class(pmdco:PMD_0025027))
 Declaration(Class(pmdco:PMD_0025997))
 Declaration(Class(pmdco:PMD_0040001))
 Declaration(Class(pmdco:PMD_0050000))
@@ -381,6 +383,7 @@ Declaration(Class(pmdco:PMD_0080204))
 Declaration(Class(pmdco:PMD_0080597))
 Declaration(Class(pmdco:PMD_0090001))
 Declaration(Class(pmdco:PMD_0090002))
+Declaration(Class(pmdco:PMD_0090021))
 Declaration(ObjectProperty(obo:BFO_0000050))
 Declaration(ObjectProperty(obo:BFO_0000199))
 Declaration(ObjectProperty(obo:RO_0000056))
@@ -588,7 +591,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000503 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0000503 pmdco:PMD_0020243)
 SubClassOf(pmdco:PMD_0000503 ObjectSomeValuesFrom(obo:IAO_0000417 ObjectIntersectionOf(obo:IAO_0000109 ObjectSomeValuesFrom(obo:OBI_0000312 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:STATO_0000102 obo:IAO_0000104))))))
 
-# Class: pmdco:PMD_0000505 (Schallabsorptionskoeffizient)
+# Class: pmdco:PMD_0000505 (acoustic absorption coefficient)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000505 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000505 "PERSON: Joerg Waitelonis")
@@ -791,7 +794,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000551 "true"^^xsd:boolean)
 AnnotationAssertion(pmdco:PMD_0000064 pmdco:PMD_0000551 "Material has quality chemical composition. Chemical composition is a subject of chemical composition data item. Chemical composition data item has members fraction value specifications (which have a numeral and a unit). Material has part portion of carbon. Material has relational quality mass proportion. Portion of carbon  has relational quality mass proportion. Mass propotion is specified by value fraction value specification. Same approach for all chemical elements."@en)
 SubClassOf(pmdco:PMD_0000551 pmdco:PMD_0025001)
 
-# Class: pmdco:PMD_0000553 (chemical potential)
+# Class: pmdco:PMD_0000553 (chemisches Potential)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000553 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000553 "PERSON: Joerg Waitelonis")
@@ -1479,6 +1482,11 @@ AnnotationAssertion(skos:definition pmdco:PMD_0010029 "Specific strength is a qu
 AnnotationAssertion(skos:definition pmdco:PMD_0010029 "Spezifische Festigkeit ist eine Eigenschaft, die einem Material innewohnt und als das Verhältnis seiner Zugfestigkeit zu seiner Dichte definiert wird."@de)
 SubClassOf(pmdco:PMD_0010029 pmdco:PMD_0000952)
 
+# Class: pmdco:PMD_0020003 (crystal)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020003 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
+
 # Class: pmdco:PMD_0020004 (composition data item)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020004 obo:IAO_0000122)
@@ -1508,7 +1516,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020005 "itensive quality embodiyi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020005 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020104)
 
-# Class: pmdco:PMD_0020022 (corrosion)
+# Class: pmdco:PMD_0020022 (Korrosion)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020022 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020022 "PERSON: Philipp von Hartrott")
@@ -1521,6 +1529,8 @@ SubClassOf(pmdco:PMD_0020022 obo:BFO_0000015)
 
 # Class: pmdco:PMD_0020023 (DEPRECATED metallische Kornstrukturen)
 
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020023 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020023 "PERSON: Philipp von Hartrott")
 AnnotationAssertion(rdfs:comment pmdco:PMD_0020023 "Make referring entity subclass of ferrous metal microconstituent instead.")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020023 "DEPRECATED metallic grain structures"@en)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020023 "DEPRECATED metallische Kornstrukturen"@de)
@@ -1826,6 +1836,8 @@ SubClassOf(pmdco:PMD_0020155 pmdco:PMD_0020142)
 
 # Class: pmdco:PMD_0020160 (ferrous metal microconstituent)
 
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020160 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020160 "PERSON: Philipp von Hartrott")
 
 # Class: pmdco:PMD_0020161 (activity (thermodynamic))
 
@@ -1884,7 +1896,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020165 "disposition of a phase to
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020165 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020165 obo:BFO_0000016)
 
-# Class: pmdco:PMD_0020167 (strukturelle Grenze)
+# Class: pmdco:PMD_0020167 (structural boundary)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020167 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020167 "PERSON: Philipp von Hartrott")
@@ -2037,7 +2049,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020209 "Gibt den Wert der Kristal
 AnnotationAssertion(skos:definition pmdco:PMD_0020209 "specifies the value of the crystal slip plane together with the slip direction."@en)
 SubClassOf(pmdco:PMD_0020209 obo:OBI_0001930)
 
-# Class: pmdco:PMD_0020211 (allotropy of an elemental crystal)
+# Class: pmdco:PMD_0020211 (Allotropie eines Elementarkristalls)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020211 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020211 "different structures of a crystal could be linked by a relational property 'allotrope of'"@en)
@@ -2107,11 +2119,6 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020228 "Rolle einer Entität, die
 AnnotationAssertion(skos:definition pmdco:PMD_0020228 "role of an entity that is present in major concentration in a solution"@en)
 SubClassOf(pmdco:PMD_0020228 obo:BFO_0000023)
 
-# Class: pmdco:PMD_0020233 (dislocation)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020233 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020233 "PERSON: Philipp von Hartrott")
-
 # Class: pmdco:PMD_0020237 (Burgers vector)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020237 obo:IAO_0000122)
@@ -2165,6 +2172,41 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020251 "bioactive without causing
 AnnotationAssertion(skos:definition pmdco:PMD_0020251 "bioaktiv, ohne schädliche oder inakzeptable biologische Reaktionen (Toxizität, Entzündung, Immunreaktion) hervorzurufen und seine beabsichtigte Funktion oder Integration in das Gewebe zu erfüllen."@de)
 SubClassOf(pmdco:PMD_0020251 pmdco:PMD_0010023)
 
+# Class: pmdco:PMD_0020280 (austenite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020280 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020280 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020281 (bainite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020281 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020281 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020282 (ferrite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020282 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020282 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020283 (ledeburite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020283 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020283 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020284 (martensite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020284 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020284 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020285 (pearlite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020285 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020285 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020286 (widmanstatten structure)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020286 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020286 "PERSON: Philipp von Hartrott")
+
 # Class: pmdco:PMD_0025001 (Zusammensetzung)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025001 obo:IAO_0000122)
@@ -2195,6 +2237,8 @@ SubClassOf(pmdco:PMD_0025002 ObjectIntersectionOf(pmdco:PMD_0020004 ObjectSomeVa
 
 # Class: pmdco:PMD_0025003 (DEPRECATED metallic grain structure)
 
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025003 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025003 "PERSON: Kamilla Zaripova")
 AnnotationAssertion(rdfs:comment pmdco:PMD_0025003 "DEPRECATED ferrite, austenite, martensite, etc."@en)
 AnnotationAssertion(rdfs:comment pmdco:PMD_0025003 "Make entity subclass of ferrous metal microconstituent instead")
 AnnotationAssertion(rdfs:label pmdco:PMD_0025003 "DEPRECATED metallic grain structure"@en)
@@ -2266,6 +2310,20 @@ AnnotationAssertion(skos:definition pmdco:PMD_0025018 "Geometric relational qual
 AnnotationAssertion(skos:definition pmdco:PMD_0025018 "Geometrische Beziehungsqualität ist eine Beziehungsqualität, die die geometrische Beziehung zwischen zwei oder mehr unabhängigen Kontinuen beschreibt."@de)
 AnnotationAssertion(skos:example pmdco:PMD_0025018 "Elongation of a specimen after a tensile step, i.e., the specimen before and after the test. Angle between a rolling direction of a rolled material and the longitudinal side of a specimen."@en)
 SubClassOf(pmdco:PMD_0025018 obo:BFO_0000145)
+
+# Class: pmdco:PMD_0025019 (rate)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025019 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025019 "PERSON: Kamilla Zaripova")
+
+# Class: pmdco:PMD_0025027 (voltage)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025027 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025027 "PERSON: Kamilla Zaripova")
+AnnotationAssertion(rdfs:label pmdco:PMD_0025027 "elektrische Spannung"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025027 "voltage"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025027 "voltage is a relational quality that defines the difference of electric potentials between two objects"@en)
+SubClassOf(pmdco:PMD_0025027 pmdco:PMD_0080069)
 
 # Class: pmdco:PMD_0025997 (Angabe des Bruchwerts)
 
@@ -2607,7 +2665,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080014 "Der Massendurchfluss quan
 AnnotationAssertion(skos:definition pmdco:PMD_0080014 "process attribute that quantifies the mass passing per unit time, commonly measured in kilograms per second or pounds per second"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0080014 "A coolant pump delivers a mass flow rate of 2 kg/s of water through a heat exchanger"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080014 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080014 pmdco:PMD_0000008)
+SubClassOf(pmdco:PMD_0080014 pmdco:PMD_0025019)
 
 # Class: pmdco:PMD_0080015 (mechanischer Impuls)
 
@@ -3495,7 +3553,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080085 "A concrete block has a weigh
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080085 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080085 pmdco:PMD_0020200)
 
-# Class: pmdco:PMD_0080086 (friction)
+# Class: pmdco:PMD_0080086 (Reibung)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080086 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080086 "Necessary and sufficient conditions for 'friction' have not yet been formalized. The term is defined as a specific subtype of 'force'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://www.britannica.com/science/friction."@en)
@@ -4383,6 +4441,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080156 "A ceramic bending bar fractu
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080156 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080156 pmdco:PMD_0080153)
 
+# Class: pmdco:PMD_0080157 (Scherfestigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080157 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080157 "Necessary and sufficient conditions for 'shear strength' have not yet been formalized. The term is defined as a specific subtype of 'breaking strength'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4569,7 +4628,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080170 "Low-carbon steel exhibits hi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080170 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080170 pmdco:PMD_0000848)
 
-# Class: pmdco:PMD_0080171 (yield strength)
+# Class: pmdco:PMD_0080171 (Fließgrenze)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080171 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080171 "Necessary and sufficient conditions for 'yield strength' have not yet been formalized. The term is defined as a specific subtype of 'plasticity'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4768,7 +4827,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080184 "Resilience is a mechanica
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080184 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080184 pmdco:PMD_0000848)
 
-# Class: pmdco:PMD_0080186 (radiation reflection capability)
+# Class: pmdco:PMD_0080186 (Strahlungsreflexionsfähigkeiten)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080186 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080186 "Necessary and sufficient conditions for 'radiation reflection capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4781,7 +4840,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080186 "Polished aluminum foil has h
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080186 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080186 pmdco:PMD_0000877)
 
-# Class: pmdco:PMD_0080187 (Strahlungsabsorptionsfähigkeit)
+# Class: pmdco:PMD_0080187 (radiation absorption capability)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080187 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080187 "Necessary and sufficient conditions for 'radiation absorption capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4891,7 +4950,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080196 "The thermal expansion coeffi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080196 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080196 pmdco:PMD_0000981)
 
-# Class: pmdco:PMD_0080197 (volumetric thermal expansion coefficient)
+# Class: pmdco:PMD_0080197 (thermischer Volumenausdehnungskoeffizient)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080197 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080197 "Necessary and sufficient conditions for 'volumetric thermal expansion coefficient' have not yet been formalized. The term is defined as a specific subtype of 'thermal expansion coefficient'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4957,7 +5016,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080202 "Thermoschockbeständigkei
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080202 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080202 pmdco:PMD_0000981)
 
-# Class: pmdco:PMD_0080203 (radiation emission capability)
+# Class: pmdco:PMD_0080203 (Strahlungsemissionsfähigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080203 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080203 "Necessary and sufficient conditions for 'radiation emission capability' have not yet been formalized. The term is defined as a specific subtype of 'physical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5011,12 +5070,19 @@ AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0090002 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0090002 "PERSON: thnlrd")
 AnnotationAssertion(rdfs:label pmdco:PMD_0090002 "Bandlücke"@de)
 
+# Class: pmdco:PMD_0090021 (disposition to polymerize)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0090021 "disposition to polymerize"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0090021 "Typical bearers of this disposition include monomers and oligomeric or prepolymeric materials that can undergo polymerization under suitable conditions.")
+AnnotationAssertion(skos:definition pmdco:PMD_0090021 "A disposition to polymerize is a disposition of a chemical entity to undergo polymerization and thereby contribute constitutional units to a macromolecule or a polymer.")
+SubClassOf(pmdco:PMD_0090021 obo:BFO_0000016)
+
 
 ############################
 #   Named Individuals
 ############################
 
-# Individual: pmdco:PMD_0020006 (bravais lattice triclinic primitive)
+# Individual: pmdco:PMD_0020006 (Triklines Primitiv des Bravais-Gitters)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020006 "Triklines Primitiv des Bravais-Gitters"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020006 "bravais lattice triclinic primitive"@en)
@@ -5270,7 +5336,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020125 "A state that exhibits sup
 AnnotationAssertion(skos:definition pmdco:PMD_0020125 "Ein Zustand, der suprafluide und feste Eigenschaften aufweist."@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020125 "true"^^xsd:boolean)
 
-# Individual: pmdco:PMD_0020217 (short range order)
+# Individual: pmdco:PMD_0020217 (Kurzstreckenauftrag)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020217 "Kurzstreckenauftrag"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020217 "short range order"@en)
@@ -5311,27 +5377,4 @@ DisjointClasses(pmdco:PMD_0020202 pmdco:PMD_0020203 pmdco:PMD_0020204)
 DifferentIndividuals(pmdco:PMD_0020006 pmdco:PMD_0020007 pmdco:PMD_0020008 pmdco:PMD_0020009 pmdco:PMD_0020010 pmdco:PMD_0020011 pmdco:PMD_0020012 pmdco:PMD_0020013 pmdco:PMD_0020014 pmdco:PMD_0020015 pmdco:PMD_0020016 pmdco:PMD_0020017 pmdco:PMD_0020018 pmdco:PMD_0020019)
 DifferentIndividuals(pmdco:PMD_0020117 pmdco:PMD_0020118 pmdco:PMD_0020119 pmdco:PMD_0020120 pmdco:PMD_0020121 pmdco:PMD_0020122 pmdco:PMD_0020123 pmdco:PMD_0020124 pmdco:PMD_0020125)
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000051 pmdco:PMD_0025998) pmdco:PMD_0025998)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020003 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020023 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020023 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020160 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020160 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020280 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020280 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020281 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020281 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020282 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020282 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020283 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020283 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020284 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020284 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020285 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020285 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020286 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020286 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0025003 "PERSON: Kamilla Zaripova")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0025003 <http://purl.obolibrary.org/obo/IAO_0000122>)
-
 )

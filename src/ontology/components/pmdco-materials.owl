@@ -158,25 +158,13 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020188>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020189>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020197>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020198>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020199>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020206>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020208>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020210>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020213>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020224>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020227>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020228>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020229>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020230>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020231>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020232>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020233>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020234>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020235>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020236>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020238>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020239>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020240>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020241>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020249>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020250>))
@@ -191,6 +179,7 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020286>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025004>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025014>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025015>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0025025>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025026>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0050001>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0050002>))
@@ -206,6 +195,8 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0060007>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090000>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090001>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090002>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0090020>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0090021>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0200001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0001026>))
@@ -1175,60 +1166,12 @@ AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0000060> <https://w3id.org/pmd/
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020160> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000001> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000030>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://w3id.org/pmd/co/PMD_0000639>))))
 DisjointUnion(<https://w3id.org/pmd/co/PMD_0020160> <https://w3id.org/pmd/co/PMD_0020280> <https://w3id.org/pmd/co/PMD_0020281> <https://w3id.org/pmd/co/PMD_0020282> <https://w3id.org/pmd/co/PMD_0020283> <https://w3id.org/pmd/co/PMD_0020284> <https://w3id.org/pmd/co/PMD_0020285> <https://w3id.org/pmd/co/PMD_0020286>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0020197> (lattice point)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020197> "lattice point"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020197> "A lattice point is a fiat point that represents a position in a crystal lattice at which structural entities are regularly arranged."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020197> <http://purl.obolibrary.org/obo/BFO_0000147>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020198> (interstitial site)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020198> "interstitial site"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020198> "An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020198> <http://purl.obolibrary.org/obo/BFO_0000029>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020199> (slip plane)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020199> "slip plane"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020199> "A slip plane is a fiat surface that corresponds to a crystallographic plane of a 3D crystal along which dislocations can glide"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020199> <http://purl.obolibrary.org/obo/BFO_0000146>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020206> (unit cell)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <https://w3id.org/pmd/co/PMD_0020206> "https://www.physics-in-a-nutshell.com/article/5/unit-cell-primitive-cell-and-wigner-seitz-cell")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000233> <https://w3id.org/pmd/co/PMD_0020206> "https://github.com/materialdigital/core-ontology/pull/424")
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020206> "unit cell"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020206> "Unit cell is a immaterial entity that represents the a smallest volume element a repetitive arrangement of which can build  up the whole crystal lattice without overplaps or gaps, and there is no further partition of the unit cell that could itself be used as a unit cell."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020206> <http://purl.obolibrary.org/obo/BFO_0000029>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020208> (slip direction)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020208> "slip direction"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020208> "A slip direction is a fiat line that corresponds to the crystallographic direction along which dislocations glide os a slip plane."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020208> <http://purl.obolibrary.org/obo/BFO_0000142>)
-
 # Class: <https://w3id.org/pmd/co/PMD_0020210> (elemental crystal)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020210> "elemental crystal"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020210> "a crystal that consists of exactly one atomic species"@en)
 EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020210> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351> <https://w3id.org/pmd/co/PMD_0020140>))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020210> <https://w3id.org/pmd/co/PMD_0020003>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020213> (grain boundary)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0020213> "the part of a grain that is close to the grain boundary and possibly characterized by disorder is a fiat object part (grain surface layer)"@en)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020213> "grain boundary"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020213> "A grain boundary is a fiat surface that separates adjacent grains in a polycrystalline material and is characterized by structural discontinuity."@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020213> <http://purl.obolibrary.org/obo/BFO_0000146>)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020213> ObjectExactCardinality(2 <http://purl.obolibrary.org/obo/RO_0002350> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020003> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0025998> <https://w3id.org/pmd/co/PMD_0020241>))))
-
-# Class: <https://w3id.org/pmd/co/PMD_0020224> (vacancy (crystal))
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0020224> "TODO: replace topObjectProperty with occupies spatial region"@en)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020224> "vacancy (crystal)"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020224> "site at lattice point at which the crystal forming entity is missing"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020224> <http://purl.obolibrary.org/obo/BFO_0000029>)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020224> ObjectSomeValuesFrom(owl:topObjectProperty <https://w3id.org/pmd/co/PMD_0020197>))
 
 # Class: <https://w3id.org/pmd/co/PMD_0020229> (solution)
 
@@ -1258,49 +1201,6 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020232> "substituti
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020232> "a solid solution whose solute entities occupy lattice points"@en)
 EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020232> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_60003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000001> ObjectSomeValuesFrom(owl:topObjectProperty <https://w3id.org/pmd/co/PMD_0020197>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/PMD_0020227>)))))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020232> <https://w3id.org/pmd/co/PMD_0020230>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020233> (dislocation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020233> "dislocation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020233> "a linear site in a cystal that interrupts the cystal ordering"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020233> <http://purl.obolibrary.org/obo/BFO_0000029>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020234> (screw dislocation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020234> "screw dislocation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020234> "a dislocation characterized by shearing the chrystal by one plane"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020234> <https://w3id.org/pmd/co/PMD_0020233>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020235> (edge dislocation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020235> "edge dislocation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020235> "a dislocation characterized by adding one extra half plane into the crystal lattice"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020235> <https://w3id.org/pmd/co/PMD_0020233>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020236> (mixed dislocation)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020236> "mixed dislocation"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020236> "a dislocation that spans edge dislocation as well as screw dislocation"@en)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020236> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020234> <https://w3id.org/pmd/co/PMD_0020235>))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020236> <https://w3id.org/pmd/co/PMD_0020233>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020238> (high angle grain boundary)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020238> "high angle grain boundary"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020238> "a grain boundary whose adjacent crystalls have a high angle of misalignment"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020238> <https://w3id.org/pmd/co/PMD_0020213>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020239> (small angle grain boundary)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020239> "small angle grain boundary"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020239> "a grain boundary whose adjacent crystalls have a small angle of misalignment"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020239> <https://w3id.org/pmd/co/PMD_0020213>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020240> (twin boundary)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020240> "twin boundary"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020240> "grain boundary without distorted lattice"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020240> <https://w3id.org/pmd/co/PMD_0020213>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020249> (ceramic crystal)
 
@@ -1372,6 +1272,12 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3
 EquivalentClasses(<https://w3id.org/pmd/co/PMD_0025015> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020140> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_33336>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0025015> <https://w3id.org/pmd/co/PMD_0020140>)
 
+# Class: <https://w3id.org/pmd/co/PMD_0025025> (suspension)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0025025> "suspension"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0025025> "suspension is a portion of matter in which one phase is in a liquid aggregate state and the other phase is in a solid aggregate state, and the solid phase cannot dissolve in the liquid phase."@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0025025> <https://w3id.org/pmd/co/PMD_0000001>)
+
 # Class: <https://w3id.org/pmd/co/PMD_0025026> (lubricant role)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0025026> "lubricant role"@en)
@@ -1411,6 +1317,14 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://w3id
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0090002> "A bandgap is an energy range between the valence band and the conduction band in a solid where no electronic states exist.")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0090002> "Silicon has a band gap of 1.107 eV at room temperature."@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0090002> <https://w3id.org/pmd/co/PMD_0020142>)
+
+# Class: <https://w3id.org/pmd/co/PMD_0090020> (monomer)
+
+AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0090020> "monomer"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#comment> <https://w3id.org/pmd/co/PMD_0090020> "A monomer bears a disposition to polymerize and may bear the polymerisation monomer role in an appropriate polymerization process.")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0090020> "A monomer is a chemical entity that can undergo a polymerization process and thereby contribute constitutional units to a macromolecule or a polymer.")
+SubClassOf(<https://w3id.org/pmd/co/PMD_0090020> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0090020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000091> <https://w3id.org/pmd/co/PMD_0090021>))
 
 # Class: <https://w3id.org/pmd/co/PMD_0200001> (biodegradability)
 

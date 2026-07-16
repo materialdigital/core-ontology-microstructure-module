@@ -15,6 +15,7 @@ Import(<https://w3id.org/pmd/co/components/pmdco-datatransformation.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-devices.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-manufacturing.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-materials.owl>)
+Import(<https://w3id.org/pmd/co/components/pmdco-microstructure.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-qualities.owl>)
 
 Declaration(Class(:PMD_0020252))
@@ -152,6 +153,11 @@ SubClassOf(:PMD_0020022 ObjectSomeValuesFrom(:PMD_0025013 ObjectIntersectionOf(:
 
 SubClassOf(:PMD_0020130 obo:BFO_0000145)
 
+# Class: :PMD_0020252 (growth)
+
+AnnotationAssertion(obo:IAO_0000114 :PMD_0020252 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 :PMD_0020252 "PERSON: Philipp von Hartrott")
+
 # Class: :PMD_0025019 (rate)
 
 AnnotationAssertion(obo:IAO_0000114 :PMD_0025019 obo:IAO_0000122)
@@ -198,11 +204,15 @@ SubClassOf(:PMD_0025997 obo:OBI_0001931)
 SubClassOf(:PMD_0025997 ObjectSomeValuesFrom(obo:OBI_0001927 ObjectIntersectionOf(:PMD_0020101 ObjectSomeValuesFrom(:PMD_0025999 ObjectIntersectionOf(obo:BFO_0000040 ObjectSomeValuesFrom(obo:BFO_0000050 obo:BFO_0000040))))))
 SubClassOf(:PMD_0025997 ObjectAllValuesFrom(obo:RO_0002350 :PMD_0020004))
 
+# Class: :PMD_0027009 (Cottrell cloud)
+
+SubClassOf(:PMD_0027009 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002351 :PMD_0020233) ObjectSomeValuesFrom(obo:RO_0002351 ObjectIntersectionOf(obo:CHEBI_33250 ObjectSomeValuesFrom(obo:RO_0001025 :PMD_0020198)))))
+
+# Class: :PMD_0080597 (vector density fields)
+
+AnnotationAssertion(obo:IAO_0000114 :PMD_0080597 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 :PMD_0080597 "PERSON: Thomas Hanke")
+
 
 SubObjectPropertyOf(ObjectPropertyChain(:PMD_0025999 obo:BFO_0000050) :PMD_0025999)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :PMD_0020252 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> :PMD_0020252 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> :PMD_0080597 "PERSON: Thomas Hanke")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> :PMD_0080597 <http://purl.obolibrary.org/obo/IAO_0000122>)
-
 )

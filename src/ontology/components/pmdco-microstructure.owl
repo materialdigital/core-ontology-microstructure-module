@@ -15,11 +15,31 @@ Import(<https://w3id.org/pmd/co/components/pmdco-shared.owl>)
 
 Declaration(Class(pmdco:PMD_0020000))
 Declaration(Class(pmdco:PMD_0020003))
+Declaration(Class(pmdco:PMD_0020197))
+Declaration(Class(pmdco:PMD_0020198))
+Declaration(Class(pmdco:PMD_0020199))
+Declaration(Class(pmdco:PMD_0020206))
+Declaration(Class(pmdco:PMD_0020208))
+Declaration(Class(pmdco:PMD_0020213))
+Declaration(Class(pmdco:PMD_0020224))
+Declaration(Class(pmdco:PMD_0020233))
+Declaration(Class(pmdco:PMD_0020234))
+Declaration(Class(pmdco:PMD_0020235))
+Declaration(Class(pmdco:PMD_0020236))
+Declaration(Class(pmdco:PMD_0020238))
+Declaration(Class(pmdco:PMD_0020239))
+Declaration(Class(pmdco:PMD_0020240))
+Declaration(Class(pmdco:PMD_0020241))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
 Declaration(Class(pmdco:PMD_0027004))
 Declaration(Class(pmdco:PMD_0027005))
+Declaration(Class(pmdco:PMD_0027006))
+Declaration(Class(pmdco:PMD_0027007))
+Declaration(Class(pmdco:PMD_0027008))
+Declaration(Class(pmdco:PMD_0027009))
+Declaration(ObjectProperty(pmdco:PMD_0025998))
 Declaration(AnnotationProperty(skos:comment))
 
 
@@ -27,6 +47,99 @@ Declaration(AnnotationProperty(skos:comment))
 ############################
 #   Classes
 ############################
+
+# Class: pmdco:PMD_0020197 (lattice point)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020197 "lattice point"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020197 "A lattice point is a fiat point that represents a position in a crystal lattice at which structural entities are regularly arranged."@en)
+SubClassOf(pmdco:PMD_0020197 obo:BFO_0000147)
+
+# Class: pmdco:PMD_0020198 (interstitial site)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020198 "interstitial site"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020198 "An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
+SubClassOf(pmdco:PMD_0020198 obo:BFO_0000029)
+
+# Class: pmdco:PMD_0020199 (slip plane)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020199 "slip plane"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020199 "A slip plane is a fiat surface that corresponds to a crystallographic plane of a 3D crystal along which dislocations can glide"@en)
+SubClassOf(pmdco:PMD_0020199 obo:BFO_0000146)
+
+# Class: pmdco:PMD_0020206 (unit cell)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0020206 "https://www.physics-in-a-nutshell.com/article/5/unit-cell-primitive-cell-and-wigner-seitz-cell")
+AnnotationAssertion(obo:IAO_0000233 pmdco:PMD_0020206 "https://github.com/materialdigital/core-ontology/pull/424")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020206 "unit cell"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020206 "Unit cell is a immaterial entity that represents the a smallest volume element a repetitive arrangement of which can build  up the whole crystal lattice without overplaps or gaps, and there is no further partition of the unit cell that could itself be used as a unit cell."@en)
+SubClassOf(pmdco:PMD_0020206 obo:BFO_0000029)
+
+# Class: pmdco:PMD_0020208 (slip direction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020208 "slip direction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020208 "A slip direction is a fiat line that corresponds to the crystallographic direction along which dislocations glide os a slip plane."@en)
+SubClassOf(pmdco:PMD_0020208 obo:BFO_0000142)
+
+# Class: pmdco:PMD_0020213 (grain boundary)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020213 "the part of a grain that is close to the grain boundary and possibly characterized by disorder is a fiat object part (grain surface layer)"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020213 "grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020213 "A grain boundary is a fiat surface that separates adjacent grains in a polycrystalline material and is characterized by structural discontinuity."@en)
+SubClassOf(pmdco:PMD_0020213 obo:BFO_0000146)
+SubClassOf(pmdco:PMD_0020213 ObjectExactCardinality(2 obo:RO_0002350 ObjectIntersectionOf(pmdco:PMD_0020003 ObjectSomeValuesFrom(pmdco:PMD_0025998 pmdco:PMD_0020241))))
+
+# Class: pmdco:PMD_0020224 (vacancy (crystal))
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectProperty with occupies spatial region"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020224 "vacancy (crystal)"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020224 "site at lattice point at which the crystal forming entity is missing"@en)
+SubClassOf(pmdco:PMD_0020224 obo:BFO_0000147)
+SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(owl:topObjectProperty pmdco:PMD_0020197))
+
+# Class: pmdco:PMD_0020233 (dislocation)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020233 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020233 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020233 "dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020233 "a linear site in a cystal that interrupts the cystal ordering"@en)
+SubClassOf(pmdco:PMD_0020233 obo:BFO_0000142)
+
+# Class: pmdco:PMD_0020234 (screw dislocation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020234 "screw dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020234 "a dislocation characterized by shearing the chrystal by one plane"@en)
+SubClassOf(pmdco:PMD_0020234 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020235 (edge dislocation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020235 "edge dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020235 "a dislocation characterized by adding one extra half plane into the crystal lattice"@en)
+SubClassOf(pmdco:PMD_0020235 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020236 (mixed dislocation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020236 "mixed dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020236 "a dislocation that spans edge dislocation as well as screw dislocation"@en)
+EquivalentClasses(pmdco:PMD_0020236 ObjectIntersectionOf(pmdco:PMD_0020234 pmdco:PMD_0020235))
+SubClassOf(pmdco:PMD_0020236 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020238 (high angle grain boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020238 "high angle grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020238 "a grain boundary whose adjacent crystalls have a high angle of misalignment"@en)
+SubClassOf(pmdco:PMD_0020238 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0020239 (small angle grain boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020239 "small angle grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020239 "a grain boundary whose adjacent crystalls have a small angle of misalignment"@en)
+SubClassOf(pmdco:PMD_0020239 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0020240 (twin boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020240 "twin boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020240 "grain boundary without distorted lattice"@en)
+SubClassOf(pmdco:PMD_0020240 pmdco:PMD_0020213)
 
 # Class: pmdco:PMD_0027001 (lamella)
 
@@ -75,6 +188,34 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0027005 "laths"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0027005 "an object aggregate of multiple lath objects"@en)
 SubClassOf(pmdco:PMD_0027005 obo:BFO_0000027)
 SubClassOf(pmdco:PMD_0027005 ObjectAllValuesFrom(obo:RO_0002351 pmdco:PMD_0027004))
+
+# Class: pmdco:PMD_0027006 (dislocation wall)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027006 "dislocation wall"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027006 "dislocation wall is a planar arrangement or localized boundary of dislocations inside a crystal lattice"@en)
+SubClassOf(pmdco:PMD_0027006 obo:BFO_0000146)
+SubClassOf(pmdco:PMD_0027006 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020233))
+
+# Class: pmdco:PMD_0027007 (dislocation cell)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027007 "dislocation cell"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027007 "dislocation cell is a microstructural feature in deformed crystal consisting of a nearly dislocation-free volume enclosed by tangled networks of dislocations forming cell walls"@en)
+SubClassOf(pmdco:PMD_0027007 obo:BFO_0000029)
+SubClassOf(pmdco:PMD_0027007 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020233))
+SubClassOf(pmdco:PMD_0027007 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027006))
+
+# Class: pmdco:PMD_0027008 (stacking fault)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027008 "stacking fault"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027008 "stacking fault is a planar defect in  hcp or fcc crystal characterized by a local error in the layering sequence of atomic planes"@en)
+SubClassOf(pmdco:PMD_0027008 obo:BFO_0000146)
+
+# Class: pmdco:PMD_0027009 (Cottrell cloud)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027009 "Cottrell cloud"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0027009 "Cottrell atmosphere")
+AnnotationAssertion(skos:definition pmdco:PMD_0027009 "Cottrell cloud is a site which contains a dislocation and at least one interstitial atom at its core. The formation of the Cottrell cloud is guided by the reduction of residual stress due to lattice distortion around a interstitial atom, as dislocation has greater vacancy at its core."@en)
+SubClassOf(pmdco:PMD_0027009 obo:BFO_0000029)
 
 
 )
