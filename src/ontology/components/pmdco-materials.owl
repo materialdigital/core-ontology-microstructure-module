@@ -151,7 +151,6 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020156>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020157>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020158>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020159>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020160>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020186>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020187>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020188>))
@@ -169,13 +168,6 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020241>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020249>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020250>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020251>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020280>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020281>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020282>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020283>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020284>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020285>))
-Declaration(Class(<https://w3id.org/pmd/co/PMD_0020286>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025004>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025014>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0025015>))
@@ -1154,18 +1146,6 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020159> "daughter p
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020159> "The daughter phase role is the role of a phase that forms during the phase transformation process."@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020159> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0020160> (ferrous metal microconstituent)
-
-AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0020160> "Microconstiutents were coined in the times of light-optical metallography and are related to the differences that can be observed using this experimental process. 
-
-In metallography the term phase is sometimes used to denote microconstituents. To avoid confusion, the term phase should only be used for thermodynamic phases."@en)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020160> "ferrous metal microconstituent"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020160> "A portion of matter that is at the same time an object at the microscopic scale which in turn is part of some ferrous metal."@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0020160> "Pearlite is a microconstituent that has as parts some entities (lamellae) that at the same time are the thermodynamic phases ferrite (α-Fe) and cementite (Fe3C) . The characteristic spatial arrangement is in that case the lamellar orientation of the phases."@en)
-AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0000060> <https://w3id.org/pmd/co/PMD_0020160> "true"^^xsd:boolean)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020160> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0000001> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000027> <http://purl.obolibrary.org/obo/BFO_0000030>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <https://w3id.org/pmd/co/PMD_0000639>))))
-DisjointUnion(<https://w3id.org/pmd/co/PMD_0020160> <https://w3id.org/pmd/co/PMD_0020280> <https://w3id.org/pmd/co/PMD_0020281> <https://w3id.org/pmd/co/PMD_0020282> <https://w3id.org/pmd/co/PMD_0020283> <https://w3id.org/pmd/co/PMD_0020284> <https://w3id.org/pmd/co/PMD_0020285> <https://w3id.org/pmd/co/PMD_0020286>)
-
 # Class: <https://w3id.org/pmd/co/PMD_0020210> (elemental crystal)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020210> "elemental crystal"@en)
@@ -1215,48 +1195,6 @@ AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020250> "alloy crys
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020250> "a crystal whose atomic entities have a metallic bond"@en)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020250> <https://w3id.org/pmd/co/PMD_0020003>)
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_33250> ObjectSomeValuesFrom(<https://w3id.org/pmd/co/PMD_0025998> <https://w3id.org/pmd/co/PMD_0050002>))))
-
-# Class: <https://w3id.org/pmd/co/PMD_0020280> (austenite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020280> "austenite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020280> "ferrous metal microconstituent which at the same time is a face-centered cubic iron crystall object or object aggregate"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020280> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020281> (bainite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020281> "bainite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020281> "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some finely dispersed entities that at the same time are cementite thermodynamic phase"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020281> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020282> (ferrite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020282> "ferrite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020282> "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020282> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020283> (ledeburite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020283> "ledeburite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020283> "ferrous metal microconstituent which at the same time is a face centered cubic iron crystall object or object aggregate and has part some entities that at the same time are cementite thermodynamic phase"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020283> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020284> (martensite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020284> "martensite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020284> "ferrous metal microconstituent which at the same time is a tetragonal body centered iron crystall object or object aggregate"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020284> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020285> (pearlite)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020285> "pearlite"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020285> "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some clearly lamella shaped entities that at the same time are cementite thermodynamic phase"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020285> <https://w3id.org/pmd/co/PMD_0020160>)
-
-# Class: <https://w3id.org/pmd/co/PMD_0020286> (widmanstatten structure)
-
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020286> "widmanstatten structure"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020286> "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some entities that at the same time are cementite thermodynamic phase"@en)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020286> <https://w3id.org/pmd/co/PMD_0020160>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0025014> (single crystal)
 
@@ -1340,5 +1278,4 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_0200001> <http://purl.obolibrary.org/obo
 
 
 
-DisjointClasses(<https://w3id.org/pmd/co/PMD_0020280> <https://w3id.org/pmd/co/PMD_0020281> <https://w3id.org/pmd/co/PMD_0020282> <https://w3id.org/pmd/co/PMD_0020283> <https://w3id.org/pmd/co/PMD_0020284> <https://w3id.org/pmd/co/PMD_0020285> <https://w3id.org/pmd/co/PMD_0020286>)
 )

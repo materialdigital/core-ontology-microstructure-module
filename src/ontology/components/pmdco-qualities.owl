@@ -138,7 +138,6 @@ Declaration(Class(pmdco:PMD_0020148))
 Declaration(Class(pmdco:PMD_0020150))
 Declaration(Class(pmdco:PMD_0020151))
 Declaration(Class(pmdco:PMD_0020155))
-Declaration(Class(pmdco:PMD_0020160))
 Declaration(Class(pmdco:PMD_0020161))
 Declaration(Class(pmdco:PMD_0020162))
 Declaration(Class(pmdco:PMD_0020163))
@@ -171,13 +170,6 @@ Declaration(Class(pmdco:PMD_0020241))
 Declaration(Class(pmdco:PMD_0020243))
 Declaration(Class(pmdco:PMD_0020247))
 Declaration(Class(pmdco:PMD_0020251))
-Declaration(Class(pmdco:PMD_0020280))
-Declaration(Class(pmdco:PMD_0020281))
-Declaration(Class(pmdco:PMD_0020282))
-Declaration(Class(pmdco:PMD_0020283))
-Declaration(Class(pmdco:PMD_0020284))
-Declaration(Class(pmdco:PMD_0020285))
-Declaration(Class(pmdco:PMD_0020286))
 Declaration(Class(pmdco:PMD_0025001))
 Declaration(Class(pmdco:PMD_0025002))
 Declaration(Class(pmdco:PMD_0025003))
@@ -471,7 +463,7 @@ SymmetricObjectProperty(pmdco:PMD_0020020)
 ObjectPropertyDomain(pmdco:PMD_0020020 obo:BFO_0000040)
 ObjectPropertyRange(pmdco:PMD_0020020 obo:BFO_0000040)
 
-# Object Property: pmdco:PMD_0025013 (changes quality)
+# Object Property: pmdco:PMD_0025013 (verändert die Qualität)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025013 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025013 "PERSON: Kamilla Zaripova")
@@ -578,7 +570,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0000112 "Anordnung eines elektrisc
 AnnotationAssertion(skos:definition pmdco:PMD_0000112 "disposition of an electric insulator to be polarized when subjected to an electric field"@en)
 SubClassOf(pmdco:PMD_0000112 obo:BFO_0000016)
 
-# Class: pmdco:PMD_0000503 (ASTM grainsize)
+# Class: pmdco:PMD_0000503 (ASTM-Korngröße)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000503 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0000503 "TODO: axiom needs refinement"@en)
@@ -794,7 +786,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000551 "true"^^xsd:boolean)
 AnnotationAssertion(pmdco:PMD_0000064 pmdco:PMD_0000551 "Material has quality chemical composition. Chemical composition is a subject of chemical composition data item. Chemical composition data item has members fraction value specifications (which have a numeral and a unit). Material has part portion of carbon. Material has relational quality mass proportion. Portion of carbon  has relational quality mass proportion. Mass propotion is specified by value fraction value specification. Same approach for all chemical elements."@en)
 SubClassOf(pmdco:PMD_0000551 pmdco:PMD_0025001)
 
-# Class: pmdco:PMD_0000553 (chemisches Potential)
+# Class: pmdco:PMD_0000553 (chemical potential)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000553 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000553 "PERSON: Joerg Waitelonis")
@@ -1264,7 +1256,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000950 "true"^^xsd:boolean)
 EquivalentClasses(pmdco:PMD_0000950 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectIntersectionOf(ObjectUnionOf(obo:BFO_0000016 pmdco:PMD_0000005) ObjectSomeValuesFrom(obo:RO_0000052 pmdco:PMD_0000001)))))
 SubClassOf(pmdco:PMD_0000950 obo:BFO_0000015)
 
-# Class: pmdco:PMD_0000952 (strength)
+# Class: pmdco:PMD_0000952 (Stärke)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000952 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000952 "PERSON: Joerg Waitelonis")
@@ -1365,7 +1357,7 @@ SubClassOf(pmdco:PMD_0000981 obo:BFO_0000016)
 SubClassOf(pmdco:PMD_0000981 pmdco:PMD_0000005)
 SubClassOf(pmdco:PMD_0000981 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000520))
 
-# Class: pmdco:PMD_0000996 (Tripelpunkt)
+# Class: pmdco:PMD_0000996 (triple point)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000996 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000996 "PERSON: Joerg Waitelonis")
@@ -1516,7 +1508,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020005 "itensive quality embodiyi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020005 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020104)
 
-# Class: pmdco:PMD_0020022 (Korrosion)
+# Class: pmdco:PMD_0020022 (corrosion)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020022 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020022 "PERSON: Philipp von Hartrott")
@@ -1737,7 +1729,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020133 "Masse ist grundlegende um
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020133 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020133 pmdco:PMD_0020148)
 
-# Class: pmdco:PMD_0020134 (Reizrolle)
+# Class: pmdco:PMD_0020134 (stimulus role)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020134 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020134 "PERSON: Philipp von Hartrott")
@@ -1833,11 +1825,6 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020155 "Interatomare Wechselwirku
 AnnotationAssertion(skos:definition pmdco:PMD_0020155 "Interatomic interaction energy is added/removed from the atom aggregate if one atom is moved infinitely away from the rest of the aggregate."@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020155 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020155 pmdco:PMD_0020142)
-
-# Class: pmdco:PMD_0020160 (ferrous metal microconstituent)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020160 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020160 "PERSON: Philipp von Hartrott")
 
 # Class: pmdco:PMD_0020161 (activity (thermodynamic))
 
@@ -2171,41 +2158,6 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020251 "biokompatibel"@de)
 AnnotationAssertion(skos:definition pmdco:PMD_0020251 "bioactive without causing harmful or unacceptable biological responses (toxicity, inflammation, immune reaction) and performce of its intended function or integration with the tissue."@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020251 "bioaktiv, ohne schädliche oder inakzeptable biologische Reaktionen (Toxizität, Entzündung, Immunreaktion) hervorzurufen und seine beabsichtigte Funktion oder Integration in das Gewebe zu erfüllen."@de)
 SubClassOf(pmdco:PMD_0020251 pmdco:PMD_0010023)
-
-# Class: pmdco:PMD_0020280 (austenite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020280 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020280 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020281 (bainite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020281 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020281 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020282 (ferrite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020282 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020282 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020283 (ledeburite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020283 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020283 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020284 (martensite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020284 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020284 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020285 (pearlite)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020285 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020285 "PERSON: Philipp von Hartrott")
-
-# Class: pmdco:PMD_0020286 (widmanstatten structure)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020286 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020286 "PERSON: Philipp von Hartrott")
 
 # Class: pmdco:PMD_0025001 (Zusammensetzung)
 
@@ -2597,7 +2549,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080009 "scalar quantity represent
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080009 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080009 pmdco:PMD_0020131)
 
-# Class: pmdco:PMD_0080010 (spatial relational quality)
+# Class: pmdco:PMD_0080010 (räumliche Relationsqualität)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080010 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080010 "Necessary and sufficient conditions for 'spatial relational quality' have not yet been formalized. The term is defined as a specific subtype of 'BFO_0000145'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -3189,7 +3141,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080054 "Verdampfungsenthalpie ist
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080054 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080054 pmdco:PMD_0080052)
 
-# Class: pmdco:PMD_0080055 (Selbstzündungstemperatur)
+# Class: pmdco:PMD_0080055 (auto-ignition temperature)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080055 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080055 "Necessary and sufficient conditions for 'auto-ignition temperature' have not yet been formalized. The term is defined as a specific subtype of 'thermo dynamic quality'. Distinguishing criteria are domain-specific and depend on measurement conventions not yet expressed as OWL restrictions."@en)
@@ -3553,7 +3505,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080085 "A concrete block has a weigh
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080085 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080085 pmdco:PMD_0020200)
 
-# Class: pmdco:PMD_0080086 (Reibung)
+# Class: pmdco:PMD_0080086 (friction)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080086 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080086 "Necessary and sufficient conditions for 'friction' have not yet been formalized. The term is defined as a specific subtype of 'force'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://www.britannica.com/science/friction."@en)
@@ -4441,7 +4393,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080156 "A ceramic bending bar fractu
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080156 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080156 pmdco:PMD_0080153)
 
-# Class: pmdco:PMD_0080157 (Scherfestigkeit)
+# Class: pmdco:PMD_0080157 (shear strength)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080157 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080157 "Necessary and sufficient conditions for 'shear strength' have not yet been formalized. The term is defined as a specific subtype of 'breaking strength'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4628,7 +4580,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080170 "Low-carbon steel exhibits hi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080170 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080170 pmdco:PMD_0000848)
 
-# Class: pmdco:PMD_0080171 (Fließgrenze)
+# Class: pmdco:PMD_0080171 (yield strength)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080171 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080171 "Necessary and sufficient conditions for 'yield strength' have not yet been formalized. The term is defined as a specific subtype of 'plasticity'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -4976,7 +4928,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080198 "Aluminum has a linear therma
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080198 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080198 pmdco:PMD_0080196)
 
-# Class: pmdco:PMD_0080200 (flame resistance)
+# Class: pmdco:PMD_0080200 (Flammbeständigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080200 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080200 "Necessary and sufficient conditions for 'flame resistance' have not yet been formalized. The term is defined as a specific subtype of 'thermal capability', disjoint from 'flammability' as the inverse capability. Distinguishing criteria are domain-specific and depend on measurement conventions not yet expressed as OWL restrictions."@en)
@@ -5016,7 +4968,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080202 "Thermoschockbeständigkei
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080202 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080202 pmdco:PMD_0000981)
 
-# Class: pmdco:PMD_0080203 (Strahlungsemissionsfähigkeit)
+# Class: pmdco:PMD_0080203 (radiation emission capability)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080203 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080203 "Necessary and sufficient conditions for 'radiation emission capability' have not yet been formalized. The term is defined as a specific subtype of 'physical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5082,7 +5034,7 @@ SubClassOf(pmdco:PMD_0090021 obo:BFO_0000016)
 #   Named Individuals
 ############################
 
-# Individual: pmdco:PMD_0020006 (Triklines Primitiv des Bravais-Gitters)
+# Individual: pmdco:PMD_0020006 (bravais lattice triclinic primitive)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020006 "Triklines Primitiv des Bravais-Gitters"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020006 "bravais lattice triclinic primitive"@en)
@@ -5106,7 +5058,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020008 "monoclinic Bravais lattic
 AnnotationAssertion(skos:definition pmdco:PMD_0020008 "monoklines Bravais-Gitter mit basiszentrierter Zentrierung (mC), einer zweizähligen Rotationsachse und zusätzlichen Gitterpunkten in der Mitte eines Flächenpaares"@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020008 "true"^^xsd:boolean)
 
-# Individual: pmdco:PMD_0020009 (Bravais-Gitter orthorombisches Grundelement)
+# Individual: pmdco:PMD_0020009 (bravais lattice orthorombic primitive)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020009 "Bravais-Gitter orthorombisches Grundelement"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020009 "bravais lattice orthorombic primitive"@en)
@@ -5366,7 +5318,6 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020242 "no periodic arrangement o
 
 
 SubClassOf(ObjectUnionOf(pmdco:PMD_0000773 pmdco:PMD_0000952) pmdco:PMD_0000848)
-DisjointClasses(pmdco:PMD_0000503 pmdco:PMD_0000512 pmdco:PMD_0000591 pmdco:PMD_0000595 pmdco:PMD_0000853 pmdco:PMD_0000896 pmdco:PMD_0000942 pmdco:PMD_0000967 pmdco:PMD_0020112 pmdco:PMD_0020160 pmdco:PMD_0025001 pmdco:PMD_0080597)
 DisjointClasses(pmdco:PMD_0000503 pmdco:PMD_0000512 pmdco:PMD_0000591 pmdco:PMD_0000595 pmdco:PMD_0000853 pmdco:PMD_0000896 pmdco:PMD_0000942 pmdco:PMD_0000967 pmdco:PMD_0020112 pmdco:PMD_0025001 pmdco:PMD_0080597)
 DisjointClasses(pmdco:PMD_0000535 pmdco:PMD_0000851 pmdco:PMD_0000961 pmdco:PMD_0000996)
 DisjointClasses(pmdco:PMD_0000553 pmdco:PMD_0000619 pmdco:PMD_0020132 pmdco:PMD_0020133 pmdco:PMD_0020142 pmdco:PMD_0020161)
