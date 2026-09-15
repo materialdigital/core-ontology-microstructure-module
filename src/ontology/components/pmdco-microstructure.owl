@@ -19,6 +19,8 @@ Declaration(Class(pmdco:PMD_0000512))
 Declaration(Class(pmdco:PMD_0000591))
 Declaration(Class(pmdco:PMD_0000595))
 Declaration(Class(pmdco:PMD_0000639))
+Declaration(Class(pmdco:PMD_0000663))
+Declaration(Class(pmdco:PMD_0000857))
 Declaration(Class(pmdco:PMD_0000896))
 Declaration(Class(pmdco:PMD_0000942))
 Declaration(Class(pmdco:PMD_0000967))
@@ -62,6 +64,13 @@ Declaration(Class(pmdco:PMD_0027009))
 Declaration(Class(pmdco:PMD_0027010))
 Declaration(Class(pmdco:PMD_0027011))
 Declaration(Class(pmdco:PMD_0027012))
+Declaration(Class(pmdco:PMD_0027013))
+Declaration(Class(pmdco:PMD_0027014))
+Declaration(Class(pmdco:PMD_0027015))
+Declaration(Class(pmdco:PMD_0027016))
+Declaration(Class(pmdco:PMD_0027017))
+Declaration(Class(pmdco:PMD_0027018))
+Declaration(Class(pmdco:PMD_0027019))
 Declaration(Class(pmdco:PMD_0080597))
 Declaration(Class(pmdco:PMD_0100000))
 Declaration(Class(pmdco:PMD_0100001))
@@ -74,7 +83,7 @@ Declaration(AnnotationProperty(skos:comment))
 #   Classes
 ############################
 
-# Class: pmdco:PMD_0000503 (ASTM-Korngröße)
+# Class: pmdco:PMD_0000503 (ASTM grainsize)
 
 
 # Class: pmdco:PMD_0000512 (aggregate state)
@@ -365,6 +374,51 @@ SubClassOf(pmdco:PMD_0027011 pmdco:PMD_0020281)
 AnnotationAssertion(rdfs:label pmdco:PMD_0027012 "lower bainite"@en)
 SubClassOf(pmdco:PMD_0027012 pmdco:PMD_0020281)
 
+# Class: pmdco:PMD_0027013 (deformation band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027013 "deformation band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027013 "TODO: express axiomaltically the orientation
+Express that it is an output of a deformation process where plastic strain is realized")
+AnnotationAssertion(skos:definition pmdco:PMD_0027013 "deformation band is a part of a crystallite which is characterized by a local lattice rotation in respect to the parent crystallite"@en)
+SubClassOf(pmdco:PMD_0027013 obo:BFO_0000024)
+SubClassOf(pmdco:PMD_0027013 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000663))
+
+# Class: pmdco:PMD_0027014 (shear band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027014 "shear band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027014 "TODO axiom that there was a (plastic) deformation process which has temporal part work-hardening natural process and another temporal would be stain localization?")
+AnnotationAssertion(skos:definition pmdco:PMD_0027014 "shear band is a fiat object part of a microstrucrture of a material which underwent severe  plastic deformation. It is a region of a localized deformation,"@en)
+SubClassOf(pmdco:PMD_0027014 obo:BFO_0000024)
+SubClassOf(pmdco:PMD_0027014 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000857))
+
+# Class: pmdco:PMD_0027015 (persistent slip band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027015 "persistent slip band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027015 "Subclass of immaterial entity??")
+AnnotationAssertion(skos:definition pmdco:PMD_0027015 "persistent slip band is site which constist of parallel slip bands in 3D space and dislocation walls organized parallel to each other."@en)
+SubClassOf(pmdco:PMD_0027015 obo:BFO_0000029)
+
+# Class: pmdco:PMD_0027016 (dislocation motion)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027016 "dislocation motion"@en)
+SubClassOf(pmdco:PMD_0027016 obo:BFO_0000015)
+
+# Class: pmdco:PMD_0027017 (dislocation glide)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027017 "dislocation glide"@en)
+SubClassOf(pmdco:PMD_0027017 pmdco:PMD_0027016)
+
+# Class: pmdco:PMD_0027018 (dislocation climb)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027018 "dislocation climb"@en)
+SubClassOf(pmdco:PMD_0027018 pmdco:PMD_0027016)
+
+# Class: pmdco:PMD_0027019 (defect interaction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027019 "defect interaction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027019 "processes including generation, anihilation, and interaction between defects"@en)
+SubClassOf(pmdco:PMD_0027019 obo:BFO_0000015)
+
 # Class: pmdco:PMD_0080597 (vector density fields)
 
 
@@ -377,6 +431,7 @@ SubClassOf(pmdco:PMD_0100000 ObjectIntersectionOf(ObjectIntersectionOf(ObjectSom
 # Class: pmdco:PMD_0100001 (dislocation generation process)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0100001 "dislocation generation process"@en)
+SubClassOf(pmdco:PMD_0100001 pmdco:PMD_0027019)
 SubClassOf(pmdco:PMD_0100001 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020233)))
 
 
