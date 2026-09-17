@@ -55,6 +55,8 @@ Declaration(Class(pmdco:PMD_0020286))
 Declaration(Class(pmdco:PMD_0020335))
 Declaration(Class(pmdco:PMD_0025001))
 Declaration(Class(pmdco:PMD_0025036))
+Declaration(Class(pmdco:PMD_0025037))
+Declaration(Class(pmdco:PMD_0025038))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
@@ -146,6 +148,7 @@ SubClassOf(pmdco:PMD_0020197 obo:BFO_0000147)
 # Class: pmdco:PMD_0020198 (interstitial site)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020198 "interstitial site"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0020198 "void")
 AnnotationAssertion(skos:definition pmdco:PMD_0020198 "An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
 SubClassOf(pmdco:PMD_0020198 obo:BFO_0000029)
 
@@ -306,6 +309,18 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0025036 "Frenkel defect"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0025036 "Frenkel defect is a point defect that forms when an atom or a cation moves from lattice point to an interstitial site, creating a vacancy."@en)
 SubClassOf(pmdco:PMD_0025036 obo:BFO_0000029)
 SubClassOf(pmdco:PMD_0025036 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020224) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020198 ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_33250)))))
+
+# Class: pmdco:PMD_0025037 (tetrahedral void)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0025037 "tetrahedral void"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025037 "tetrahedral void is an interstitial site in a close-packed lattice where one sphere (atom or ion) from the top layer sits in the triangular gap formed by 3 spheres of the bottom layer."@en)
+SubClassOf(pmdco:PMD_0025037 pmdco:PMD_0020198)
+
+# Class: pmdco:PMD_0025038 (octahedral void)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0025038 "octahedral void"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025038 "octahedral void is an interstitial site in a close-packed lattice where one triangular void from the top layer of spheres (atoms or ions) sits over the triangular gap of the bottom layer."@en)
+SubClassOf(pmdco:PMD_0025038 pmdco:PMD_0020198)
 
 # Class: pmdco:PMD_0027001 (lamella)
 
