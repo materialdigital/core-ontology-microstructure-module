@@ -205,6 +205,7 @@ SubClassOf(pmdco:PMD_0020234 pmdco:PMD_0020233)
 
 # Class: pmdco:PMD_0020235 (edge dislocation)
 
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020235 "TODO: add dislocation line, move Burgers bector from qualities to fiat lines,  move normal and parallel to from NOES to micro, write axioms")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020235 "edge dislocation"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020235 "a dislocation characterized by its Burgers vector being parallel normal to dislocation line, visible as one extra half plane in the crystal lattice"@en)
 SubClassOf(pmdco:PMD_0020235 pmdco:PMD_0020233)
