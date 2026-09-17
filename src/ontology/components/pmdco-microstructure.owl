@@ -183,10 +183,11 @@ SubClassOf(pmdco:PMD_0020213 ObjectExactCardinality(2 obo:RO_0002350 ObjectInter
 # Class: pmdco:PMD_0020224 (vacancy (crystal))
 
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectProperty with occupies spatial region"@en)
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "Kamilla: is it a sublcass of lattice point? aka vacancy is a lattice point not occupied with  an atom / ion")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020224 "vacancy (crystal)"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020224 "site at lattice point at which the crystal forming entity is missing"@en)
 SubClassOf(pmdco:PMD_0020224 obo:BFO_0000147)
-SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(obo:RO_0001025 pmdco:PMD_0020197))
+SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(owl:topObjectProperty pmdco:PMD_0020197))
 
 # Class: pmdco:PMD_0020233 (dislocation)
 
@@ -199,20 +200,21 @@ SubClassOf(pmdco:PMD_0020233 obo:BFO_0000142)
 # Class: pmdco:PMD_0020234 (screw dislocation)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020234 "screw dislocation"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020234 "a dislocation characterized by shearing the chrystal by one plane"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020234 "a dislocation characterized by its Burgers vector being parallel parallel to dislocation line, characterized by shearing the crystal lattice by one plane."@en)
 SubClassOf(pmdco:PMD_0020234 pmdco:PMD_0020233)
 
 # Class: pmdco:PMD_0020235 (edge dislocation)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020235 "edge dislocation"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020235 "a dislocation characterized by adding one extra half plane into the crystal lattice"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020235 "a dislocation characterized by its Burgers vector being parallel normal to dislocation line, visible as one extra half plane in the crystal lattice"@en)
 SubClassOf(pmdco:PMD_0020235 pmdco:PMD_0020233)
 
 # Class: pmdco:PMD_0020236 (mixed dislocation)
 
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020236 "Kamilla: changed equivalent class axiom from \"screw dislocation and edge dislocation\" to \"has member *both of these*\" cause mixed dislocation has both of these types, resulting to angle between dislocation line and Burgers vector varying from 0° to 90°. The previous axiom was wrong from MSE point of view, stating that mixed dislocation is at the same time screw and edge, i.e., the angle is at the same time 0° and 90°")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020236 "mixed dislocation"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020236 "a dislocation that spans edge dislocation as well as screw dislocation"@en)
-EquivalentClasses(pmdco:PMD_0020236 ObjectIntersectionOf(pmdco:PMD_0020234 pmdco:PMD_0020235))
+EquivalentClasses(pmdco:PMD_0020236 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020234) ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020235)))
 SubClassOf(pmdco:PMD_0020236 pmdco:PMD_0020233)
 
 # Class: pmdco:PMD_0020238 (high angle grain boundary)
