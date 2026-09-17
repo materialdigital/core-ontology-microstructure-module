@@ -186,7 +186,7 @@ AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectPr
 AnnotationAssertion(rdfs:label pmdco:PMD_0020224 "vacancy (crystal)"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020224 "site at lattice point at which the crystal forming entity is missing"@en)
 SubClassOf(pmdco:PMD_0020224 obo:BFO_0000147)
-SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(owl:topObjectProperty pmdco:PMD_0020197))
+SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(obo:RO_0001025 pmdco:PMD_0020197))
 
 # Class: pmdco:PMD_0020233 (dislocation)
 

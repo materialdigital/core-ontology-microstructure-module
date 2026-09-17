@@ -153,12 +153,16 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0020156>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020157>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020158>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020159>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0020160>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020186>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020187>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020188>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020189>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020197>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020198>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0020199>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0020206>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0020208>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020210>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020227>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0020228>))
@@ -1209,16 +1213,19 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_0020229> <https://w3id.org/pmd/co/PMD_00
 
 # Class: <https://w3id.org/pmd/co/PMD_0020230> (solid solution)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0020230> "Kamilla: moved solid solution from a sublcass solution directly under portion of matter. The reasoning for the first one: the definiton is \"solution in a solid state\", a frozen salt water would be it. But the solid solution in the MSE sense is one type of atoms are uniformaly dispersed in the the \"solvent\" type of atoms, and this structure is ordeded, i.e., the lattice of the solvent persist.
+ Some thoughts on the second point: maybe a solid solution is a sublcass of phase, cause in our MSE sense it seems to hold all the time (phase diagrams and co)
+
+Old equivalent class axiom: solution and solid"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020230> "solid solution"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020230> "a solution with solid aggregate state"@en)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020230> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020229> <https://w3id.org/pmd/co/PMD_0020293>))
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020230> <https://w3id.org/pmd/co/PMD_0020229>)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#comment> <https://w3id.org/pmd/co/PMD_0020230> "OLD DEFINITION: a solution with solid aggregate state"@en)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0020230> <https://w3id.org/pmd/co/PMD_0000001>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020231> (interstitital solid solution)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020231> "interstitital solid solution"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020231> "a solid solution whose solute entities are located in the interstitial sites"@en)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020231> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_60003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <https://w3id.org/pmd/co/PMD_0020198>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/PMD_0020227>)))))
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020231> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_60003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <https://w3id.org/pmd/co/PMD_0020198>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/PMD_0020227>)))))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020231> <https://w3id.org/pmd/co/PMD_0020230>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020232> (substitutional solid solution)
@@ -1226,7 +1233,7 @@ SubClassOf(<https://w3id.org/pmd/co/PMD_0020231> <https://w3id.org/pmd/co/PMD_00
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <https://w3id.org/pmd/co/PMD_0020232> "TODO: replace topObjectProperty with bfo:occupies spatial region"@en)
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020232> "substitutional solid solution"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020232> "a solid solution whose solute entities occupy lattice points"@en)
-EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020232> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_60003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000001> ObjectSomeValuesFrom(owl:topObjectProperty <https://w3id.org/pmd/co/PMD_0020197>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/PMD_0020227>)))))
+EquivalentClasses(<https://w3id.org/pmd/co/PMD_0020232> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CHEBI_60003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <https://w3id.org/pmd/co/PMD_0020197>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <https://w3id.org/pmd/co/PMD_0020227>)))))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0020232> <https://w3id.org/pmd/co/PMD_0020230>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020249> (ceramic crystal)
