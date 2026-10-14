@@ -208,6 +208,7 @@ Declaration(Class(<https://w3id.org/pmd/co/PMD_0090001>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090002>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090020>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0090021>))
+Declaration(Class(<https://w3id.org/pmd/co/PMD_0100003>))
 Declaration(Class(<https://w3id.org/pmd/co/PMD_0200001>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<https://w3id.org/pmd/co/PMD_0001026>))
@@ -1154,16 +1155,14 @@ DisjointClasses(<https://w3id.org/pmd/co/PMD_0020158> <https://w3id.org/pmd/co/P
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020159> "daughter phase role"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020159> "The daughter phase role is the role of a phase that forms during the phase transformation process."@en)
 
-# Class: <https://w3id.org/pmd/co/PMD_0020160> (microconstituent (phase mixture))
+# Class: <https://w3id.org/pmd/co/PMD_0020160> (ferrous metal microconstituent)
 
 AnnotationAssertion(rdfs:comment <https://w3id.org/pmd/co/PMD_0020160> "In metallography the term phase is sometimes used to denote microconstituents. To avoid confusion, the term phase should only be used for thermodynamic phases."@en)
-AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0020160> "microconstituent (phase mixture)"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0020160> "A portion of matter that has one or more thermodynamic phases arranged in a characteristic spatial configuration (morphology) as parts."@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <https://w3id.org/pmd/co/PMD_0020160> "Pearlite is a microconstituent that has as parts the thermodynamic phases ferrite (α-Fe) and cementite (Fe3C) as parts. The characteristic spatial arrangement is in that case the lamellar orientation of the phases.
 
 Martensite is a microconstituent that has as part the thermodynamic ferrite phase with characteristic morphologies and chemistry. Its presence and amount is governed by the processing path and kinetics."@en)
 AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0000060> <https://w3id.org/pmd/co/PMD_0020160> "true"^^xsd:boolean)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0020160> <https://w3id.org/pmd/co/PMD_0000001>)
+SubClassOf(<https://w3id.org/pmd/co/PMD_0020160> <https://w3id.org/pmd/co/PMD_0100003>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0020197> (lattice point)
 
@@ -1326,7 +1325,7 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3
 EquivalentClasses(<https://w3id.org/pmd/co/PMD_0025015> ObjectIntersectionOf(<https://w3id.org/pmd/co/PMD_0020140> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_33336>)))
 SubClassOf(<https://w3id.org/pmd/co/PMD_0025015> <https://w3id.org/pmd/co/PMD_0020140>)
 
-# Class: <https://w3id.org/pmd/co/PMD_0025025> (suspension)
+# Class: <https://w3id.org/pmd/co/PMD_0025025> (range order)
 
 AnnotationAssertion(rdfs:label <https://w3id.org/pmd/co/PMD_0025025> "suspension"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0025025> "suspension is a portion of matter in which one phase is in a liquid aggregate state and the other phase is in a solid aggregate state, and the solid phase cannot dissolve in the liquid phase."@en)

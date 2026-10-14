@@ -79,6 +79,10 @@ Declaration(Class(pmdco:PMD_0027019))
 Declaration(Class(pmdco:PMD_0080597))
 Declaration(Class(pmdco:PMD_0100000))
 Declaration(Class(pmdco:PMD_0100001))
+Declaration(Class(pmdco:PMD_0100002))
+Declaration(Class(pmdco:PMD_0100003))
+Declaration(Class(pmdco:PMD_0100004))
+Declaration(Class(pmdco:PMD_0100005))
 Declaration(ObjectProperty(pmdco:PMD_0025998))
 Declaration(AnnotationProperty(skos:comment))
 
@@ -125,7 +129,7 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020003 "PERSON: Philipp von Hartr
 # Class: pmdco:PMD_0020112 (OBSOLETE grain size distribution)
 
 
-# Class: pmdco:PMD_0020160 (microconstituent (phase mixture))
+# Class: pmdco:PMD_0020160 (ferrous metal microconstituent)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020160 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020160 "PERSON: Philipp von Hartrott")
@@ -182,8 +186,8 @@ SubClassOf(pmdco:PMD_0020213 ObjectExactCardinality(2 obo:RO_0002350 ObjectInter
 
 # Class: pmdco:PMD_0020224 (vacancy (crystal))
 
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectProperty with occupies spatial region"@en)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "Kamilla: is it a sublcass of lattice point? aka vacancy is a lattice point not occupied with  an atom / ion")
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectProperty with occupies spatial region"@en)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020224 "vacancy (crystal)"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020224 "site at lattice point at which the crystal forming entity is missing"@en)
 SubClassOf(pmdco:PMD_0020224 obo:BFO_0000147)
@@ -480,6 +484,33 @@ SubClassOf(pmdco:PMD_0100000 ObjectIntersectionOf(ObjectIntersectionOf(ObjectSom
 AnnotationAssertion(rdfs:label pmdco:PMD_0100001 "dislocation generation process"@en)
 SubClassOf(pmdco:PMD_0100001 pmdco:PMD_0027019)
 SubClassOf(pmdco:PMD_0100001 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020233)))
+
+# Class: pmdco:PMD_0100002 (hierarchichal microconstituent)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100002 "hierarchichal microconstituent"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0100002 "https://doi.org/10.1002/srin.202300238"^^xsd:anyURI)
+AnnotationAssertion(skos:definition pmdco:PMD_0100002 "a microconstitent that is internally hierarchichally organized and is consisting of a single thermodynamic phase."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0100002 "Examples include martensite, bainitic ferrite (ferritic matrix of bainite), etc."@en)
+SubClassOf(pmdco:PMD_0100002 pmdco:PMD_0100003)
+
+# Class: pmdco:PMD_0100003 (microconstituent)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0100003 "Microconstiutents were coined in the times of light-optical metallography and are related to the differences that can be observed using this experimental process. 
+
+In metallography the term phase is sometimes used to denote microconstituents. To avoid confusion, the term phase should only be used for thermodynamic phases."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0100003 "microconstituent"@en)
+SubClassOf(pmdco:PMD_0100003 pmdco:PMD_0000001)
+
+# Class: pmdco:PMD_0100004 (multiphase microconstituent (mixture))
+
+AnnotationAssertion(obo:IAO_0000115 pmdco:PMD_0100004 "A portion of matter that has more than one thermodynamic phases arranged in a characteristic spatial configuration (morphology) as parts."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0100004 "multiphase microconstituent (mixture)"@en)
+SubClassOf(pmdco:PMD_0100004 pmdco:PMD_0100003)
+
+# Class: pmdco:PMD_0100005 (monophase microconstituent)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100005 "monophase microconstituent"@en)
+SubClassOf(pmdco:PMD_0100005 pmdco:PMD_0100003)
 
 
 DisjointClasses(pmdco:PMD_0000503 pmdco:PMD_0000512 pmdco:PMD_0000591 pmdco:PMD_0000595 pmdco:PMD_0000853 pmdco:PMD_0000896 pmdco:PMD_0000942 pmdco:PMD_0000967 pmdco:PMD_0020112 pmdco:PMD_0020160 pmdco:PMD_0025001 pmdco:PMD_0080597)

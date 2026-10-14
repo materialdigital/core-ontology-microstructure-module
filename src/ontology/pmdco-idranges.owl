@@ -132,6 +132,22 @@ Annotations:
     
     EquivalentTo: 
         xsd:integer[>= 95000 , <= 99999]
+		
+Datatype: idrange:13
+
+Annotations: 
+        allocatedto: "akhil"
+    
+    EquivalentTo: 
+        xsd:integer[>= 100000 , <= 104999]
+		
+Datatype: idrange:14
+
+Annotations: 
+        allocatedto: "ali"
+    
+    EquivalentTo: 
+        xsd:integer[>= 105000 , <= 109999]
 
 Datatype: idrange:999
 
