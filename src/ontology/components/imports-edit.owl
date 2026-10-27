@@ -17,6 +17,7 @@ Import(<https://w3id.org/pmd/co/imports/obi_import.owl>)
 Import(<https://w3id.org/pmd/co/imports/ro_import.owl>)
 Import(<https://w3id.org/pmd/co/imports/stato_import.owl>)
 Import(<https://w3id.org/pmd/co/imports/uo_import.owl>)
+Import(<https://w3id.org/pmd/co/imports/cryo_import.owl>)
 
 Declaration(Class(obo:CHEBI_74236))
 Declaration(Class(qudt:QuantityValue))
