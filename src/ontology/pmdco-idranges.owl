@@ -53,7 +53,7 @@ Datatype: idrange:3
         allocatedto: "philipp"
     
     EquivalentTo: 
-        xsd:integer[>= 20000 , <= 25000]
+        xsd:integer[>= 21000 , <= 25000]
 
 Datatype: idrange:4
 
@@ -114,7 +114,7 @@ Annotations:
         allocatedto: "kamilla"
     
     EquivalentTo: 
-        xsd:integer[>= 25001 , <= 25999]
+        xsd:integer[>= 26001 , <= 29999]
 
 
 Datatype: idrange:11
