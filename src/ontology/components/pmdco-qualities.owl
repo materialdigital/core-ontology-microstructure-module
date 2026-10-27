@@ -542,6 +542,7 @@ Declaration(Class(pmdco:PMD_0080203))
 Declaration(Class(pmdco:PMD_0080204))
 Declaration(Class(pmdco:PMD_0090001))
 Declaration(Class(pmdco:PMD_0090002))
+Declaration(Class(pmdco:PMD_0090021))
 Declaration(Class(pmdco:PMD_0090022))
 Declaration(Class(pmdco:PMD_0200001))
 Declaration(ObjectProperty(obo:BFO_0000050))
@@ -998,7 +999,7 @@ AnnotationAssertion(pmdco:PMD_0000064 pmdco:PMD_0000551 "Material has quality ch
 SubClassOf(pmdco:PMD_0000551 pmdco:PMD_0025001)
 SubClassOf(pmdco:PMD_0000551 ObjectSomeValuesFrom(obo:RO_0000080 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020140))))
 
-# Class: pmdco:PMD_0000553 (chemisches Potential)
+# Class: pmdco:PMD_0000553 (chemical potential)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000553 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000553 "PERSON: Joerg Waitelonis")
@@ -1494,7 +1495,7 @@ AnnotationAssertion(owl:deprecated pmdco:PMD_0000950 "true"^^xsd:boolean)
 AnnotationAssertion(skos:definition pmdco:PMD_0000950 "DEPRECATED Der Stimulationsprozess ist ein Prozess, der die Anwendung eines äußeren Einflusses wie Kraft, Wärme oder Strahlung beschreibt, um die materielle Reaktion zu untersuchen."@de)
 AnnotationAssertion(skos:definition pmdco:PMD_0000950 "DEPRECATED The stimulating process is a process describing the application of an external influence, such as force, heat, or radiation, to study material response."@en)
 
-# Class: pmdco:PMD_0000952 (Stärke)
+# Class: pmdco:PMD_0000952 (strength)
 
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000952 "PERSON: Joerg Waitelonis")
 AnnotationAssertion(rdfs:label pmdco:PMD_0000952 "Festigkeit"@de)
@@ -1737,11 +1738,6 @@ SubClassOf(pmdco:PMD_0020002 ObjectSomeValuesFrom(obo:RO_0000081 ObjectIntersect
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020003 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
 
-# Class: pmdco:PMD_0020003 (crystal)
-
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020003 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
-
 # Class: pmdco:PMD_0020004 (composition data item)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020004 obo:IAO_0000122)
@@ -1768,7 +1764,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020005 "porosity"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020005 "itensive quality embodiying the fraction of the materials (enclosing) spatial region occupied by pores."@en)
 SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0020022 (Korrosion)
+# Class: pmdco:PMD_0020022 (corrosion)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020022 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020022 "PERSON: Philipp von Hartrott")
@@ -1994,7 +1990,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020133 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020133 pmdco:PMD_0023000)
 SubClassOf(pmdco:PMD_0020133 ObjectSomeValuesFrom(obo:RO_0000080 ObjectUnionOf(obo:BFO_0000024 obo:BFO_0000027 obo:BFO_0000030)))
 
-# Class: pmdco:PMD_0020134 (DEPRECATED stimulus role)
+# Class: pmdco:PMD_0020134 (DEPRECATED Reizrolle)
 
 AnnotationAssertion(rdfs:comment pmdco:PMD_0020134 "Will deal with causality later")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020134 "DEPRECATED Reizrolle"@de)
@@ -2157,7 +2153,7 @@ SubClassOf(pmdco:PMD_0020165 pmdco:PMD_0020335)
 SubClassOf(pmdco:PMD_0020165 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0000092 pmdco:PMD_0020000) ObjectSomeValuesFrom(owl:topObjectProperty ObjectIntersectionOf(pmdco:PMD_0080116 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0020000)))))
 SubClassOf(pmdco:PMD_0020165 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0020136))
 
-# Class: pmdco:PMD_0020167 (strukturelle Grenze)
+# Class: pmdco:PMD_0020167 (structural boundary)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020167 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020167 "PERSON: Philipp von Hartrott")
@@ -2634,7 +2630,7 @@ SubClassOf(pmdco:PMD_0020334 ObjectIntersectionOf(pmdco:PMD_0080108 ObjectSomeVa
 AnnotationAssertion(rdfs:label pmdco:PMD_0020335 "characteristic material property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020335 "a property that is commonly associated with the domain of materials science and engineering"@en)
 SubClassOf(pmdco:PMD_0020335 pmdco:PMD_0020265)
-SubClassOf(pmdco:PMD_0020335 ObjectSomeValuesFrom(obo:RO_0000052 ObjectUnionOf(pmdco:PMD_0000000 ObjectIntersectionOf(ObjectUnionOf(obo:BFO_0000024 obo:BFO_0000027 obo:BFO_0000029 obo:BFO_0000030) ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000000)))))
+SubClassOf(pmdco:PMD_0020335 ObjectSomeValuesFrom(obo:RO_0000052 ObjectUnionOf(pmdco:PMD_0000000 ObjectIntersectionOf(ObjectUnionOf(obo:BFO_0000024 obo:BFO_0000027 obo:BFO_0000029 obo:BFO_0000030 obo:BFO_0000140) ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000000)))))
 
 # Class: pmdco:PMD_0020336 (tensile force)
 
@@ -3159,7 +3155,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Der Außendurchmesser ist
 AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Outer diameter is a length of a straight line from one outer surface of an object or space to the other side of its outer surface through the center of an object or space when it has the inside and outside surface."@en)
 SubClassOf(pmdco:PMD_0025017 pmdco:PMD_0050051)
 
-# Class: pmdco:PMD_0025018 (geometrische relationale Qualität)
+# Class: pmdco:PMD_0025018 (geometric relational quality)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025018 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025018 "PERSON: Kamilla Zaripova")
@@ -5485,7 +5481,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080184 "Resilience is a mechanica
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080184 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080184 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080186 (radiation reflection capability)
+# Class: pmdco:PMD_0080186 (Strahlungsreflexionsfähigkeiten)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080186 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080186 "Necessary and sufficient conditions for 'radiation reflection capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5498,7 +5494,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080186 "Polished aluminum foil has h
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080186 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080186 pmdco:PMD_0000877)
 
-# Class: pmdco:PMD_0080187 (radiation absorption capability)
+# Class: pmdco:PMD_0080187 (Strahlungsabsorptionsfähigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080187 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080187 "Necessary and sufficient conditions for 'radiation absorption capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5674,7 +5670,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080202 "Thermoschockbeständigkei
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080202 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080202 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080203 (Strahlungsemissionsfähigkeit)
+# Class: pmdco:PMD_0080203 (radiation emission capability)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080203 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080203 "Necessary and sufficient conditions for 'radiation emission capability' have not yet been formalized. The term is defined as a specific subtype of 'physical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5721,6 +5717,13 @@ AnnotationAssertion(skos:definition pmdco:PMD_0090002 "the energy difference bet
 SubClassOf(pmdco:PMD_0090002 pmdco:PMD_0020312)
 SubClassOf(pmdco:PMD_0090002 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0020293))
 
+# Class: pmdco:PMD_0090021 (disposition to polymerize)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0090021 "disposition to polymerize"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0090021 "Typical bearers of this disposition include monomers and oligomeric or prepolymeric materials that can undergo polymerization under suitable conditions.")
+AnnotationAssertion(skos:definition pmdco:PMD_0090021 "A disposition to polymerize is a disposition of a chemical entity to undergo polymerization and thereby contribute constitutional units to a macromolecule or a polymer.")
+SubClassOf(pmdco:PMD_0090021 obo:BFO_0000016)
+
 # Class: pmdco:PMD_0090022 (resin role)
 
 SubClassOf(pmdco:PMD_0090022 ObjectSomeValuesFrom(obo:RO_0000081 ObjectIntersectionOf(obo:BFO_0000040 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0000833) ObjectSomeValuesFrom(obo:RO_0000087 ObjectUnionOf(obo:BFO_0000023 pmdco:PMD_0000845)))))
@@ -5730,13 +5733,6 @@ SubClassOf(pmdco:PMD_0090022 ObjectSomeValuesFrom(obo:RO_0000081 ObjectIntersect
 SubClassOf(pmdco:PMD_0200001 ObjectSomeValuesFrom(obo:BFO_0000054 obo:GO_0008150))
 SubClassOf(pmdco:PMD_0200001 ObjectSomeValuesFrom(obo:BFO_0000054 ObjectIntersectionOf(obo:GO_0008150 ObjectSomeValuesFrom(pmdco:PMD_0025013 ObjectIntersectionOf(obo:BFO_0000019 ObjectHasSelf(obo:RO_0000080))))))
 SubClassOf(pmdco:PMD_0200001 ObjectSomeValuesFrom(obo:RO_0000092 ObjectUnionOf(obo:CHEBI_59999 pmdco:PMD_0000001)))
-
-# Class: pmdco:PMD_0090021 (disposition to polymerize)
-
-AnnotationAssertion(rdfs:label pmdco:PMD_0090021 "disposition to polymerize"@en)
-AnnotationAssertion(skos:comment pmdco:PMD_0090021 "Typical bearers of this disposition include monomers and oligomeric or prepolymeric materials that can undergo polymerization under suitable conditions.")
-AnnotationAssertion(skos:definition pmdco:PMD_0090021 "A disposition to polymerize is a disposition of a chemical entity to undergo polymerization and thereby contribute constitutional units to a macromolecule or a polymer.")
-SubClassOf(pmdco:PMD_0090021 obo:BFO_0000016)
 
 
 ############################
@@ -5770,7 +5766,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020008 "monoclinic Bravais lattic
 AnnotationAssertion(skos:definition pmdco:PMD_0020008 "monoklines Bravais-Gitter mit basiszentrierter Zentrierung (mC), einer zweizähligen Rotationsachse und zusätzlichen Gitterpunkten in der Mitte eines Flächenpaares"@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020008 "true"^^xsd:boolean)
 
-# Individual: pmdco:PMD_0020009 (bravais lattice orthorombic primitive)
+# Individual: pmdco:PMD_0020009 (Bravais-Gitter orthorombisches Grundelement)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020009 "Bravais-Gitter orthorombisches Grundelement"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020009 "OBSOLETE bravais lattice orthorombic primitive"@en)
