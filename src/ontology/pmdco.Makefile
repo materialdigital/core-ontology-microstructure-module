@@ -164,7 +164,7 @@ $(IMPORTDIR)/envo_import.owl: $(MIRRORDIR)/envo.owl $(IMPORTDIR)/envo_terms.txt
 		 $(ANNOTATE_CONVERT_FILE)
 
 
-$(IMPORTDIR)/cryo_import.owl: $(MIRRORDIR)/cryo.owl $(IMPORTDIR)/cryo_terms.txt
+$(IMPORTDIR)/cryo_import.owl: $(MIRRORDIR)/cryo.owl $(IMPORTDIR)/cryo_terms.txt | all_robot_plugins
 	$(ROBOT) annotate --input $< --remove-annotations \
 			odk:normalize --add-source true \
 			extract --term-file $(IMPORTDIR)/cryo_terms.txt \
