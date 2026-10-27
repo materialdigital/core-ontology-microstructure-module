@@ -60,8 +60,7 @@ import_group:
 
     # todo release cryo at some point
     - id: cryo
-      mirror_from: https://raw.githubusercontent.com/materialdigital/crystallography-subdomain-ontology/refs/heads/main/cryo-full.ttl
-      module_type: custom
+      mirror_from: https://raw.githubusercontent.com/materialdigital/crystallography-subdomain-ontology/refs/heads/main/cryo-base.ttl
       
 #    - id: qudt  ## manually added to imports-edit
 
