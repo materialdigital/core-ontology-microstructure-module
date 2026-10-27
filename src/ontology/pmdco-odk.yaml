@@ -57,6 +57,11 @@ import_group:
       mirror_from: https://raw.githubusercontent.com/EnvironmentOntology/envo/v2026-06-26/envo-base.owl
       module_type: slme
       module_type_slme: SUBSET
+
+    # todo release cryo at some point
+    - id: cryo
+      mirror_from: https://raw.githubusercontent.com/materialdigital/crystallography-subdomain-ontology/refs/heads/main/cryo-full.ttl
+      module_type: custom
       
 #    - id: qudt  ## manually added to imports-edit
 

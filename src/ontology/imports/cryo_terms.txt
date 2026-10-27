@@ -1,0 +1,24 @@
+https://w3id.org/pmd/cryo/CRYO_0000405 # lattice point
+https://w3id.org/pmd/cryo/CRYO_0000011 # crystallographic plane
+https://w3id.org/pmd/cryo/CRYO_0000012 # crystallographic direction
+https://w3id.org/pmd/cryo/CRYO_0000025 # atomic plane
+https://w3id.org/pmd/cryo/CRYO_0000442 # regular atom site
+https://w3id.org/pmd/cryo/CRYO_0000446 # tetrahedral void
+https://w3id.org/pmd/cryo/CRYO_0000445 # octahedral void
+https://w3id.org/pmd/cryo/CRYO_0000135 # bcc
+https://w3id.org/pmd/cryo/CRYO_0000134 # bravais lattice cubic face-centered
+https://w3id.org/pmd/cryo/CRYO_0000136 # bravais lattice cubic primitive
+https://w3id.org/pmd/cryo/CRYO_0000137 # bravais lattice hexagonal primitive
+https://w3id.org/pmd/cryo/CRYO_0000103 # bravais lattice monoclinic base-centered
+https://w3id.org/pmd/cryo/CRYO_0000048 # bravais lattice monoclinic primitive
+https://w3id.org/pmd/cryo/CRYO_0000118 # bravais lattice orthorhombic base-centered
+https://w3id.org/pmd/cryo/CRYO_0000132 # bravais lattice orthorhombic body-centered
+https://w3id.org/pmd/cryo/CRYO_0000133 # bravais lattice orthorhombic face-centered
+https://w3id.org/pmd/cryo/CRYO_0000131 # bravais lattice orthorhombic primitive
+https://w3id.org/pmd/cryo/CRYO_0000138 # bravais lattice rhombohedral primitive
+https://w3id.org/pmd/cryo/CRYO_0000140 # bravais lattice tetragonal body-centered
+https://w3id.org/pmd/cryo/CRYO_0000139 # bravais lattice tetragonal primitive
+https://w3id.org/pmd/cryo/CRYO_0000047 # bravais lattice triclinic primitive
+https://w3id.org/pmd/cryo/CRYO_0000017 # primitive unit cell
+https://w3id.org/pmd/cryo/CRYO_0000018 # conventional unit cell
+https://w3id.org/pmd/cryo/CRYO_0000042 # grain orientation
