@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                e2871ebb46acf0dc286ead6670b746f913af7cdaad70f3c82abf285a13942fb6
+CONFIG_HASH=                9e9e98f51d7a2da607c6ede43061360a16b40032b1d9b37884e16dede593cad0
 
 
 # ----------------------------------------
@@ -527,12 +527,6 @@ $(IMPORTDIR)/envo_import.owl: $(MIRRORDIR)/envo.owl $(IMPORTDIR)/envo_terms.txt 
 		 repair --merge-axiom-annotations true \
 		 $(ANNOTATE_CONVERT_FILE)
 
-## Module for ontology: cryo (custom)
-$(IMPORTDIR)/cryo_import.owl: $(MIRRORDIR)/cryo.owl
-	@echo "ERROR: You have configured cryo as a custom module;"
-	@echo "       This rule needs to be overwritten in pmdco.Makefile!"
-	@false
-
 endif # IMP=true
 
 .PHONY: refresh-imports
@@ -714,7 +708,7 @@ mirror-envo: | $(TMPDIR)
 .PHONY: mirror-cryo
 .PRECIOUS: $(MIRRORDIR)/cryo.owl
 mirror-cryo: | $(TMPDIR)
-	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/crystallography-subdomain-ontology/refs/heads/main/cryo-full.ttl -o $(TMPDIR)/$@.owl
+	$(ROBOT) convert -I https://raw.githubusercontent.com/materialdigital/crystallography-subdomain-ontology/refs/heads/main/cryo-base.ttl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
