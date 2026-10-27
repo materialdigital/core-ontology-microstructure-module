@@ -71,6 +71,7 @@ Declaration(Class(pmdco:PMD_0000567))
 Declaration(Class(pmdco:PMD_0000575))
 Declaration(Class(pmdco:PMD_0000586))
 Declaration(Class(pmdco:PMD_0000587))
+Declaration(Class(pmdco:PMD_0000589))
 Declaration(Class(pmdco:PMD_0000591))
 Declaration(Class(pmdco:PMD_0000592))
 Declaration(Class(pmdco:PMD_0000595))
@@ -89,6 +90,7 @@ Declaration(Class(pmdco:PMD_0000630))
 Declaration(Class(pmdco:PMD_0000634))
 Declaration(Class(pmdco:PMD_0000635))
 Declaration(Class(pmdco:PMD_0000645))
+Declaration(Class(pmdco:PMD_0000663))
 Declaration(Class(pmdco:PMD_0000768))
 Declaration(Class(pmdco:PMD_0000773))
 Declaration(Class(pmdco:PMD_0000777))
@@ -103,6 +105,7 @@ Declaration(Class(pmdco:PMD_0000803))
 Declaration(Class(pmdco:PMD_0000805))
 Declaration(Class(pmdco:PMD_0000811))
 Declaration(Class(pmdco:PMD_0000812))
+Declaration(Class(pmdco:PMD_0000820))
 Declaration(Class(pmdco:PMD_0000825))
 Declaration(Class(pmdco:PMD_0000826))
 Declaration(Class(pmdco:PMD_0000827))
@@ -112,6 +115,7 @@ Declaration(Class(pmdco:PMD_0000833))
 Declaration(Class(pmdco:PMD_0000845))
 Declaration(Class(pmdco:PMD_0000847))
 Declaration(Class(pmdco:PMD_0000848))
+Declaration(Class(pmdco:PMD_0000849))
 Declaration(Class(pmdco:PMD_0000851))
 Declaration(Class(pmdco:PMD_0000853))
 Declaration(Class(pmdco:PMD_0000861))
@@ -169,6 +173,7 @@ Declaration(Class(pmdco:PMD_0020102))
 Declaration(Class(pmdco:PMD_0020103))
 Declaration(Class(pmdco:PMD_0020104))
 Declaration(Class(pmdco:PMD_0020106))
+Declaration(Class(pmdco:PMD_0020108))
 Declaration(Class(pmdco:PMD_0020112))
 Declaration(Class(pmdco:PMD_0020116))
 Declaration(Class(pmdco:PMD_0020128))
@@ -203,6 +208,7 @@ Declaration(Class(pmdco:PMD_0020169))
 Declaration(Class(pmdco:PMD_0020171))
 Declaration(Class(pmdco:PMD_0020190))
 Declaration(Class(pmdco:PMD_0020192))
+Declaration(Class(pmdco:PMD_0020194))
 Declaration(Class(pmdco:PMD_0020200))
 Declaration(Class(pmdco:PMD_0020201))
 Declaration(Class(pmdco:PMD_0020202))
@@ -236,6 +242,11 @@ Declaration(Class(pmdco:PMD_0020262))
 Declaration(Class(pmdco:PMD_0020263))
 Declaration(Class(pmdco:PMD_0020264))
 Declaration(Class(pmdco:PMD_0020265))
+Declaration(Class(pmdco:PMD_0020269))
+Declaration(Class(pmdco:PMD_0020271))
+Declaration(Class(pmdco:PMD_0020272))
+Declaration(Class(pmdco:PMD_0020273))
+Declaration(Class(pmdco:PMD_0020284))
 Declaration(Class(pmdco:PMD_0020289))
 Declaration(Class(pmdco:PMD_0020290))
 Declaration(Class(pmdco:PMD_0020293))
@@ -281,6 +292,8 @@ Declaration(Class(pmdco:PMD_0020378))
 Declaration(Class(pmdco:PMD_0020379))
 Declaration(Class(pmdco:PMD_0020380))
 Declaration(Class(pmdco:PMD_0020381))
+Declaration(Class(pmdco:PMD_0020403))
+Declaration(Class(pmdco:PMD_0020404))
 Declaration(Class(pmdco:PMD_0023000))
 Declaration(Class(pmdco:PMD_0023001))
 Declaration(Class(pmdco:PMD_0023002))
@@ -331,6 +344,10 @@ Declaration(Class(pmdco:PMD_0025029))
 Declaration(Class(pmdco:PMD_0025031))
 Declaration(Class(pmdco:PMD_0025032))
 Declaration(Class(pmdco:PMD_0025033))
+Declaration(Class(pmdco:PMD_0025036))
+Declaration(Class(pmdco:PMD_0025037))
+Declaration(Class(pmdco:PMD_0025039))
+Declaration(Class(pmdco:PMD_0025040))
 Declaration(Class(pmdco:PMD_0025997))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
@@ -346,6 +363,22 @@ Declaration(Class(pmdco:PMD_0050154))
 Declaration(Class(pmdco:PMD_0050155))
 Declaration(Class(pmdco:PMD_0050156))
 Declaration(Class(pmdco:PMD_0050157))
+Declaration(Class(pmdco:PMD_0060000))
+Declaration(Class(pmdco:PMD_0060003))
+Declaration(Class(pmdco:PMD_0060004))
+Declaration(Class(pmdco:PMD_0060005))
+Declaration(Class(pmdco:PMD_0060010))
+Declaration(Class(pmdco:PMD_0060011))
+Declaration(Class(pmdco:PMD_0060012))
+Declaration(Class(pmdco:PMD_0060013))
+Declaration(Class(pmdco:PMD_0060014))
+Declaration(Class(pmdco:PMD_0060015))
+Declaration(Class(pmdco:PMD_0060016))
+Declaration(Class(pmdco:PMD_0060017))
+Declaration(Class(pmdco:PMD_0060018))
+Declaration(Class(pmdco:PMD_0060019))
+Declaration(Class(pmdco:PMD_0060022))
+Declaration(Class(pmdco:PMD_0060024))
 Declaration(Class(pmdco:PMD_0080007))
 Declaration(Class(pmdco:PMD_0080010))
 Declaration(Class(pmdco:PMD_0080011))
@@ -515,6 +548,7 @@ Declaration(ObjectProperty(obo:BFO_0000050))
 Declaration(ObjectProperty(obo:BFO_0000199))
 Declaration(ObjectProperty(obo:RO_0000056))
 Declaration(ObjectProperty(obo:RO_0000059))
+Declaration(ObjectProperty(obo:RO_0002503))
 Declaration(ObjectProperty(pmdco:PMD_0001028))
 Declaration(ObjectProperty(pmdco:PMD_0001029))
 Declaration(ObjectProperty(pmdco:PMD_0020020))
@@ -523,7 +557,7 @@ Declaration(ObjectProperty(pmdco:PMD_0020327))
 Declaration(ObjectProperty(pmdco:PMD_0025013))
 Declaration(ObjectProperty(pmdco:PMD_0025998))
 Declaration(ObjectProperty(pmdco:PMD_0025999))
-Declaration(NamedIndividual(<http://qudt.org/vocab/unit/PER-MOL>))
+Declaration(NamedIndividual(<http://qudt.org/vocab/unit/MOL>))
 Declaration(NamedIndividual(pmdco:PMD_0020006))
 Declaration(NamedIndividual(pmdco:PMD_0020007))
 Declaration(NamedIndividual(pmdco:PMD_0020008))
@@ -610,27 +644,27 @@ AnnotationAssertion(skos:definition pmdco:PMD_0025013 "zeigt an, dass ein Prozes
 ObjectPropertyDomain(pmdco:PMD_0025013 obo:BFO_0000015)
 ObjectPropertyRange(pmdco:PMD_0025013 obo:BFO_0000019)
 
-# Object Property: pmdco:PMD_0025998 (hat relationale Qualität)
+# Object Property: pmdco:PMD_0025998 (hat relationale Eigenschaft)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025998 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025998 "PERSON: Kamilla Zaripova")
-AnnotationAssertion(rdfs:label pmdco:PMD_0025998 "has relational quality"@en)
-AnnotationAssertion(rdfs:label pmdco:PMD_0025998 "hat relationale Qualität"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025998 "has relational property"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025998 "hat relationale Eigenschaft"@de)
 AnnotationAssertion(skos:definition pmdco:PMD_0025998 "a relation between an independent continuant (the bearer) and a relational quality, in which the quality specifically depends on the bearer for its existence"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0025998 "eine Beziehung zwischen einem unabhängigen Kontinuum (dem Träger) und einer relationalen Qualität, bei der die Qualität in ihrer Existenz speziell vom Träger abhängt"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0025998 "material has relational quality mass proportion m, and portion of iron has the same relational quality mass proportion m"@en)
 InverseObjectProperties(pmdco:PMD_0025998 pmdco:PMD_0025999)
 ObjectPropertyDomain(pmdco:PMD_0025998 obo:BFO_0000004)
-ObjectPropertyRange(pmdco:PMD_0025998 obo:BFO_0000145)
+ObjectPropertyRange(pmdco:PMD_0025998 pmdco:PMD_0020108)
 
-# Object Property: pmdco:PMD_0025999 (relational quality of)
+# Object Property: pmdco:PMD_0025999 (relationale Eigenschaft von)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025999 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0025999 "The 'relational quality of' is more strict that 'quality of' from RO, since domain is 'relational quality'. The motivtion to introduce an object property for relational qualities is the following:
 RO's 'quality of' is functional i.e., a->b, a->c => b=c. The functionality is relevant for most of the SDC -> IC triples, expect for relational qualities, which per definiton can be simultaneously inherited in >=2 ICs. Thus,  'relational quality of'  has the same intention to connect SDC to IC, however, without cardinality constraints."@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025999 "PERSON: Kamilla Zaripova")
-AnnotationAssertion(rdfs:label pmdco:PMD_0025999 "relational quality of"@en)
-AnnotationAssertion(rdfs:label pmdco:PMD_0025999 "relationale Qualität von"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025999 "relational property of"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025999 "relationale Eigenschaft von"@de)
 AnnotationAssertion(skos:definition pmdco:PMD_0025999 "a relation between a relational quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0025999 "eine Beziehung zwischen einer relationalen Qualität und einem unabhängigen Kontinuum (dem Träger), bei der die Existenz der Qualität speziell vom Träger abhängt"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0025999 "mass proportion m is relational qualitiy of material, and the same mass proportion m is relational qualitiy of portion of iron"@en)
@@ -964,7 +998,7 @@ AnnotationAssertion(pmdco:PMD_0000064 pmdco:PMD_0000551 "Material has quality ch
 SubClassOf(pmdco:PMD_0000551 pmdco:PMD_0025001)
 SubClassOf(pmdco:PMD_0000551 ObjectSomeValuesFrom(obo:RO_0000080 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020140))))
 
-# Class: pmdco:PMD_0000553 (chemical potential)
+# Class: pmdco:PMD_0000553 (chemisches Potential)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000553 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000553 "PERSON: Joerg Waitelonis")
@@ -1044,8 +1078,10 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0000596 "Verformung"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0000596 "deformation"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0000596 "a process that changes the 'dimension quality' of a participant. It excludes translations and rotations."@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000596 "true"^^xsd:boolean)
-SubClassOf(Annotation(rdfs:comment "simple form: process and ('has participant' some ('temporally qualified continuant' and ('has quality' some 'dimension quality')))") pmdco:PMD_0000596 obo:BFO_0000015)
-SubClassOf(pmdco:PMD_0000596 ObjectSomeValuesFrom(obo:RO_0000057 ObjectIntersectionOf(pmdco:PMD_0000068 ObjectSomeValuesFrom(obo:BFO_0000108 ObjectIntersectionOf(obo:BFO_0000202 ObjectSomeValuesFrom(obo:BFO_0000063 ObjectIntersectionOf(obo:BFO_0000202 ObjectSomeValuesFrom(ObjectInverseOf(obo:BFO_0000108) ObjectIntersectionOf(pmdco:PMD_0000068 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020132))))))) ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020132))))
+SubClassOf(Annotation(rdfs:comment "simple form: 
+process and ('has participant' some 
+('temporally qualified continuant' and ('has quality' some 'dimension quality')))") pmdco:PMD_0000596 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0000596 ObjectSomeValuesFrom(obo:RO_0000057 ObjectIntersectionOf(pmdco:PMD_0000068 ObjectSomeValuesFrom(obo:BFO_0000108 ObjectIntersectionOf(obo:BFO_0000202 ObjectSomeValuesFrom(obo:BFO_0000063 ObjectIntersectionOf(obo:BFO_0000202 ObjectSomeValuesFrom(obo:BFO_0000157 ObjectIntersectionOf(pmdco:PMD_0000068 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020132))))))) ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020132))))
 
 # Class: pmdco:PMD_0000597 (mass density)
 
@@ -1589,6 +1625,10 @@ AnnotationAssertion(skos:definition pmdco:PMD_0001008 "Vorgang der Aufnahme elek
 AnnotationAssertion(skos:definition pmdco:PMD_0001008 "process of taking up elctromagnetic radiation by a material entity"@en)
 SubClassOf(pmdco:PMD_0001008 pmdco:PMD_0000802)
 
+# Class: pmdco:PMD_0001035 (angle)
+
+SubClassOf(pmdco:PMD_0001035 ObjectUnionOf(ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000142) ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000146)))
+
 # Class: pmdco:PMD_0001046 (Tiefe)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0001046 "Tiefe"@de)
@@ -1726,9 +1766,9 @@ AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020005 "Subclasses need to expres
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020005 "PERSON: Philipp von Hartrott")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020005 "porosity"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020005 "itensive quality embodiying the fraction of the materials (enclosing) spatial region occupied by pores."@en)
-SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0020022 (corrosion)
+# Class: pmdco:PMD_0020022 (Korrosion)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020022 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020022 "PERSON: Philipp von Hartrott")
@@ -1802,59 +1842,81 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020099 "Das Bravais-Gitter ist ei
 AnnotationAssertion(skos:definition pmdco:PMD_0020099 "The bravais lattice is a categorical value specification that specifies value of the crystal structure quality. It describes the possible geometric arrangement of lattice points in a crystal. The present descriptor is limited to the 14 possible three-dimensional arrangements."@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020099 "true"^^xsd:boolean)
 
-# Class: pmdco:PMD_0020101 (proportion)
+# Class: pmdco:PMD_0020101 (fraction property)
 
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020101 "Concentrations express the ratio between the quantities of a part and the quantities of the whole.
+In contrast to concentrations ratios express the ratio between the quantity of a part and the quantity of the remainder.
+To address the (chemical) composition of an enity, see 'composition'."@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020101 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020101 "Anteil"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0020101 "proportion"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020101 "A proportion is a relational quality between two entities (the whole and the part) which quantifies the relation between the whole and its part."@en)
-SubClassOf(pmdco:PMD_0020101 pmdco:PMD_0020353)
-SubClassOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(obo:RO_0002328 obo:BFO_0000001))
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020101 "Concentrations can be expressed in terms of three quantifiers:
 
-# Class: pmdco:PMD_0020102 (mass ratio)
++-------------------+------------------+-------------------+---------------------+
+---------------------+
+|                   | count            | mass              | volume              |
+ length                  |  area
++-------------------+------------------+-------------------+---------------------+
+| per count         | molar fraction  | -------  |-------  |
+ ------ | ------
+| per mass          | count per mass   | mass per mass     | volume per mass     |
+ ------- | ---------
+| per volume        | count per volume | mass per volume   | volume per volume   |
+| per length         | length number density  |-------  | ------ | length fraction | --------
+| per area          |  area number density  |-------  | ------ | -------- | area fraction
++-------------------+------------------+-------------------+---------------------+
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020102 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020102 "Necessary and sufficient conditions for 'mass ratio' have not yet been formalized. The term is defined as a specific subtype of 'material composition'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020102 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020102 "Massenverhältnis"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0020102 "mass ratio"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020102 "Das Massenverhältnis bezeichnet eine relationale Qualität, die einen Massenwert im Verhältnis zu einem anderen ausdrückt und typischerweise eine dimensionslose Zahl ergibt"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0020102 "Mass ratio denotes a relational quality expressing one mass value relative to another, typically producing a dimensionless number"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0020102 "A fiber-reinforced composite has a fiber-to-matrix mass ratio of 60:40"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020102 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0020102 pmdco:PMD_0080069)
+Mass per count and volume per count are not known to have practical examples but are included for completeness."@en)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020101 "Kamilla:
+1.  concentration is a bad name, cause area fraction (texture component or phase on the image) is also relationship between part and the whole.
+2. Number desity (of precipitates) can be the same as count per volume or count per area or count per length. How to deal with that?"@en)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020101 "Ratio: 
+A comparison of two or more quantities (a relationship), e.g. 3:2:1 for prosecco, aperol and sparkling water in aperol spritz. There is no stanardized mathematical notation or operators for it.  We do not support it, rather convert it to fractions.
 
-# Class: pmdco:PMD_0020103 (Molverhältnis)
+Proportion: 
+A statement that two ratios/fractions are equal (an equation), e.g. 2/3=4/6"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020101 "fraction property"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0020101 "part-whole property"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020101 "a property describing a quantitative relation between two entites where one entity represents the whole and the other entity represents a part of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020101 "aperol spritz: 3/6 prosecco, 2/6 aperol, 1/6 sparkling water in vol/vol"@en)
+EquivalentClasses(pmdco:PMD_0020101 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002503 ObjectIntersectionOf(obo:BFO_0000004 ObjectSomeValuesFrom(obo:BFO_0000050 obo:BFO_0000004))) ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000004)))
+SubClassOf(pmdco:PMD_0020101 pmdco:PMD_0020108)
+DisjointClasses(pmdco:PMD_0020101 pmdco:PMD_0020273)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020103 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020103 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020103 "Molverhältnis"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0020103 "molar ratio"@en)
-AnnotationAssertion(skos:altLabel pmdco:PMD_0020103 "molar proportion"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020103 "Der Molanteil ist der Anteil, der die Anzahl der Einheiten des Teils im Verhältnis zur Anzahl der Einheiten des Ganzen quantifiziert."@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0020103 "Molar proportion is the proportion which quantifies the entities count of the part in relation to the entities count of the whole."@en)
-AnnotationAssertion(skos:example pmdco:PMD_0020103 "The molar ratio of hydrogen gas H2 molecules to water H2O molecules is 1/1 in the oxyhydrogen reaction. The molar ratio of oxygen molecules O2 to water molecules is 2/1.
-The molar ratio of carbon dioxide to average atmosphere air is 420 ppm as of 2022 AD."@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020103 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0020103 pmdco:PMD_0080069)
+# Class: pmdco:PMD_0020102 (mass fraction)
 
-# Class: pmdco:PMD_0020104 (volume ratio)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020102 "mass fraction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020102 "a relational quality expressing a mass of a part in relation to the the mass of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020102 "A fiber-reinforced composite has a fiber mass fraction of 60/100 and a matrix mass fraction of 40/100."@en)
+EquivalentClasses(pmdco:PMD_0020102 ObjectUnionOf(ObjectIntersectionOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(pmdco:PMD_0060002 ObjectIntersectionOf(pmdco:PMD_0025997 ObjectSomeValuesFrom(obo:IAO_0000039 obo:UO_1000163)))) ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))))))
+SubClassOf(pmdco:PMD_0020102 pmdco:PMD_0020101)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020104 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020104 "Necessary and sufficient conditions for 'volume ratio' have not yet been formalized. The term is defined as a specific subtype of 'material composition'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020104 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020104 "Volumenverhältnis"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0020104 "volume ratio"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020104 "Volume ratio represents a relational quality expressing one volume value relative to another, typically resulting in a dimensionless number"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020104 "Volumenverhältnis stellt eine relationale Qualität dar, die einen Volumenwert im Verhältnis zu einem anderen ausdrückt, typischerweise resultierend in einer dimensionslosen Zahl"@de)
-AnnotationAssertion(skos:example pmdco:PMD_0020104 "A foam material has a pore-to-solid volume ratio of 4:1, indicating 80 % porosity"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020104 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0020104 pmdco:PMD_0080069)
+# Class: pmdco:PMD_0020103 (molar fraction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020103 "molar fraction"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0020103 "count per count"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020103 "Molar fraction is the fraction which quantifies the entities count of the part in relation to the entities count of the whole."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020103 "The molar fraction of carbon dioxide molecules to average atmosphere air molecules is 420 ppm as of 2022 AD."@en)
+EquivalentClasses(pmdco:PMD_0020103 ObjectUnionOf(ObjectIntersectionOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(pmdco:PMD_0060002 ObjectIntersectionOf(pmdco:PMD_0025997 ObjectSomeValuesFrom(obo:IAO_0000039 obo:UO_1000076)))) ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))))))
+SubClassOf(pmdco:PMD_0020103 pmdco:PMD_0020101)
+
+# Class: pmdco:PMD_0020104 (volume fraction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020104 "volume fraction"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0020104 "volume per volume"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020104 "a relational quality expressing the volume of a part in relation to the volume of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020104 "A foam material has 80 % volumetric porosity (porosity could also be expressed in count per volume)"@en)
+EquivalentClasses(pmdco:PMD_0020104 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150)))))
+SubClassOf(pmdco:PMD_0020104 pmdco:PMD_0020101)
 
 # Class: pmdco:PMD_0020106 (polycrystal)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020106 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020106 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020108 (relational property)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020108 "relational property"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020108 "a facetted property that describes the relation between two  (maybe more) bearers."@en)
+SubClassOf(pmdco:PMD_0020108 ObjectIntersectionOf(pmdco:PMD_0023002 ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000004)))
 
 # Class: pmdco:PMD_0020112 (OBSOLETE grain size distribution)
 
@@ -2095,7 +2157,7 @@ SubClassOf(pmdco:PMD_0020165 pmdco:PMD_0020335)
 SubClassOf(pmdco:PMD_0020165 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0000092 pmdco:PMD_0020000) ObjectSomeValuesFrom(owl:topObjectProperty ObjectIntersectionOf(pmdco:PMD_0080116 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0020000)))))
 SubClassOf(pmdco:PMD_0020165 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0020136))
 
-# Class: pmdco:PMD_0020167 (structural boundary)
+# Class: pmdco:PMD_0020167 (strukturelle Grenze)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020167 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020167 "PERSON: Philipp von Hartrott")
@@ -2159,6 +2221,11 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020192 "A macrosection (metallogr
 AnnotationAssertion(skos:definition pmdco:PMD_0020192 "Ein Makroschliff (Metallografie) ist ein metallografischer Schnitt (Oberfläche), der direkt an einem Objekt angefertigt wird. Das Objekt kann geschnitten werden, um einen interessierenden Abschnitt (flache Oberfläche) zugänglich zu machen."@de)
 SubClassOf(pmdco:PMD_0020192 pmdco:PMD_0020190)
 
+# Class: pmdco:PMD_0020194 (diffusion)
+
+SubClassOf(pmdco:PMD_0020194 ObjectSomeValuesFrom(obo:RO_0000057 ObjectIntersectionOf(pmdco:PMD_0000001 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020403))))
+SubClassOf(pmdco:PMD_0020194 ObjectSomeValuesFrom(obo:RO_0000057 ObjectIntersectionOf(pmdco:PMD_0000001 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020404))))
+
 # Class: pmdco:PMD_0020200 (force)
 
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020200 "PERSON: Philipp von Hartrott")
@@ -2166,6 +2233,7 @@ AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0020200 "Old definition: Force is 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020200 "force"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020200 "A force is an entity that consists of a reciprocal interaction between two objects and is realized as equal and opposite influences capable of changing motion or causing deformation."@en)
 SubClassOf(pmdco:PMD_0020200 pmdco:PMD_0020311)
+SubClassOf(pmdco:PMD_0020200 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000522))
 SubClassOf(pmdco:PMD_0020200 ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000030))
 
 # Class: pmdco:PMD_0020201 (Abschnitt)
@@ -2224,15 +2292,13 @@ SubClassOf(pmdco:PMD_0020205 pmdco:PMD_0020335)
 SubClassOf(pmdco:PMD_0020205 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000635))
 SubClassOf(pmdco:PMD_0020205 ObjectSomeValuesFrom(obo:RO_0000081 obo:BFO_0000001))
 
-# Class: pmdco:PMD_0020207 (amount of substance)
+# Class: pmdco:PMD_0020207 (DEPRECATED molar amount of entities or substance)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020207 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020207 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020207 "Stoffmenge"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0020207 "amount of substance"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020207 "Amount of substance n is a molar proportion when the whole is an object aggregate N, which has avogadro number objects (of same type) as parts (n = N/N_A)."@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020207 "Die Menge der Substanz n ist ein molarer Anteil, wenn das Ganze ein Objektaggregat N ist, das Avogadro-Anzahlobjekte (gleicher Art) als Teile hat (n = N/N_A)."@de)
-SubClassOf(pmdco:PMD_0020207 pmdco:PMD_0020103)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020207 "same as per mol property and not a relational property cause it does not relate part to whole")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020207 "DEPRECATED molar amount of entities or substance"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020207 pmdco:PMD_0020369)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020207 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020207 "DEPRECATED Amount of substance n is a molar proportion when the whole is an object aggregate N, which has avogadro number objects (of same type) as parts (n = N/N_A)."@en)
 
 # Class: pmdco:PMD_0020209 (Slipsystem (3D))
 
@@ -2331,6 +2397,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020241 "angle of misalignment (crystal
 AnnotationAssertion(skos:definition pmdco:PMD_0020241 "kleinster Drehwinkel, der erforderlich ist, um eine Kristallorientierung so zu drehen, dass sie mit der benachbarten Orientierung übereinstimmt"@de)
 AnnotationAssertion(skos:definition pmdco:PMD_0020241 "smallest rotation angle needed to rotate one crystal orientation to coincide with the neighboring orientation"@en)
 SubClassOf(pmdco:PMD_0020241 pmdco:PMD_0001035)
+SubClassOf(pmdco:PMD_0020241 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(obo:BFO_0000146 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000663))))
 
 # Class: pmdco:PMD_0020243 (grain size)
 
@@ -2411,7 +2478,8 @@ SubClassOf(pmdco:PMD_0020262 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersect
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020263 "friction"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020263 "a process in which two material entities are in contact and relative motion to each other"@en)
-SubClassOf(pmdco:PMD_0020263 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0020263 pmdco:PMD_0000522)
+SubClassOf(pmdco:PMD_0020263 ObjectSomeValuesFrom(obo:RO_0000057 ObjectIntersectionOf(pmdco:PMD_0020293 ObjectSomeValuesFrom(obo:RO_0002002 obo:BFO_0000146) ObjectSomeValuesFrom(pmdco:PMD_0025998 pmdco:PMD_0020200))))
 
 # Class: pmdco:PMD_0020264 (datatransformation property)
 
@@ -2425,6 +2493,45 @@ AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020265 "Do not use this class dir
 AnnotationAssertion(rdfs:label pmdco:PMD_0020265 "property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020265 "property is a collection class for entities that are either qualites (represent a state) or realizable entities (represent a behavior)"@en)
 SubClassOf(pmdco:PMD_0020265 obo:BFO_0000020)
+
+# Class: pmdco:PMD_0020269 (count per mass)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020269 "count per mass"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020269 "a relational quality expressing a count of a part in relation to the the mass of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020269 "10e14 fibers in 1 ton of fiber reinforced resin"@en)
+EquivalentClasses(pmdco:PMD_0020269 ObjectUnionOf(ObjectIntersectionOf(pmdco:PMD_0020101 ObjectIntersectionOf(ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))))) ObjectIntersectionOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(pmdco:PMD_0060002 ObjectIntersectionOf(pmdco:PMD_0025997 ObjectSomeValuesFrom(obo:IAO_0000039 obo:UO_0000067))))))
+SubClassOf(pmdco:PMD_0020269 pmdco:PMD_0020101)
+
+# Class: pmdco:PMD_0020271 (volume per mass)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020271 "volume per mass"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020271 "a relational quality expressing the volume of a part in relation to the mass of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020271 "the resin volume is 300 l per ton of fiber reinforced composite"@en)
+EquivalentClasses(pmdco:PMD_0020271 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133)))))
+
+# Class: pmdco:PMD_0020272 (count per volume)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020272 "count per volume"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0020272 "volume number density"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020272 "a relational quality expressing a count of a part in relation to the volume of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020272 "10e14 fibers in 1 m3 of fiber reinforced resin"@en)
+EquivalentClasses(pmdco:PMD_0020272 ObjectUnionOf(ObjectIntersectionOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(pmdco:PMD_0060002 ObjectIntersectionOf(pmdco:PMD_0025997 ObjectSomeValuesFrom(obo:IAO_0000039 obo:UO_0000061)))) ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))))))
+SubClassOf(pmdco:PMD_0020272 pmdco:PMD_0020101)
+
+# Class: pmdco:PMD_0020273 (emancipated property)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020273 "it is not possible to formulate the equivalent axiom in OWL 2"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020273 "emancipated property"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020273 "a relational property between two or more emancipated/autonomous entites"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020273 "the force between two atoms"@en)
+SubClassOf(pmdco:PMD_0020273 pmdco:PMD_0020108)
+SubClassOf(pmdco:PMD_0020273 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(obo:BFO_0000004 ObjectComplementOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:BFO_0000004)))))
+
+# Class: pmdco:PMD_0020284 (atomistic property)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020284 "atomistic property"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020284 "a property that is commonly associated with the subdomain of atomistics in materials science and engineering")
+SubClassOf(pmdco:PMD_0020284 pmdco:PMD_0020265)
 
 # Class: pmdco:PMD_0020307 (bulk property)
 
@@ -2603,14 +2710,15 @@ SubClassOf(pmdco:PMD_0020363 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_00
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020364 "per count property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020364 "a quotient with a denominator that has is a count"@en)
-EquivalentClasses(pmdco:PMD_0020364 ObjectIntersectionOf(pmdco:PMD_0023001 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 ObjectIntersectionOf(pmdco:PMD_0020367 ObjectSomeValuesFrom(pmdco:PMD_0000077 obo:OBI_0001931)))))))
+EquivalentClasses(pmdco:PMD_0020364 ObjectSomeValuesFrom(pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 ObjectIntersectionOf(pmdco:PMD_0020367 ObjectSomeValuesFrom(pmdco:PMD_0000077 obo:OBI_0001931))))))
+SubClassOf(pmdco:PMD_0020364 pmdco:PMD_0023001)
 
 # Class: pmdco:PMD_0020365 (per volume property)
 
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020365 "TODO axiom wrong"@en)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020365 "per volume property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020365 "a quotient where the denominator is a volume"@en)
-EquivalentClasses(pmdco:PMD_0020365 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))))
+EquivalentClasses(pmdco:PMD_0020365 ObjectSomeValuesFrom(pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))))
 SubClassOf(pmdco:PMD_0020365 pmdco:PMD_0023001)
 SubClassOf(pmdco:PMD_0020365 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersectionOf(pmdco:PMD_0020150 ObjectSomeValuesFrom(pmdco:PMD_0000077 obo:OBI_0001931))))
 
@@ -2619,7 +2727,7 @@ SubClassOf(pmdco:PMD_0020365 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersect
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020366 "TODO axiom wrong"@en)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020366 "per mass property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020366 "a quotient where the denominator is the mass of the bearer"@en)
-EquivalentClasses(pmdco:PMD_0020366 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))))
+EquivalentClasses(pmdco:PMD_0020366 ObjectSomeValuesFrom(pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))))
 SubClassOf(pmdco:PMD_0020366 pmdco:PMD_0023001)
 
 # Class: pmdco:PMD_0020367 (member count)
@@ -2633,7 +2741,7 @@ SubClassOf(pmdco:PMD_0020367 pmdco:PMD_0023000)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020369 "per mol property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020369 "a per count with the count of Avogadro-number"@en)
-EquivalentClasses(pmdco:PMD_0020369 ObjectIntersectionOf(pmdco:PMD_0023001 ObjectSomeValuesFrom(obo:RO_0002328 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 ObjectIntersectionOf(pmdco:PMD_0020367 ObjectHasValue(pmdco:PMD_0000077 pmdco:PMD_0020368)))))))
+EquivalentClasses(pmdco:PMD_0020369 ObjectIntersectionOf(pmdco:PMD_0023001 ObjectSomeValuesFrom(pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 ObjectIntersectionOf(pmdco:PMD_0020367 ObjectHasValue(pmdco:PMD_0000077 pmdco:PMD_0020368)))))))
 SubClassOf(pmdco:PMD_0020369 pmdco:PMD_0023001)
 
 # Class: pmdco:PMD_0020370 (a mol of entites)
@@ -2716,6 +2824,22 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020381 "potential due to multiaxi
 SubClassOf(pmdco:PMD_0020381 pmdco:PMD_0080116)
 SubClassOf(pmdco:PMD_0020381 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0020352) ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0020380)))
 
+# Class: pmdco:PMD_0020403 (diffusant role)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020403 "diffusant role"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020403 "role of a portion of matter that diffuses through a diffusion medium in a diffusion process"@en)
+SubClassOf(pmdco:PMD_0020403 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0020403 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0020194))
+SubClassOf(pmdco:PMD_0020403 ObjectSomeValuesFrom(obo:RO_0000081 pmdco:PMD_0000001))
+
+# Class: pmdco:PMD_0020404 (diffusion medium role)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020404 "diffusion medium role"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020404 "role of a portion of matter that is being diffused through in a diffusion process"@en)
+SubClassOf(pmdco:PMD_0020404 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0020404 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0020194))
+SubClassOf(pmdco:PMD_0020404 ObjectSomeValuesFrom(obo:RO_0000081 pmdco:PMD_0000001))
+
 # Class: pmdco:PMD_0023000 (fundamental quality of system)
 
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0023000 "TODO: system requires further precision"@en)
@@ -2761,7 +2885,7 @@ SubClassOf(pmdco:PMD_0023007 pmdco:PMD_0023003)
 
 # Class: pmdco:PMD_0023009 (length scale property)
 
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0023009 "Currently the subclasses are primitive classes because length values in terms of value ranges numeric types are not yet expressed.
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0023009 "Currently the subclasses are primitive classes because length values in terms of value ranges numeric types are not yet expressed. 
 In future versions we may provide equivalent class axioms."@en)
 AnnotationAssertion(rdfs:label pmdco:PMD_0023009 "length scale property"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0023009 "a facetted property that indicates the length scale where a property may exist"@en)
@@ -3035,7 +3159,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Der Außendurchmesser ist
 AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Outer diameter is a length of a straight line from one outer surface of an object or space to the other side of its outer surface through the center of an object or space when it has the inside and outside surface."@en)
 SubClassOf(pmdco:PMD_0025017 pmdco:PMD_0050051)
 
-# Class: pmdco:PMD_0025018 (geometric relational quality)
+# Class: pmdco:PMD_0025018 (geometrische relationale Qualität)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025018 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025018 "PERSON: Kamilla Zaripova")
@@ -3088,14 +3212,40 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0025033 "medium-range order"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0025033 "medium-range order is a range order that characterizes structural organization of members of an object aggregate where small atomic groups link into localized patterns that do not repeat across the whole material"@en)
 SubClassOf(pmdco:PMD_0025033 pmdco:PMD_0025025)
 
-# Class: pmdco:PMD_0025997 (Angabe des Bruchwerts)
+# Class: pmdco:PMD_0025036 (area fraction)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025997 obo:IAO_0000122)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025036 "area fraction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025036 "a relational quality expressing the area of a part in relation to the area of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0025036 "area fraction of cube texture component on an EBSD image")
+EquivalentClasses(pmdco:PMD_0025036 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080019))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080019)))))
+
+# Class: pmdco:PMD_0025037 (length fraction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0025037 "length fraction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025037 "a relational quality expressing the length of a part in relation to the length of the whole"@en)
+EquivalentClasses(pmdco:PMD_0025037 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080019))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080019)))))
+
+# Class: pmdco:PMD_0025039 (area number density)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0025039 "area number density"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025039 "a relational quality expressing a count of a part in relation to the area of the whole")
+AnnotationAssertion(skos:example pmdco:PMD_0025039 "number of precipitates per area"@en)
+EquivalentClasses(pmdco:PMD_0025039 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080019)))))
+SubClassOf(pmdco:PMD_0025039 pmdco:PMD_0020101)
+
+# Class: pmdco:PMD_0025040 (length number density)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0025040 "length number density"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025040 "a relational quality expressing a count of a part in relation to the length of the whole"@en)
+AnnotationAssertion(skos:example pmdco:PMD_0025040 "number of dislocations per reference length"@en)
+EquivalentClasses(pmdco:PMD_0025040 ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020367))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0040001)))))
+SubClassOf(pmdco:PMD_0025040 pmdco:PMD_0020101)
+
+# Class: pmdco:PMD_0025997 (concentration value specification)
+
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025997 "PERSON: Kamilla Zaripova")
-AnnotationAssertion(rdfs:label pmdco:PMD_0025997 "Angabe des Bruchwerts"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0025997 "fraction value specification"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0025997 "Bei der Bruchwertspezifikation handelt es sich um eine Wertspezifikation, die Informationen über den quantitativen Anteil eines Teils im Verhältnis zu einem angegebenen Ganzen enthält."@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0025997 "Fraction value specification is a value specification that contains information about quantitative share of a part relative to a specified whole."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0025997 "concentration value specification"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0025997 "a value specification that contains information about quantitative share of a part relative to a specified whole."@en)
 AnnotationAssertion(skos:example pmdco:PMD_0025997 "2.05 wt.% of carbon in steel, 4 vol.% of nitric acid in a solution"@en)
 
 # Class: pmdco:PMD_0027003 (average lamella thickness)
@@ -3126,7 +3276,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0050000 "atomic bond"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0050000 "A bond is a relational quality describing the force interaction between atoms."@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0050000 "Eine Bindung ist eine relationale Qualität, die die Kraftwechselwirkung zwischen Atomen beschreibt."@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0050000 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0050000 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0050000 pmdco:PMD_0020284)
 SubClassOf(pmdco:PMD_0050000 ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:CHEBI_33250))
 
 # Class: pmdco:PMD_0050001 (covalent bond)
@@ -3235,6 +3385,147 @@ AnnotationAssertion(skos:example pmdco:PMD_0050157 "Beispiele sind Formen wie W�
 AnnotationAssertion(skos:example pmdco:PMD_0050157 "Examples include shapes like cubes, spheres, and pyramids."@en)
 SubClassOf(pmdco:PMD_0050157 pmdco:PMD_0050156)
 
+# Class: pmdco:PMD_0060000 (elongation)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060000 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0060000 "from cto:
+'characteristic of' some 
+    ('mechanical property analyzing process'
+     and ('has specified input' some 
+        (object
+         and ('has characteristic' some 'gauge length'))))")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0060000 "in tto:
+'realized in' some 
+    ('tensile testing process'
+     and ('has specified input' some 
+        (object
+         and ('has quality' some 'original gauge length'))))")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060000 "elongation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060000 "increase in the original gauge length at any moment during the test")
+SubClassOf(pmdco:PMD_0060000 pmdco:PMD_0020311)
+SubClassOf(pmdco:PMD_0060000 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000849))
+SubClassOf(pmdco:PMD_0060000 ObjectSomeValuesFrom(obo:RO_0000052 pmdco:PMD_0000000))
+SubClassOf(pmdco:PMD_0060000 ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0060016))
+
+# Class: pmdco:PMD_0060003 (percentage elongation)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060003 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060003 "percentage elongation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060003 "elongation expressed as a percentage of the original gauge length")
+SubClassOf(pmdco:PMD_0060003 pmdco:PMD_0060000)
+SubClassOf(pmdco:PMD_0060003 ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0023002))
+
+# Class: pmdco:PMD_0060004 (percentage elongation after fracture)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060004 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060004 "percentage elongation after fracture"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060004 "permanent elongation of the gauge length after fracture (L_u − L_o), expressed as a percentage of the original gauge length")
+SubClassOf(pmdco:PMD_0060004 pmdco:PMD_0060003)
+
+# Class: pmdco:PMD_0060005 (percentage permanent elongation)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060005 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060005 "percentage permanent elongation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060005 "increase in the original gauge length of a test piece after removal of a specified stress, expressed as a percentage of the original gauge length")
+SubClassOf(pmdco:PMD_0060005 pmdco:PMD_0060003)
+
+# Class: pmdco:PMD_0060010 (extension)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060010 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060010 "extension"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060010 "Increase in the extensometer gauge length at any moment during a test")
+SubClassOf(pmdco:PMD_0060010 pmdco:PMD_0020311)
+SubClassOf(pmdco:PMD_0060010 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000849))
+SubClassOf(pmdco:PMD_0060010 ObjectSomeValuesFrom(obo:RO_0000052 pmdco:PMD_0000000))
+SubClassOf(pmdco:PMD_0060010 ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0060015))
+
+# Class: pmdco:PMD_0060011 (percentage extension)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060011 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060011 "percentage extension"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060011 "extension expressed as a percentage of the extensometer gauge length")
+SubClassOf(pmdco:PMD_0060011 pmdco:PMD_0060010)
+SubClassOf(pmdco:PMD_0060011 ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0023002))
+
+# Class: pmdco:PMD_0060012 (percentage total extension at fracture)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060012 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060012 "percentage total extension at fracture"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060012 "total extension (elastic extension plus plastic extension) at the moment of fracture, expressed as a percentage of the extensometer gauge length")
+SubClassOf(pmdco:PMD_0060012 pmdco:PMD_0060011)
+
+# Class: pmdco:PMD_0060013 (percentage permanent extension)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060013 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060013 "percentage permanent extension"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060013 "increase in the extensometer gauge length, after removal of a specified stress from the test piece, expressed as a percentage of the extensometer gauge length")
+SubClassOf(pmdco:PMD_0060013 pmdco:PMD_0060011)
+
+# Class: pmdco:PMD_0060014 (gauge length)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060014 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060014 "gauge length"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060014 "length of the parallel portion of the test piece on which elongation is measured at any moment during the test")
+SubClassOf(pmdco:PMD_0060014 pmdco:PMD_0040001)
+
+# Class: pmdco:PMD_0060015 (extensometer gauge length)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060015 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060015 "extensometer gauge length"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060015 "initial gauge length of the extensometer used for measurement of extension")
+SubClassOf(pmdco:PMD_0060015 pmdco:PMD_0060014)
+
+# Class: pmdco:PMD_0060016 (original gauge length)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060016 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060016 "original gauge length"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060016 "length between gauge length marks on the test piece measured at room temperature before the test")
+SubClassOf(pmdco:PMD_0060016 pmdco:PMD_0060014)
+
+# Class: pmdco:PMD_0060017 (final gauge length after fracture)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060017 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060017 "final gauge length after fracture"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060017 "length between gauge length marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line")
+SubClassOf(pmdco:PMD_0060017 pmdco:PMD_0060014)
+
+# Class: pmdco:PMD_0060018 (percentage reduction of area)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060018 "DIN EN ISO 6892-1:2019")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0060018 "in cto:
+'classical mechanics property'
+ and ('characteristic measured by assay' some 'mechanical property analyzing process')")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0060018 "in tto:
+(relatesTo some 'minimum cross-sectional area after fracture')
+ and (relatesTo some 'original cross-sectional area of the parallel length')")
+AnnotationAssertion(rdfs:label pmdco:PMD_0060018 "percentage reduction of area"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060018 "maximum change in cross-sectional area which has occurred during the test (S_o − S_u), expressed as a percentage of the original cross-sectional area, S_o")
+SubClassOf(pmdco:PMD_0060018 pmdco:PMD_0020311)
+SubClassOf(pmdco:PMD_0060018 ObjectSomeValuesFrom(obo:BFO_0000054 pmdco:PMD_0000849))
+SubClassOf(pmdco:PMD_0060018 ObjectSomeValuesFrom(obo:RO_0000052 pmdco:PMD_0000000))
+SubClassOf(pmdco:PMD_0060018 ObjectSomeValuesFrom(obo:RO_0002328 pmdco:PMD_0060019))
+
+# Class: pmdco:PMD_0060019 (cross section area)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060019 <https://www.merriam-webster.com/dictionary/cross%20section>)
+AnnotationAssertion(rdfs:label pmdco:PMD_0060019 "cross section area"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060019 "The cross section area is an area of a cutting or piece of an object cut off or broken at right angles or related to an axis.")
+SubClassOf(pmdco:PMD_0060019 pmdco:PMD_0080019)
+
+# Class: pmdco:PMD_0060022 (loading process)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0060022 "loading process"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060022 "A loading process is a mechanical process that applies forces or stresses to a material or specimen.")
+SubClassOf(pmdco:PMD_0060022 pmdco:PMD_0000522)
+SubClassOf(pmdco:PMD_0060022 ObjectSomeValuesFrom(obo:RO_0000057 pmdco:PMD_0000820))
+
+# Class: pmdco:PMD_0060024 (fracture surface)
+
+AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0060024 <https://www.iso.org/standard/67737.html>)
+AnnotationAssertion(rdfs:label pmdco:PMD_0060024 "fracture surface"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0060024 "The specific topography of the failure surface (e.g., intergranular voids).")
+SubClassOf(pmdco:PMD_0060024 pmdco:PMD_0000965)
+
 # Class: pmdco:PMD_0080007 (radiologic disposition)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080007 obo:IAO_0000122)
@@ -3248,18 +3539,15 @@ AnnotationAssertion(skos:example pmdco:PMD_0080007 "The dose equivalent a patien
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080007 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080007 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080010 (räumliche Relationsqualität)
+# Class: pmdco:PMD_0080010 (DEPRECATED spatial relational quality)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080010 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080010 "Necessary and sufficient conditions for 'spatial relational quality' have not yet been formalized. The term is defined as a specific subtype of 'BFO_0000145'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080010 "PERSON: Thomas Hanke")
-AnnotationAssertion(rdfs:label pmdco:PMD_0080010 "räumliche Relationsqualität"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080010 "spatial relational quality"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080010 "Räumliche Beziehungsqualität ist eine Qualität, die einer materiellen Entität aufgrund ihrer räumlichen Beziehung zu einer oder mehreren anderen Entitäten, wie z. B. Position, Ausrichtung oder Entfernung, innewohnt"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080010 "Spatial relational quality is a quality that inheres in a material entity by virtue of its spatial relationship to one or more other entities, such as position, orientation, or distance"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0080010 "the distance between a bolt and the nearest edge of a steel plate is a spatial relational quality of the bolt"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080010 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080010 obo:BFO_0000145)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0080010 "Duplicate")
+AnnotationAssertion(rdfs:label pmdco:PMD_0080010 "DEPRECATED räumliche Relationsqualität"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080010 "DEPRECATED spatial relational quality"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080010 pmdco:PMD_0025018)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080010 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080010 "DEPRECATED Räumliche Beziehungsqualität ist eine Qualität, die einer materiellen Entität aufgrund ihrer räumlichen Beziehung zu einer oder mehreren anderen Entitäten, wie z. B. Position, Ausrichtung oder Entfernung, innewohnt"@de)
+AnnotationAssertion(skos:definition pmdco:PMD_0080010 "DEPRECATED Spatial relational quality is a quality that inheres in a material entity by virtue of its spatial relationship to one or more other entities, such as position, orientation, or distance"@en)
 
 # Class: pmdco:PMD_0080011 (Geschwindigkeit)
 
@@ -3470,7 +3758,7 @@ AnnotationAssertion(skos:altLabel pmdco:PMD_0080027 "coercive force"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080027 "Coercivity is a magnetic quality of a ferromagnetic material that specifies the magnitude of the applied magnetic field required to reduce its magnetization to zero after it has been fully magnetised"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080027 "Koerzitivfeldstärke ist eine magnetische Qualität eines ferromagnetischen Materials, die die Stärke des aufzubringenden Magnetfelds angibt, das erforderlich ist, um seine Magnetisierung nach vollständiger Magnetisierung auf null zu reduzieren"@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080027 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080027 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080027 pmdco:PMD_0020312)
 
 # Class: pmdco:PMD_0080029 (strain)
 
@@ -3766,9 +4054,9 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080051 "PERSON: Thomas Hanke")
 AnnotationAssertion(rdfs:label pmdco:PMD_0080051 "surface energy"@en)
 AnnotationAssertion(skos:altLabel pmdco:PMD_0080051 "surface free energy"@en)
 AnnotationAssertion(skos:altLabel pmdco:PMD_0080051 "γ"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080051 "Surface energy is an energy quality of a material that quantifies the excess energy at its surface relative to the bulk, arising from unsatisfied molecular bonds at the interface"@en)
-SubClassOf(pmdco:PMD_0080051 pmdco:PMD_0020142)
-SubClassOf(pmdco:PMD_0080051 ObjectSomeValuesFrom(obo:RO_0000080 ObjectIntersectionOf(obo:BFO_0000030 ObjectSomeValuesFrom(obo:BFO_0000051 obo:BFO_0000146))))
+AnnotationAssertion(skos:definition pmdco:PMD_0080051 "an energy difference of a material entity that is the reversible work required to create a unit area of new surface"@en)
+SubClassOf(pmdco:PMD_0080051 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0080051 ObjectSomeValuesFrom(obo:RO_0000080 ObjectIntersectionOf(obo:BFO_0000030 ObjectIntersectionOf(pmdco:PMD_0000068 ObjectSomeValuesFrom(obo:BFO_0000051 obo:BFO_0000146)))))
 
 # Class: pmdco:PMD_0080052 (enthalpy)
 
@@ -3905,18 +4193,15 @@ AnnotationAssertion(skos:example pmdco:PMD_0080068 "A wire of 2 mm diameter has 
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080068 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080068 pmdco:PMD_0080067)
 
-# Class: pmdco:PMD_0080069 (physisch relative Qualität)
+# Class: pmdco:PMD_0080069 (DEPRECATED physisch relative Qualität)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080069 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080069 "Necessary and sufficient conditions for 'physical relational quality' have not yet been formalized. The term is defined as a specific subtype of 'BFO_0000145'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080069 "PERSON: Thomas Hanke")
-AnnotationAssertion(rdfs:label pmdco:PMD_0080069 "physical relational quality"@en)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080069 "physisch relative Qualität"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080069 "Die physische Beziehungsqualität bezieht sich auf Eigenschaften oder Merkmale einer Entität, die von ihrer Beziehung zu anderen Entitäten abhängig sind"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080069 "Physical relational quality pertains to properties or characteristics of an entity dependent on its relation to other entities"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0080069 "The coefficient of friction between two surfaces is a physical relational quality inhering in both contacting materials"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080069 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080069 pmdco:PMD_0020353)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0080069 "Redundant")
+AnnotationAssertion(rdfs:label pmdco:PMD_0080069 "DEPRECATED physical relational quality"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080069 "DEPRECATED physisch relative Qualität"@de)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080069 pmdco:PMD_0020108)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080069 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080069 "DEPRECATED Die physische Beziehungsqualität bezieht sich auf Eigenschaften oder Merkmale einer Entität, die von ihrer Beziehung zu anderen Entitäten abhängig sind"@de)
+AnnotationAssertion(skos:definition pmdco:PMD_0080069 "DEPRECATED Physical relational quality pertains to properties or characteristics of an entity dependent on its relation to other entities"@en)
 
 # Class: pmdco:PMD_0080070 (physical rate quality)
 
@@ -3930,7 +4215,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080070 "Die physikalische Geschwi
 AnnotationAssertion(skos:definition pmdco:PMD_0080070 "Physical rate quality denotes the quotient of two physical quantities in different units, representing one quantity's rate of change in relation to another"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0080070 "The rate of thermal expansion of a metal rod during quenching is a physical rate quality"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080070 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080070 pmdco:PMD_0080069)
+SubClassOf(pmdco:PMD_0080070 pmdco:PMD_0025019)
 
 # Class: pmdco:PMD_0080071 (emissivity)
 
@@ -4000,20 +4285,15 @@ AnnotationAssertion(skos:example pmdco:PMD_0080075 "A 3 mm thick soda-lime glass
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080075 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080075 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080076 (Massendiffusivität)
+# Class: pmdco:PMD_0080076 (diffusion coefficient)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080076 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080076 "Necessary and sufficient conditions for 'mass diffusivity' have not yet been formalized. The term is defined as a specific subtype of 'physical rate quality'. Distinguishing criteria are domain-specific and depend on measurement conventions not yet expressed as OWL restrictions."@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080076 "PERSON: Thomas Hanke")
-AnnotationAssertion(rdfs:label pmdco:PMD_0080076 "Massendiffusivität"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080076 "mass diffusivity"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080076 "diffusion coefficient"@en)
 AnnotationAssertion(skos:altLabel pmdco:PMD_0080076 "D"@en)
-AnnotationAssertion(skos:altLabel pmdco:PMD_0080076 "Diffusionskoeffizient"@de)
-AnnotationAssertion(skos:altLabel pmdco:PMD_0080076 "diffusion coefficient"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080076 "Mass diffusivity is a physical rate quality of a material that quantifies the rate at which a diffusing substance moves through it per unit concentration gradient, as described by Fick's first law"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080076 "Massendiffusivität ist eine physikalische Ratenqualität eines Materials, die die Geschwindigkeit beschreibt, mit der eine diffundierende Substanz pro Konzentrationsgradienten durch das Material transportiert wird, gemäß dem ersten Fickschen Gesetz"@de)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080076 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080076 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080076 pmdco:PMD_0020265)
+SubClassOf(pmdco:PMD_0080076 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(pmdco:PMD_0000001 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020403))))
+SubClassOf(pmdco:PMD_0080076 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(pmdco:PMD_0000001 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020404))))
 
 # Class: pmdco:PMD_0080077 (optical reflectance)
 
@@ -4088,7 +4368,7 @@ SubClassOf(pmdco:PMD_0080081 pmdco:PMD_0020353)
 # Class: pmdco:PMD_0080082 (coefficient of friction)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080082 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080082 "Necessary and sufficient conditions for 'coefficient of friction' have not yet been formalized. The term is defined as a specific subtype of 'physical relational quality'. Distinguishing criteria are domain-specific and depend on measurement conventions not yet expressed as OWL restrictions."@en)
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080082 "Use with caution. Might also be a process attribute."@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080082 "PERSON: Thomas Hanke")
 AnnotationAssertion(rdfs:label pmdco:PMD_0080082 "Reibungskoeffizient"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0080082 "coefficient of friction"@en)
@@ -4099,7 +4379,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080082 "Coefficient of friction i
 AnnotationAssertion(skos:definition pmdco:PMD_0080082 "Der Reibungskoeffizient ist eine dimensionslose skalare Qualität eines Paars in Kontakt stehender Oberflächen, die das Verhältnis der Reibungskraft zwischen ihnen zur Normalkraft ausdrückt, die sie zusammendrückt"@de)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080082 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080082 pmdco:PMD_0020311)
-SubClassOf(pmdco:PMD_0080082 ObjectSomeValuesFrom(obo:RO_0000052 ObjectIntersectionOf(obo:BFO_0000146 ObjectSomeValuesFrom(obo:RO_0002000 pmdco:PMD_0020293))))
+SubClassOf(pmdco:PMD_0080082 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(obo:BFO_0000146 ObjectSomeValuesFrom(obo:RO_0002000 ObjectIntersectionOf(pmdco:PMD_0020293 ObjectSomeValuesFrom(pmdco:PMD_0025998 pmdco:PMD_0020200))))))
 
 # Class: pmdco:PMD_0080083 (Induktion)
 
@@ -4241,19 +4521,14 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080095 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080095 pmdco:PMD_0020335)
 SubClassOf(pmdco:PMD_0080095 ObjectSomeValuesFrom(pmdco:PMD_0025999 ObjectIntersectionOf(obo:BFO_0000146 ObjectSomeValuesFrom(obo:RO_0002000 pmdco:PMD_0020290) ObjectSomeValuesFrom(obo:RO_0002000 pmdco:PMD_0020293))))
 
-# Class: pmdco:PMD_0080098 (Massenmischungsverhältnis)
+# Class: pmdco:PMD_0080098 (DEPRECATED Massenmischungsverhältnis)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080098 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080098 "Necessary and sufficient conditions for 'mass mix ratio' have not yet been formalized. The term is defined as a specific subtype of 'mass ratio'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Massenverh%C3%A4ltnis."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080098 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080098 <https://de.wikipedia.org/wiki/Massenverh%C3%A4ltnis>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080098 "Massenmischungsverhältnis"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080098 "mass mix ratio"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080098 "Das Massenmischungsverhältnis stellt das Verhältnis der Massen zweier Mischungskomponenten dar und liefert eine quantitative Beschreibung der Zusammensetzung"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080098 "mass ratio that represents the ratio of masses of two mixture components, providing a quantitative composition description"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0080098 "A concrete mix uses a mass mix ratio of cement to aggregate of 1:4 for standard structural applications"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080098 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080098 pmdco:PMD_0020102)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080098 "DEPRECATED Massenmischungsverhältnis"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080098 "DEPRECATED mass mix ratio"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080098 pmdco:PMD_0020102)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080098 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080098 "DEPRECATED Das Massenmischungsverhältnis stellt das Verhältnis der Massen zweier Mischungskomponenten dar und liefert eine quantitative Beschreibung der Zusammensetzung"@de)
+AnnotationAssertion(skos:definition pmdco:PMD_0080098 "DEPRECATED mass ratio that represents the ratio of masses of two mixture components, providing a quantitative composition description"@en)
 
 # Class: pmdco:PMD_0080099 (dry mass)
 
@@ -4268,75 +4543,50 @@ AnnotationAssertion(skos:example pmdco:PMD_0080099 "A fiber composite sample has
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080099 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080099 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080100 (Massenanteil)
+# Class: pmdco:PMD_0080100 (DEPRECATED mass fraction)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080100 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080100 "Necessary and sufficient conditions for 'mass fraction' have not yet been formalized. The term is defined as a specific subtype of 'mass ratio'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Massenanteil."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080100 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080100 <https://de.wikipedia.org/wiki/Massenanteil>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080100 "Massenanteil"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080100 "mass fraction"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080100 "Der Massenanteil beschreibt den relativen Anteil einer Masse an der Gesamtmasse einer Mischung, ein gängiges quantitatives Maß"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080100 "mass ratio that describes the relative proportion of a mass to the total mass of a mixture, a common quantitative measure"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0080100 "A binary Al-4 wt% Cu alloy has a copper mass fraction of 0.04"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080100 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080100 pmdco:PMD_0020102)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080100 "DEPRECATED mass fraction"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080100 pmdco:PMD_0020102)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080100 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080100 "DEPRECATED mass ratio that describes the relative proportion of a mass to the total mass of a mixture, a common quantitative measure"@en)
 
-# Class: pmdco:PMD_0080101 (Massenkonzentration)
+# Class: pmdco:PMD_0080101 (mass concentration)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080101 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080101 "Necessary and sufficient conditions for 'mass concentration' have not yet been formalized. The term is defined as a specific subtype of 'material composition'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Massenkonzentration."@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080101 "PERSON: Thomas Hanke")
 AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080101 <https://de.wikipedia.org/wiki/Massenkonzentration>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080101 "Massenkonzentration"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0080101 "mass concentration"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080101 "Die Massenkonzentration verknüpft die Masse einer Mischungskomponente mit dem Gesamtvolumen in einer quantitativen Beschreibung, die häufig in Lösungen verwendet wird"@de)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0080101 "mass per volume"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080101 "Mass concentration links mass of a mixture component to the total volume in quantitative description, frequently used in solutions"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0080101 "A saline infusion solution has a NaCl mass concentration of 9 g/L"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080101 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080101 pmdco:PMD_0080069)
+EquivalentClasses(pmdco:PMD_0080101 ObjectUnionOf(ObjectIntersectionOf(pmdco:PMD_0020101 ObjectSomeValuesFrom(pmdco:PMD_0060002 ObjectIntersectionOf(pmdco:PMD_0025997 ObjectSomeValuesFrom(obo:IAO_0000039 obo:UO_1000180)))) ObjectIntersectionOf(pmdco:PMD_0020101 ObjectExactCardinality(1 pmdco:PMD_0020256 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020133))) ObjectExactCardinality(1 pmdco:PMD_0020257 ObjectIntersectionOf(obo:BFO_0000001 ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0020150))))))
+SubClassOf(pmdco:PMD_0080101 pmdco:PMD_0020101)
 
-# Class: pmdco:PMD_0080103 (volume concentration)
+# Class: pmdco:PMD_0080103 (DEPRECATED volume concentration)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080103 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080103 "Necessary and sufficient conditions for 'volume concentration' have not yet been formalized. The term is defined as a specific subtype of 'volume ratio'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Volumenkonzentration."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080103 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080103 <https://de.wikipedia.org/wiki/Volumenkonzentration>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080103 "Volumenkonzentration"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080103 "volume concentration"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080103 "Volume concentration links the volume of a mixture component to the total volume, crucial for quantitative composition description"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080103 "Volumenkonzentration verbindet das Volumen eines Mischbestandteils mit dem Gesamtvolumen, entscheidend für die quantitative Zusammensetzungsbeschreibung"@de)
-AnnotationAssertion(skos:example pmdco:PMD_0080103 "A paint pigment dispersion has a TiO2 volume concentration of 20 %"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080103 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080103 pmdco:PMD_0020104)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080103 "DEPRECATED Volumenkonzentration"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080103 "DEPRECATED volume concentration"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080103 pmdco:PMD_0020104)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080103 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080103 "DEPRECATED Volume concentration links the volume of a mixture component to the total volume, crucial for quantitative composition description"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0080103 "DEPRECATED Volumenkonzentration verbindet das Volumen eines Mischbestandteils mit dem Gesamtvolumen, entscheidend für die quantitative Zusammensetzungsbeschreibung"@de)
 
-# Class: pmdco:PMD_0080104 (volume fraction)
+# Class: pmdco:PMD_0080104 (DEPRECATED volume fraction)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080104 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080104 "Necessary and sufficient conditions for 'volume fraction' have not yet been formalized. The term is defined as a specific subtype of 'volume ratio'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Volumenkonzentration."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080104 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080104 <https://de.wikipedia.org/wiki/Volumenkonzentration>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080104 "Volumenanteil"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080104 "volume fraction"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080104 "Volume fraction describes the volume of a mixture component relative to the sum of all components' volumes"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080104 "Volumenanteil beschreibt das Volumen eines Mischbestandteils im Verhältnis zur Summe der Volumina aller Bestandteile"@de)
-AnnotationAssertion(skos:example pmdco:PMD_0080104 "A dual-phase steel contains a martensite volume fraction of 20 %, controlling its strength-ductility balance"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080104 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080104 pmdco:PMD_0020104)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080104 "DEPRECATED Volumenanteil"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080104 "DEPRECATED volume fraction"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080104 pmdco:PMD_0020104)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080104 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080104 "DEPRECATED Volume fraction describes the volume of a mixture component relative to the sum of all components' volumes"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0080104 "DEPRECATED Volumenanteil beschreibt das Volumen eines Mischbestandteils im Verhältnis zur Summe der Volumina aller Bestandteile"@de)
 
-# Class: pmdco:PMD_0080105 (Mischengehaltverhältnis)
+# Class: pmdco:PMD_0080105 (DEPRECATED volume mix ratio)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080105 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080105 "Necessary and sufficient conditions for 'volume mix ratio' have not yet been formalized. The term is defined as a specific subtype of 'volume ratio'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://de.wikipedia.org/wiki/Volumenverh%C3%A4ltnis."@en)
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080105 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080105 <https://de.wikipedia.org/wiki/Volumenverh%C3%A4ltnis>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080105 "Mischengehaltverhältnis"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080105 "volume mix ratio"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080105 "Mischengehaltverhältnis definiert das Verhältnis der Volumina von zwei Mischbestandteilen zueinander"@de)
-AnnotationAssertion(skos:definition pmdco:PMD_0080105 "Volume mix ratio defines the ratio of volumes of two mixture components to each other"@en)
-AnnotationAssertion(skos:example pmdco:PMD_0080105 "An epoxy adhesive is mixed in a volume mix ratio of 2:1 resin to hardener"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080105 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080105 pmdco:PMD_0020104)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080105 "DEPRECATED Mischengehaltverhältnis"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080105 "DEPRECATED volume mix ratio"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080105 pmdco:PMD_0020104)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080105 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080105 "DEPRECATED Mischengehaltverhältnis definiert das Verhältnis der Volumina von zwei Mischbestandteilen zueinander"@de)
+AnnotationAssertion(skos:definition pmdco:PMD_0080105 "DEPRECATED Volume mix ratio defines the ratio of volumes of two mixture components to each other"@en)
 
 # Class: pmdco:PMD_0080106 (piezoelectric coefficient)
 
@@ -4426,7 +4676,8 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080112 "Adhesion describes the ab
 AnnotationAssertion(skos:definition pmdco:PMD_0080112 "Adhäsion beschreibt die Fähigkeit von Substanzen, sich aneinander zu binden. Dabei handelt es sich um eine Anziehungskraft zwischen zwei in Kontakt stehenden Körpern unterschiedlicher Substanzen, die die Materialleistung in wissenschaftlichen und industriellen Kontexten beeinflusst"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0080112 "The adhesion between a paint film and a steel substrate determines its resistance to delamination"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080112 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080112 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080112 pmdco:PMD_0020311)
+SubClassOf(pmdco:PMD_0080112 ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000146))
 
 # Class: pmdco:PMD_0080113 (surface tension)
 
@@ -4659,7 +4910,8 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080133 "Die Dauerhaftigkeit ist d
 AnnotationAssertion(skos:definition pmdco:PMD_0080133 "Durability is the ability of a material to resist wear, tear, and other types of damage over time"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0080133 "Galvanized steel shows high durability in outdoor environments, resisting corrosion for over 50 years"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080133 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080133 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080133 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0080133 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0000635))))
 
 # Class: pmdco:PMD_0080134 (Verschleißfestigkeit)
 
@@ -4677,6 +4929,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080134 "Wear resistance is the ab
 AnnotationAssertion(skos:example pmdco:PMD_0080134 "Hardened tool steel has high wear resistance, maintaining a cutting edge through thousands of machining cycles"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080134 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080134 pmdco:PMD_0080133)
+SubClassOf(pmdco:PMD_0080134 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0020263))))
 
 # Class: pmdco:PMD_0080135 (Kriechfestigkeit)
 
@@ -4694,21 +4947,16 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080135 "Die Kriechfestigkeit ist 
 AnnotationAssertion(skos:example pmdco:PMD_0080135 "Nickel superalloys have high creep resistance, maintaining shape under stress at 1000 C in turbine blades"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080135 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080135 pmdco:PMD_0080133)
+SubClassOf(pmdco:PMD_0080135 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0000596) ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0080108))))
 
-# Class: pmdco:PMD_0080136 (poisson effect)
+# Class: pmdco:PMD_0080136 (DEPRECATED Querkontraktion)
 
-AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080136 obo:IAO_0000122)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080136 "Necessary and sufficient conditions for 'poisson effect' have not yet been formalized. The term is defined as a specific subtype of 'mechanical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions. The definition is adapted from: https://en.wikipedia.org/wiki/Poisson%27s_ratio."@en)
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080136 "Was a subclass of 'Mechanical Quality'")
-AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0080136 "PERSON: Thomas Hanke")
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0080136 <https://en.wikipedia.org/wiki/Poisson%27s_ratio>)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080136 "Querkontraktion"@de)
-AnnotationAssertion(rdfs:label pmdco:PMD_0080136 "poisson effect"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080136 "Poisson effect describes deformation perpendicular to the direction of loading, named after Siméon Poisson"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0080136 "Querkontraktion beschreibt die Deformation senkrecht zur Belastungsrichtung, benannt nach Siméon Poisson"@de)
-AnnotationAssertion(skos:example pmdco:PMD_0080136 "A rubber cylinder loaded axially expands radially due to the Poisson effect, with a ratio of about 0.5"@en)
-AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080136 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080136 pmdco:PMD_0020353)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080136 "DEPRECATED Querkontraktion"@de)
+AnnotationAssertion(rdfs:label pmdco:PMD_0080136 "DEPRECATED poisson effect"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0080136 pmdco:PMD_0080137)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0080136 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0080136 "DEPRECATED Poisson effect describes deformation perpendicular to the direction of loading, named after Siméon Poisson"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0080136 "DEPRECATED Querkontraktion beschreibt die Deformation senkrecht zur Belastungsrichtung, benannt nach Siméon Poisson"@de)
 
 # Class: pmdco:PMD_0080137 (Poissonzahl)
 
@@ -4778,11 +5026,14 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0080144 "Kriechmodul"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0080144 "creep modulus"@en)
 AnnotationAssertion(skos:altLabel pmdco:PMD_0080144 "Kriechmodul"@de)
 AnnotationAssertion(skos:altLabel pmdco:PMD_0080144 "creep modulus"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0080144 "HBN: Creep modulus is a time-dependent form of elastic modulus (the ratio of applied stress to the resulting strain) measured under a constant sustained load rather than instantaneous loading. Like a standard elastic modulus, it quantifies a material's stiffness (resistance to deformation), but because viscoelastic materials continue to strain over time under constant stress, creep modulus decreases as the loading duration increases, unlike true elastic modulus which stays constant.")
 AnnotationAssertion(skos:definition pmdco:PMD_0080144 "Creep modulus measures a material's viscoelasticity, indicating its ability to deform under stress over time"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080144 "Der Kriechmodul ist ein Maß für die Viskoelastizität eines Materials, das seine Fähigkeit zur Verformung unter Belastung im Laufe der Zeit beschreibt"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0080144 "The creep modulus of polyethylene at 50 C and 1 MPa after 1000 hours is 200 MPa"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080144 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080144 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080144 pmdco:PMD_0000618)
+SubClassOf(pmdco:PMD_0080144 ObjectIntersectionOf(pmdco:PMD_0000618 ObjectSomeValuesFrom(obo:RO_0009007 pmdco:PMD_0000589)))
+SubClassOf(pmdco:PMD_0080144 ObjectSomeValuesFrom(obo:RO_0002328 obo:BFO_0000008))
 
 # Class: pmdco:PMD_0080145 (Komplexmodul)
 
@@ -5182,7 +5433,8 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080180 "Opposite to toughness, br
 AnnotationAssertion(skos:definition pmdco:PMD_0080180 "Sprödigkeit ist die Eigenschaft, leicht zu brechen oder zu beschädigen"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0080180 "Cast iron has high brittleness, fracturing without measurable plastic deformation under tensile loading"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080180 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080180 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080180 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0080180 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0000596))))
 
 # Class: pmdco:PMD_0080181 (ductility)
 
@@ -5199,7 +5451,8 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080181 "Ductility is the ability 
 AnnotationAssertion(skos:definition pmdco:PMD_0080181 "Duktilität ist die Fähigkeit eines Materials, plastisch zu verformen, ohne zu brechen"@de)
 AnnotationAssertion(skos:example pmdco:PMD_0080181 "Low-carbon steel has high ductility, with elongation at break exceeding 30 %"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080181 "true"^^xsd:boolean)
-SubClassOf(pmdco:PMD_0080181 pmdco:PMD_0020353)
+SubClassOf(pmdco:PMD_0080181 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0080181 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(pmdco:PMD_0000000 ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0000596))))
 
 # Class: pmdco:PMD_0080182 (Formbarkeit)
 
@@ -5232,7 +5485,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080184 "Resilience is a mechanica
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080184 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080184 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080186 (Strahlungsreflexionsfähigkeiten)
+# Class: pmdco:PMD_0080186 (radiation reflection capability)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080186 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080186 "Necessary and sufficient conditions for 'radiation reflection capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5355,7 +5608,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080196 "The thermal expansion coeffi
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080196 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080196 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080197 (thermischer Volumenausdehnungskoeffizient)
+# Class: pmdco:PMD_0080197 (volumetric thermal expansion coefficient)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080197 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080197 "Necessary and sufficient conditions for 'volumetric thermal expansion coefficient' have not yet been formalized. The term is defined as a specific subtype of 'thermal expansion coefficient'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5421,7 +5674,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080202 "Thermoschockbeständigkei
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080202 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080202 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080203 (radiation emission capability)
+# Class: pmdco:PMD_0080203 (Strahlungsemissionsfähigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080203 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080203 "Necessary and sufficient conditions for 'radiation emission capability' have not yet been formalized. The term is defined as a specific subtype of 'physical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5809,7 +6062,7 @@ ClassAssertion(pmdco:PMD_0020216 pmdco:PMD_0020242)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020368 "avogadro number"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020368 "The Avogadro number"@en)
 ClassAssertion(obo:OBI_0001931 pmdco:PMD_0020368)
-ObjectPropertyAssertion(obo:IAO_0000039 pmdco:PMD_0020368 <http://qudt.org/vocab/unit/PER-MOL>)
+ObjectPropertyAssertion(obo:IAO_0000039 pmdco:PMD_0020368 <http://qudt.org/vocab/unit/MOL>)
 DataPropertyAssertion(obo:OBI_0001937 pmdco:PMD_0020368 "602214086000000000000000"^^xsd:decimal)
 
 

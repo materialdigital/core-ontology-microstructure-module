@@ -22,14 +22,19 @@ Declaration(Class(obo:CHEBI_74236))
 Declaration(Class(qudt:QuantityValue))
 Declaration(Class(qudt:Unit))
 Declaration(Class(:PMD_0020259))
+Declaration(ObjectProperty(obo:BFO_0000157))
 Declaration(ObjectProperty(qudt:hasUnit))
 Declaration(DataProperty(qudt:numericValue))
-Declaration(NamedIndividual(<http://qudt.org/vocab/unit/PER-MOL>))
+Declaration(NamedIndividual(<http://qudt.org/vocab/unit/MOL>))
 Declaration(AnnotationProperty(:PMD_0000060))
 
 ############################
 #   Object Properties
 ############################
+
+# Object Property: obo:BFO_0000108 (exists at)
+
+InverseObjectProperties(obo:BFO_0000108 obo:BFO_0000157)
 
 # Object Property: obo:BFO_0000117 (has occurrent part)
 
@@ -38,6 +43,10 @@ SubObjectPropertyOf(obo:BFO_0000117 obo:BFO_0000051)
 # Object Property: obo:BFO_0000132 (occurrent part of)
 
 SubObjectPropertyOf(Annotation(rdfs:comment "\"occurrent part of\" is not a BFO2020 temporalized relation. It just restricts the domain and range to \"occurrent\". That's why is should be OK to make it sub property of RO \"part of\"") obo:BFO_0000132 obo:BFO_0000050)
+
+# Object Property: obo:BFO_0000157 (during which exists)
+
+AnnotationAssertion(rdfs:label obo:BFO_0000157 "during which exists")
 
 # Object Property: qudt:hasUnit (has unit)
 
@@ -96,9 +105,9 @@ More formally, the value of a physical quantity Q with respect to a unit (U) is 
 #   Named Individuals
 ############################
 
-# Individual: <http://qudt.org/vocab/unit/PER-MOL> (<http://qudt.org/vocab/unit/PER-MOL>)
+# Individual: <http://qudt.org/vocab/unit/MOL> (<http://qudt.org/vocab/unit/MOL>)
 
-ClassAssertion(qudt:Unit <http://qudt.org/vocab/unit/PER-MOL>)
+ClassAssertion(qudt:Unit <http://qudt.org/vocab/unit/MOL>)
 
 
 SubObjectPropertyOf(ObjectPropertyChain(obo:BFO_0000055 obo:RO_0000059) obo:STATO_0000102)
@@ -106,6 +115,8 @@ AnnotationAssertion(obo:IAO_0000112 obo:IAO_0000098 "you might consinder EDAM fo
 AnnotationAssertion(:PMD_0000060 obo:IAO_0020000 "true"^^xsd:boolean)
 AnnotationAssertion(obo:IAO_0000116 obo:OBI_0000011 "PMDco : migration: https://github.com/materialdigital/core-ontology/issues/269")
 AnnotationAssertion(owl:deprecated obo:OBI_0000011 "true"^^xsd:boolean)
+AnnotationAssertion(obo:IAO_0000116 obo:OBI_0001927 "prefer 'represents value of', if you have I.C.Es in domain, which are not 'value specifications'")
 AnnotationAssertion(rdfs:label dce:license "dc:license")
 AnnotationAssertion(rdfs:label dcterms:license "dcterms:license")
+AnnotationAssertion(rdfs:label <http://www.w3.org/2006/time#hasDuration> "has duration")
 )

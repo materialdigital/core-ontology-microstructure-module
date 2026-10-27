@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                6adf75de16ef6c15f7091c04b1427875243313dc21c0f74b122c6351949fc230
+CONFIG_HASH=                92393a94ec4729cf0b1eddb6752c3bce6f5a942ae7516647e130615642e3b52c
 
 
 # ----------------------------------------
@@ -188,7 +188,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  bfo ro iao obi chebi stato uo cob nfdicore time
+IMPORTS =  bfo ro iao obi chebi stato uo cob nfdicore time envo
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -458,6 +458,12 @@ $(IMPORTDIR)/stato_import.owl: $(MIRRORDIR)/stato.owl
 	@echo "       This rule needs to be overwritten in pmdco.Makefile!"
 	@false
 
+## Module for ontology: uo (custom)
+$(IMPORTDIR)/uo_import.owl: $(MIRRORDIR)/uo.owl
+	@echo "ERROR: You have configured uo as a custom module;"
+	@echo "       This rule needs to be overwritten in pmdco.Makefile!"
+	@false
+
 ## Module for ontology: cob (custom)
 $(IMPORTDIR)/cob_import.owl: $(MIRRORDIR)/cob.owl
 	@echo "ERROR: You have configured cob as a custom module;"
@@ -496,6 +502,25 @@ $(IMPORTDIR)/time_import.owl: $(MIRRORDIR)/time.owl $(IMPORTDIR)/time_terms.txt 
 		        --term IAO:0000115 \
 		        --term OMO:0002000 \
 		        --term-file $(IMPORTDIR)/time_terms.txt $(T_IMPORTSEED) \
+		        --select complement --select annotation-properties \
+		 odk:normalize --base-iri https://w3id.org/pmd \
+		               --subset-decls true --synonym-decls true \
+		 repair --merge-axiom-annotations true \
+		 $(ANNOTATE_CONVERT_FILE)
+
+## Module for ontology: envo (slme)
+$(IMPORTDIR)/envo_import.owl: $(MIRRORDIR)/envo.owl $(IMPORTDIR)/envo_terms.txt $(IMPORTSEED) | all_robot_plugins
+	$(ROBOT) annotate --input $< --remove-annotations \
+		 odk:normalize --add-source true \
+		 extract --term-file $(IMPORTDIR)/envo_terms.txt $(T_IMPORTSEED) \
+		         --copy-ontology-annotations true --force true \
+		         --individuals include \
+		         --method SUBSET \
+		 remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+		        --term rdfs:label \
+		        --term IAO:0000115 \
+		        --term OMO:0002000 \
+		        --term-file $(IMPORTDIR)/envo_terms.txt $(T_IMPORTSEED) \
 		        --select complement --select annotation-properties \
 		 odk:normalize --base-iri https://w3id.org/pmd \
 		               --subset-decls true --synonym-decls true \
@@ -670,6 +695,13 @@ mirror-nfdicore: | $(TMPDIR)
 .PRECIOUS: $(MIRRORDIR)/time.owl
 mirror-time: | $(TMPDIR)
 	$(ROBOT) convert -I https://github.com/w3c/sdw-time/raw/refs/heads/gh-pages/rdf/time.ttl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: envo
+.PHONY: mirror-envo
+.PRECIOUS: $(MIRRORDIR)/envo.owl
+mirror-envo: | $(TMPDIR)
+	$(ROBOT) convert -I https://raw.githubusercontent.com/EnvironmentOntology/envo/v2026-06-26/envo-base.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)
