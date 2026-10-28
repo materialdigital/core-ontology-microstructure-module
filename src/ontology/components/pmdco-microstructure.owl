@@ -61,6 +61,10 @@ Declaration(Class(pmdco:PMD_0022550))
 Declaration(Class(pmdco:PMD_0022551))
 Declaration(Class(pmdco:PMD_0025001))
 Declaration(Class(pmdco:PMD_0025038))
+Declaration(Class(pmdco:PMD_0026001))
+Declaration(Class(pmdco:PMD_0026002))
+Declaration(Class(pmdco:PMD_0026003))
+Declaration(Class(pmdco:PMD_0026004))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
@@ -157,10 +161,11 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020197 "DEPRECATED A lattice poin
 
 # Class: pmdco:PMD_0020198 (interstitial site)
 
-AnnotationAssertion(rdfs:label pmdco:PMD_0020198 "interstitial site"@en)
-AnnotationAssertion(skos:altLabel pmdco:PMD_0020198 "void")
-AnnotationAssertion(skos:definition pmdco:PMD_0020198 "An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
-SubClassOf(pmdco:PMD_0020198 obo:BFO_0000029)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020198 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020198 "DEPRECATED interstitial site"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020198 <https://w3id.org/pmd/cryo/CRYO_0000443>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020198 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020198 "DEPRECATED An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
 
 # Class: pmdco:PMD_0020199 (slip plane)
 
@@ -168,13 +173,13 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020199 "slip plane"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020199 "A slip plane is a fiat surface that corresponds to a crystallographic plane of a 3D crystal along which dislocations can glide"@en)
 SubClassOf(pmdco:PMD_0020199 obo:BFO_0000146)
 
-# Class: pmdco:PMD_0020206 (unit cell)
+# Class: pmdco:PMD_0020206 (DEPRECATED unit cell)
 
-AnnotationAssertion(obo:IAO_0000119 pmdco:PMD_0020206 "https://www.physics-in-a-nutshell.com/article/5/unit-cell-primitive-cell-and-wigner-seitz-cell")
-AnnotationAssertion(obo:IAO_0000233 pmdco:PMD_0020206 "https://github.com/materialdigital/core-ontology/pull/424")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020206 "unit cell"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0020206 "Unit cell is a immaterial entity that represents the a smallest volume element a repetitive arrangement of which can build  up the whole crystal lattice without overplaps or gaps, and there is no further partition of the unit cell that could itself be used as a unit cell."@en)
-SubClassOf(pmdco:PMD_0020206 obo:BFO_0000029)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020206 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020206 "DEPRECATED unit cell"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020206 <https://w3id.org/pmd/cryo/CRYO_0000000>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020206 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020206 "DEPRECATED Unit cell is a immaterial entity that represents the a smallest volume element a repetitive arrangement of which can build  up the whole crystal lattice without overplaps or gaps, and there is no further partition of the unit cell that could itself be used as a unit cell."@en)
 
 # Class: pmdco:PMD_0020208 (slip direction)
 
@@ -238,9 +243,9 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020238 "high angle grain boundary"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020238 "a grain boundary whose adjacent crystalls have a high angle of misalignment"@en)
 SubClassOf(pmdco:PMD_0020238 pmdco:PMD_0020213)
 
-# Class: pmdco:PMD_0020239 (small angle grain boundary)
+# Class: pmdco:PMD_0020239 (low angle grain boundary)
 
-AnnotationAssertion(rdfs:label pmdco:PMD_0020239 "small angle grain boundary"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020239 "low angle grain boundary"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020239 "a grain boundary whose adjacent crystalls have a small angle of misalignment"@en)
 SubClassOf(pmdco:PMD_0020239 pmdco:PMD_0020213)
 
@@ -309,13 +314,15 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020302 "ferrous metal microconsti
 SubClassOf(pmdco:PMD_0020302 pmdco:PMD_0020160)
 SubClassOf(pmdco:PMD_0020302 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0027010)))
 
-# Class: pmdco:PMD_0020303 (martensite)
+# Class: pmdco:PMD_0020303 (martensite (microconstituent))
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020303 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020303 "The \"part of\" and \"input of\" OPs are debatable"@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020303 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(rdfs:label pmdco:PMD_0020303 "martensite"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020303 "martensite (microconstituent)"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020303 "ferrous metal microconstituent which at the same time is a tetragonal body centered iron crystall object or object aggregate"@en)
 SubClassOf(pmdco:PMD_0020303 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020303 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(pmdco:PMD_0020280 ObjectSomeValuesFrom(obo:RO_0002352 pmdco:PMD_0026002))))))
 
 # Class: pmdco:PMD_0020335 (characteristic material property)
 
@@ -342,22 +349,55 @@ AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0022550 "For now, featuring only a
 AnnotationAssertion(rdfs:label pmdco:PMD_0022550 "Frenkel defect"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0022550 "Frenkel defect is a point defect that forms when an atom or a cation moves from lattice point to an interstitial site, creating a vacancy."@en)
 SubClassOf(pmdco:PMD_0022550 obo:BFO_0000029)
-SubClassOf(pmdco:PMD_0022550 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020224) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020198 ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_33250)))))
+SubClassOf(pmdco:PMD_0022550 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020224) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000443> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_33250)))))
 
-# Class: pmdco:PMD_0022551 (tetrahedral void)
+# Class: pmdco:PMD_0022551 (DEPRECATED tetrahedral void)
 
-AnnotationAssertion(rdfs:label pmdco:PMD_0022551 "tetrahedral void"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0022551 "tetrahedral void is an interstitial site in a close-packed lattice where one sphere (atom or ion) from the top layer sits in the triangular gap formed by 3 spheres of the bottom layer."@en)
-SubClassOf(pmdco:PMD_0022551 pmdco:PMD_0020198)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0022551 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0022551 "DEPRECATED tetrahedral void"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0022551 <https://w3id.org/pmd/cryo/CRYO_0000446>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0022551 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0022551 "DEPRECATED tetrahedral void is an interstitial site in a close-packed lattice where one sphere (atom or ion) from the top layer sits in the triangular gap formed by 3 spheres of the bottom layer."@en)
 
 # Class: pmdco:PMD_0025001 (Zusammensetzung)
 
 
-# Class: pmdco:PMD_0025038 (octahedral void)
+# Class: pmdco:PMD_0025038 (DEPRECATED octahedral void)
 
-AnnotationAssertion(rdfs:label pmdco:PMD_0025038 "octahedral void"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0025038 "octahedral void is an interstitial site in a close-packed lattice where one triangular void from the top layer of spheres (atoms or ions) sits over the triangular gap of the bottom layer."@en)
-SubClassOf(pmdco:PMD_0025038 pmdco:PMD_0020198)
+AnnotationAssertion(rdfs:comment pmdco:PMD_0025038 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0025038 "DEPRECATED octahedral void"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0025038 <https://w3id.org/pmd/cryo/CRYO_0000445>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0025038 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0025038 "DEPRECATED octahedral void is an interstitial site in a close-packed lattice where one triangular void from the top layer of spheres (atoms or ions) sits over the triangular gap of the bottom layer."@en)
+
+# Class: pmdco:PMD_0026001 (martensite (phase))
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026001 "TBD if phase or microconstituant are specified outputs of transformation"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0026001 "martensite (phase)"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026001 "Martensite (phase) is a ferrous metal phase with either tetragonal body-centered or distorted cubic body-centered crystal lattice. The Fe atoms are located at the lattice points, i.e., regular atom sites, and C atoms are located in interstitial sites."@en)
+SubClassOf(pmdco:PMD_0026001 pmdco:PMD_0020000)
+SubClassOf(pmdco:PMD_0026001 ObjectSomeValuesFrom(obo:OBI_0000312 pmdco:PMD_0026002))
+SubClassOf(pmdco:PMD_0026001 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(ObjectUnionOf(<https://w3id.org/pmd/cryo/CRYO_0000135> <https://w3id.org/pmd/cryo/CRYO_0000140>) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_18248))) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000443> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_27594))))))
+
+# Class: pmdco:PMD_0026002 (martensitic transformation)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026002 "The \"rapid cooling\" part of the axiom is to be done")
+AnnotationAssertion(rdfs:label pmdco:PMD_0026002 "martensitic transformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026002 "Martensitic transformation is a process which has austenite as specified input and happens similtuneously with rapid cooling of the material"@en)
+SubClassOf(pmdco:PMD_0026002 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0026002 ObjectSomeValuesFrom(obo:OBI_0000293 pmdco:PMD_0020280))
+
+# Class: pmdco:PMD_0026003 (lath martensite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026003 "lath martensite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026003 "Lath martensite is a microconstituent which has the following hierarchical microstructure (from small to big): lath-shapes grains that are at the same time martensite phase have small angle grain boundaries between  them and are arranged into blocks that are arranged into pellets. The latter are located in the prior austenite grains."@en)
+SubClassOf(pmdco:PMD_0026003 pmdco:PMD_0020303)
+SubClassOf(pmdco:PMD_0026003 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020417 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020418 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(ObjectIntersectionOf(pmdco:PMD_0026001 pmdco:PMD_0027004) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020239))))))))
+
+# Class: pmdco:PMD_0026004 (plate martensite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026004 "plate martensite"@en)
+SubClassOf(pmdco:PMD_0026004 pmdco:PMD_0020303)
 
 # Class: pmdco:PMD_0027001 (lamella)
 
