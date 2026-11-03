@@ -24,6 +24,7 @@ Declaration(Class(pmdco:PMD_0000595))
 Declaration(Class(pmdco:PMD_0000639))
 Declaration(Class(pmdco:PMD_0000663))
 Declaration(Class(pmdco:PMD_0000857))
+Declaration(Class(pmdco:PMD_0000890))
 Declaration(Class(pmdco:PMD_0000896))
 Declaration(Class(pmdco:PMD_0000942))
 Declaration(Class(pmdco:PMD_0000967))
@@ -31,6 +32,7 @@ Declaration(Class(pmdco:PMD_0020000))
 Declaration(Class(pmdco:PMD_0020003))
 Declaration(Class(pmdco:PMD_0020025))
 Declaration(Class(pmdco:PMD_0020112))
+Declaration(Class(pmdco:PMD_0020147))
 Declaration(Class(pmdco:PMD_0020160))
 Declaration(Class(pmdco:PMD_0020197))
 Declaration(Class(pmdco:PMD_0020198))
@@ -66,6 +68,11 @@ Declaration(Class(pmdco:PMD_0026002))
 Declaration(Class(pmdco:PMD_0026003))
 Declaration(Class(pmdco:PMD_0026004))
 Declaration(Class(pmdco:PMD_0026005))
+Declaration(Class(pmdco:PMD_0026006))
+Declaration(Class(pmdco:PMD_0026007))
+Declaration(Class(pmdco:PMD_0026008))
+Declaration(Class(pmdco:PMD_0026009))
+Declaration(Class(pmdco:PMD_0026010))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
@@ -112,6 +119,10 @@ Declaration(AnnotationProperty(skos:comment))
 
 # Class: pmdco:PMD_0000595 (Defektdichte)
 
+
+# Class: pmdco:PMD_0000663 (kristallit)
+
+SubClassOf(pmdco:PMD_0000663 pmdco:PMD_0020003)
 
 # Class: pmdco:PMD_0000853 (kristallographische Textur)
 
@@ -274,6 +285,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020285 "pearlite"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020285 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some clearly lamella shaped entities that at the same time are cementite thermodynamic phase"@en)
 SubClassOf(pmdco:PMD_0020285 pmdco:PMD_0020160)
 SubClassOf(pmdco:PMD_0020285 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027002)) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027002 pmdco:PMD_0027010))))
+SubClassOf(pmdco:PMD_0020285 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026008))
 
 # Class: pmdco:PMD_0020286 (widmanstatten structure)
 
@@ -403,9 +415,45 @@ SubClassOf(pmdco:PMD_0026004 pmdco:PMD_0020303)
 # Class: pmdco:PMD_0026005 (prior aistenite grain boundary)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026005 "prior aistenite grain boundary"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0026005 "prior aistenite grain boundary is a grain boundary that remained after a martensitic transofrmation as the austenite transformed into martensite."@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026005 "prior aistenite grain boundary is a grain boundary that remained after a phase transformation as the austenite transformed into other phase or microconstituent"@en)
 EquivalentClasses(pmdco:PMD_0026005 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:RO_0001000 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0020280)))))
 SubClassOf(pmdco:PMD_0026005 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0026006 (lamellar colony)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026006 "lamellar colony"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026006 "Lamellar colony is an aggregate of alternating, approximately parallel lamellae of two phases, distinguished from neighbouring colonies by a change in lamellar orientation."@en)
+SubClassOf(pmdco:PMD_0026006 pmdco:PMD_0000890)
+SubClassOf(pmdco:PMD_0026006 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027002))
+
+# Class: pmdco:PMD_0026007 (pearlite colony)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026007 "pearlite colony"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026007 "lamellar colony formed by eutectoid decomposition of austenite, whose lamellae are ferrite and cementite"@en)
+SubClassOf(pmdco:PMD_0026007 pmdco:PMD_0026006)
+SubClassOf(pmdco:PMD_0026007 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027002)) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027002 pmdco:PMD_0027010))))
+
+# Class: pmdco:PMD_0026008 (pearlite block)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026008 "pearlite block"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0026008 "pearlite nodule"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026008 "aggregate of pearlite colonies"@en)
+SubClassOf(pmdco:PMD_0026008 pmdco:PMD_0000890)
+SubClassOf(pmdco:PMD_0026008 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026007))
+
+# Class: pmdco:PMD_0026009 (pearlitic transformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026009 "pearlitic transformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026009 "eutectoid decomposition in steels where austenite is transfrormed into pearlite"@en)
+SubClassOf(pmdco:PMD_0026009 pmdco:PMD_0020147)
+SubClassOf(pmdco:PMD_0026009 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002233 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020285)))
+
+# Class: pmdco:PMD_0026010 (interlamellar spacing)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026010 "interlamellar spacing"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026010 "Interlamellar spacing is the distance from a lamella of one phase to the next lamella of the same phase in lamellar colony"@en)
+SubClassOf(pmdco:PMD_0026010 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0026010 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0026006))
 
 # Class: pmdco:PMD_0027001 (lamella)
 
@@ -414,8 +462,7 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0027001 "PERSON: PMDco Team")
 AnnotationAssertion(rdfs:label pmdco:PMD_0027001 "lamella"@en)
 AnnotationAssertion(skos:comment pmdco:PMD_0027001 "It may part of a lamellae object oggregate")
 AnnotationAssertion(skos:definition pmdco:PMD_0027001 "lamella is an object that represents a thin, flat, plate-like layer or flake within microstructure."@en)
-SubClassOf(pmdco:PMD_0027001 obo:BFO_0000030)
-SubClassOf(pmdco:PMD_0027001 ObjectIntersectionOf(pmdco:PMD_0020000 pmdco:PMD_0020003))
+SubClassOf(pmdco:PMD_0027001 pmdco:PMD_0000663)
 DisjointClasses(pmdco:PMD_0027001 pmdco:PMD_0027004)
 
 # Class: pmdco:PMD_0027002 (lamellae)

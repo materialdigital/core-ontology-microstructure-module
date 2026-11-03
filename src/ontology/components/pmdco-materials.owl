@@ -251,7 +251,7 @@ AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/CHEBI_60003> <h
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#example> <http://purl.obolibrary.org/obo/CHEBI_60003> "Pure water, a portion of iron atoms. In contrast, salt water 'has part' a portion of pure water and a portion of pure NaCl. Steel 'has part' a 'portion of pure iron', a 'portion of pure carbon' and possibly portions of other alloying- and impurity-elements."@en)
 AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0000060> <http://purl.obolibrary.org/obo/CHEBI_60003> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological process)
+# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
@@ -367,7 +367,6 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://w3id
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://w3id.org/pmd/co/PMD_0000663> "grain"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <https://w3id.org/pmd/co/PMD_0000663> "A crystal grain is a crystal that is part of a polycrystal."@en)
 AnnotationAssertion(<https://w3id.org/pmd/co/PMD_0000060> <https://w3id.org/pmd/co/PMD_0000663> "true"^^xsd:boolean)
-SubClassOf(<https://w3id.org/pmd/co/PMD_0000663> <https://w3id.org/pmd/co/PMD_0020003>)
 
 # Class: <https://w3id.org/pmd/co/PMD_0000833> (manufacturing process)
 
