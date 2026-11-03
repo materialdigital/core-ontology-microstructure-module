@@ -474,7 +474,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0027002 "lamellae"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0027002 "lamellae is an object aggregate that is part of some microconstituent and at the same time a single thermodynamic phase"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0027002 "ferrite lamellae in perlite microcontituent"@en)
 SubClassOf(pmdco:PMD_0027002 obo:BFO_0000027)
-SubClassOf(pmdco:PMD_0027002 ObjectAllValuesFrom(obo:RO_0002351 pmdco:PMD_0027001))
+SubClassOf(pmdco:PMD_0027002 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027001))
 
 # Class: pmdco:PMD_0027003 (average lamella thickness)
 
