@@ -312,7 +312,7 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020300 "PERSON: Philipp von Hartr
 AnnotationAssertion(rdfs:label pmdco:PMD_0020300 "bainite"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020300 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some finely dispersed entities that at the same time are cementite thermodynamic phase"@en)
 SubClassOf(pmdco:PMD_0020300 pmdco:PMD_0020160)
-SubClassOf(pmdco:PMD_0020300 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026017)))
+SubClassOf(pmdco:PMD_0020300 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026005) ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026017)))
 
 # Class: pmdco:PMD_0020301 (ferrite)
 
