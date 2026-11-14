@@ -343,6 +343,8 @@ AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020303 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020303 "The \"part of\" and \"input of\" OPs are debatable"@en)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020303 "PERSON: Philipp von Hartrott")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020303 "martensite (microconstituent)"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0020303 "TODO: some things to consider: martensite is not only Fe-C microconstituent
+Writing axioms with cementite is too restrictive, it might be nitride, etc.")
 AnnotationAssertion(skos:definition pmdco:PMD_0020303 "ferrous metal microconstituent which at the same time is a tetragonal body centered iron crystall object or object aggregate"@en)
 SubClassOf(pmdco:PMD_0020303 pmdco:PMD_0020160)
 SubClassOf(pmdco:PMD_0020303 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026005)))
