@@ -423,7 +423,9 @@ SubClassOf(pmdco:PMD_0026003 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersec
 # Class: pmdco:PMD_0026004 (plate martensite)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026004 "plate martensite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026004 "plate martensite is a martensite that has plate-like martensite phase (i.e., crystal lattice) with twin boundaries."@en)
 SubClassOf(pmdco:PMD_0026004 pmdco:PMD_0020303)
+SubClassOf(pmdco:PMD_0026004 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(ObjectIntersectionOf(pmdco:PMD_0026001 pmdco:PMD_0026012) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020240))))
 
 # Class: pmdco:PMD_0026005 (prior aistenite grain boundary)
 
