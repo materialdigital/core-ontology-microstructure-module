@@ -302,6 +302,7 @@ SubClassOf(pmdco:PMD_0020285 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020286 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020286 "PERSON: Philipp von Hartrott")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020286 "widmanstatten structure"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0020286 "Kamilla: not unique to Fe-C alloys")
 AnnotationAssertion(skos:definition pmdco:PMD_0020286 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some entities that at the same time are cementite thermodynamic phase"@en)
 SubClassOf(pmdco:PMD_0020286 pmdco:PMD_0020160)
 
