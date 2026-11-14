@@ -29,6 +29,7 @@ Declaration(Class(pmdco:PMD_0000896))
 Declaration(Class(pmdco:PMD_0000942))
 Declaration(Class(pmdco:PMD_0000967))
 Declaration(Class(pmdco:PMD_0020000))
+Declaration(Class(pmdco:PMD_0020002))
 Declaration(Class(pmdco:PMD_0020003))
 Declaration(Class(pmdco:PMD_0020025))
 Declaration(Class(pmdco:PMD_0020112))
@@ -73,6 +74,13 @@ Declaration(Class(pmdco:PMD_0026007))
 Declaration(Class(pmdco:PMD_0026008))
 Declaration(Class(pmdco:PMD_0026009))
 Declaration(Class(pmdco:PMD_0026010))
+Declaration(Class(pmdco:PMD_0026011))
+Declaration(Class(pmdco:PMD_0026012))
+Declaration(Class(pmdco:PMD_0026013))
+Declaration(Class(pmdco:PMD_0026014))
+Declaration(Class(pmdco:PMD_0026015))
+Declaration(Class(pmdco:PMD_0026016))
+Declaration(Class(pmdco:PMD_0026017))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
@@ -92,6 +100,7 @@ Declaration(Class(pmdco:PMD_0027016))
 Declaration(Class(pmdco:PMD_0027017))
 Declaration(Class(pmdco:PMD_0027018))
 Declaration(Class(pmdco:PMD_0027019))
+Declaration(Class(pmdco:PMD_0050155))
 Declaration(Class(pmdco:PMD_0080597))
 Declaration(Class(pmdco:PMD_0100000))
 Declaration(Class(pmdco:PMD_0100001))
@@ -99,6 +108,7 @@ Declaration(Class(pmdco:PMD_0100002))
 Declaration(Class(pmdco:PMD_0100003))
 Declaration(Class(pmdco:PMD_0100004))
 Declaration(Class(pmdco:PMD_0100005))
+Declaration(ObjectProperty(obo:RO_0002220))
 Declaration(ObjectProperty(pmdco:PMD_0025998))
 Declaration(AnnotationProperty(skos:comment))
 
@@ -302,7 +312,7 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020300 "PERSON: Philipp von Hartr
 AnnotationAssertion(rdfs:label pmdco:PMD_0020300 "bainite"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020300 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some finely dispersed entities that at the same time are cementite thermodynamic phase"@en)
 SubClassOf(pmdco:PMD_0020300 pmdco:PMD_0020160)
-SubClassOf(pmdco:PMD_0020300 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0027010)))
+SubClassOf(pmdco:PMD_0020300 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026017)))
 
 # Class: pmdco:PMD_0020301 (ferrite)
 
@@ -394,7 +404,7 @@ SubClassOf(pmdco:PMD_0026001 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_00
 
 # Class: pmdco:PMD_0026002 (martensitic transformation)
 
-AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026002 "The \"rapid cooling\" part of the axiom is to be done")
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026002 "The \"rapid cooling\" part of the axiom is to be done; the shear displacement of the lattice taking place to be done")
 AnnotationAssertion(rdfs:label pmdco:PMD_0026002 "martensitic transformation"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0026002 "Martensitic transformation is a process which has austenite as specified input and happens similtuneously with rapid cooling of the material"@en)
 SubClassOf(pmdco:PMD_0026002 obo:BFO_0000015)
@@ -455,6 +465,59 @@ AnnotationAssertion(skos:definition pmdco:PMD_0026010 "Interlamellar spacing is 
 SubClassOf(pmdco:PMD_0026010 pmdco:PMD_0020335)
 SubClassOf(pmdco:PMD_0026010 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0026006))
 
+# Class: pmdco:PMD_0026011 (sheaf)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026011 "The shape is featured in axioms for the lath- and plate-like bainite"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0026011 "sheaf"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026011 "sheaf is a object aggregate consisting of parallely arranged ferrite plates or laths in bainite."@en)
+SubClassOf(pmdco:PMD_0026011 obo:BFO_0000027)
+SubClassOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301))
+
+# Class: pmdco:PMD_0026012 (plate (grain))
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026012 "plate (grain)"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0026012 "platelet"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026012 "plate (grain) is a crystallite with a shape elongated in two directions, i.e., the length and wdith are considerably larger than thickness."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0026012 "ferrite plate in bainite"@en)
+SubClassOf(pmdco:PMD_0026012 pmdco:PMD_0000663)
+
+# Class: pmdco:PMD_0026013 (granular bainite)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026013 "The shape of the ferrtitic grains could be asserted")
+AnnotationAssertion(rdfs:label pmdco:PMD_0026013 "granular bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026013 "Granular bainite consists of irregular bainite grains and martensite."@en)
+SubClassOf(pmdco:PMD_0026013 pmdco:PMD_0020300)
+SubClassOf(pmdco:PMD_0026013 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(ObjectIntersectionOf(pmdco:PMD_0000663 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0050155)))))
+
+# Class: pmdco:PMD_0026014 (lath-like bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026014 "lath-like bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026014 "Plate-like bainite is a bainite that ferrite grains have lath shape")
+EquivalentClasses(pmdco:PMD_0026014 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027004))))))
+SubClassOf(pmdco:PMD_0026014 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0026015 (plate-like bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026015 "plate-like bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026015 "Plate-like bainite is a bainite that ferrite grains have plate shape"@en)
+EquivalentClasses(pmdco:PMD_0026015 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0026012))))))
+SubClassOf(pmdco:PMD_0026015 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0026016 (cementite-free bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026016 "cementite-free bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026016 "Cementite-free bainite consits of ferrite laths and mixure of martensite and retained austenite at the the ferrite grain boundaries"@en)
+SubClassOf(pmdco:PMD_0026016 pmdco:PMD_0020300)
+SubClassOf(pmdco:PMD_0026016 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001)))
+
+# Class: pmdco:PMD_0026017 (bainitic transformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026017 "bainitic transformation"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0026017 "TODO add nature of the transformation: diffusionless shear of austenite into ferrite and limited diffusion and thus precipitation of carbides (what to do with carbide-free bainite tho)")
+AnnotationAssertion(skos:definition pmdco:PMD_0026017 "bainitic transformation is a solid-state phase transformation that occurs simultaneously with cooling at intermediate rates, has austenite as input and bainite as output."@en)
+SubClassOf(pmdco:PMD_0026017 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0026017 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002233 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020300)))
+
 # Class: pmdco:PMD_0027001 (lamella)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0027001 obo:IAO_0000122)
@@ -492,7 +555,7 @@ AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0027004 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0027004 "PERSON: PMDco Team")
 AnnotationAssertion(rdfs:label pmdco:PMD_0027004 "lath"@en)
 AnnotationAssertion(skos:comment pmdco:PMD_0027004 "A lath is a crystal of a single phase. e.g., cementite in a crystallite of bainite microcontituent."@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0027004 "Lath is an elongated crystallite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027004 "Lath is a crystallite elongated only in one direction, i.e., its length is considerably larger than its width and thickness"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0027004 "lath of cementite embedded in ferrite matix in bainite microconstituent"@en)
 SubClassOf(pmdco:PMD_0027004 pmdco:PMD_0000663)
 
@@ -544,11 +607,13 @@ SubClassOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersect
 # Class: pmdco:PMD_0027011 (upper bainite)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0027011 "upper bainite"@en)
+EquivalentClasses(pmdco:PMD_0027011 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002) ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0026011)))))))
 SubClassOf(pmdco:PMD_0027011 pmdco:PMD_0020300)
 
 # Class: pmdco:PMD_0027012 (lower bainite)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0027012 "lower bainite"@en)
+EquivalentClasses(pmdco:PMD_0027012 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002) ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(pmdco:PMD_0020301 ObjectUnionOf(pmdco:PMD_0026012 pmdco:PMD_0027004)))))))
 SubClassOf(pmdco:PMD_0027012 pmdco:PMD_0020300)
 
 # Class: pmdco:PMD_0027013 (deformation band)
