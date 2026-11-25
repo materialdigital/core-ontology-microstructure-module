@@ -26,7 +26,8 @@ jobs:
         env:
           ROBOT_ENV: 'ROBOT_JAVA_ARGS=-Xmx6G'
           DEFAULT_BRANCH: main
-        run: cd src/ontology && make IMP=false MIR=false all_assets
+        #run: cd src/ontology && make IMP=false MIR=false all_assets
+        run: cd src/ontology && mkdir -p mirror && touch mirror/bfo.owl && make IMP=false MIR=false all_assets
 
       - name: Commit files # commit the src folder
         uses: EndBug/add-and-commit@v9
