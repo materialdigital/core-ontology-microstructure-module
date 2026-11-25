@@ -13,14 +13,103 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<https://w3id.org/pmd/co/components/pmdco-microstructure.owl>
 Import(<https://w3id.org/pmd/co/components/pmdco-shared.owl>)
 
+Declaration(Class(obo:CHEBI_18248))
+Declaration(Class(obo:CHEBI_27594))
+Declaration(Class(obo:CHEBI_33250))
+Declaration(Class(pmdco:PMD_0000001))
+Declaration(Class(pmdco:PMD_0000503))
+Declaration(Class(pmdco:PMD_0000512))
+Declaration(Class(pmdco:PMD_0000591))
+Declaration(Class(pmdco:PMD_0000595))
+Declaration(Class(pmdco:PMD_0000639))
+Declaration(Class(pmdco:PMD_0000663))
+Declaration(Class(pmdco:PMD_0000857))
+Declaration(Class(pmdco:PMD_0000890))
+Declaration(Class(pmdco:PMD_0000896))
+Declaration(Class(pmdco:PMD_0000942))
+Declaration(Class(pmdco:PMD_0000967))
 Declaration(Class(pmdco:PMD_0020000))
+Declaration(Class(pmdco:PMD_0020002))
 Declaration(Class(pmdco:PMD_0020003))
+Declaration(Class(pmdco:PMD_0020025))
+Declaration(Class(pmdco:PMD_0020112))
+Declaration(Class(pmdco:PMD_0020147))
+Declaration(Class(pmdco:PMD_0020160))
+Declaration(Class(pmdco:PMD_0020197))
+Declaration(Class(pmdco:PMD_0020198))
+Declaration(Class(pmdco:PMD_0020199))
+Declaration(Class(pmdco:PMD_0020206))
+Declaration(Class(pmdco:PMD_0020208))
+Declaration(Class(pmdco:PMD_0020213))
+Declaration(Class(pmdco:PMD_0020224))
+Declaration(Class(pmdco:PMD_0020233))
+Declaration(Class(pmdco:PMD_0020234))
+Declaration(Class(pmdco:PMD_0020235))
+Declaration(Class(pmdco:PMD_0020236))
+Declaration(Class(pmdco:PMD_0020238))
+Declaration(Class(pmdco:PMD_0020239))
+Declaration(Class(pmdco:PMD_0020240))
+Declaration(Class(pmdco:PMD_0020241))
+Declaration(Class(pmdco:PMD_0020280))
+Declaration(Class(pmdco:PMD_0020285))
+Declaration(Class(pmdco:PMD_0020286))
+Declaration(Class(pmdco:PMD_0020300))
+Declaration(Class(pmdco:PMD_0020301))
+Declaration(Class(pmdco:PMD_0020302))
+Declaration(Class(pmdco:PMD_0020303))
 Declaration(Class(pmdco:PMD_0020335))
+Declaration(Class(pmdco:PMD_0020417))
+Declaration(Class(pmdco:PMD_0020418))
+Declaration(Class(pmdco:PMD_0022550))
+Declaration(Class(pmdco:PMD_0022551))
+Declaration(Class(pmdco:PMD_0025001))
+Declaration(Class(pmdco:PMD_0025038))
+Declaration(Class(pmdco:PMD_0026001))
+Declaration(Class(pmdco:PMD_0026002))
+Declaration(Class(pmdco:PMD_0026003))
+Declaration(Class(pmdco:PMD_0026004))
+Declaration(Class(pmdco:PMD_0026005))
+Declaration(Class(pmdco:PMD_0026006))
+Declaration(Class(pmdco:PMD_0026007))
+Declaration(Class(pmdco:PMD_0026008))
+Declaration(Class(pmdco:PMD_0026009))
+Declaration(Class(pmdco:PMD_0026010))
+Declaration(Class(pmdco:PMD_0026011))
+Declaration(Class(pmdco:PMD_0026012))
+Declaration(Class(pmdco:PMD_0026013))
+Declaration(Class(pmdco:PMD_0026014))
+Declaration(Class(pmdco:PMD_0026015))
+Declaration(Class(pmdco:PMD_0026016))
+Declaration(Class(pmdco:PMD_0026017))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
 Declaration(Class(pmdco:PMD_0027004))
 Declaration(Class(pmdco:PMD_0027005))
+Declaration(Class(pmdco:PMD_0027006))
+Declaration(Class(pmdco:PMD_0027007))
+Declaration(Class(pmdco:PMD_0027008))
+Declaration(Class(pmdco:PMD_0027009))
+Declaration(Class(pmdco:PMD_0027010))
+Declaration(Class(pmdco:PMD_0027011))
+Declaration(Class(pmdco:PMD_0027012))
+Declaration(Class(pmdco:PMD_0027013))
+Declaration(Class(pmdco:PMD_0027014))
+Declaration(Class(pmdco:PMD_0027015))
+Declaration(Class(pmdco:PMD_0027016))
+Declaration(Class(pmdco:PMD_0027017))
+Declaration(Class(pmdco:PMD_0027018))
+Declaration(Class(pmdco:PMD_0027019))
+Declaration(Class(pmdco:PMD_0050155))
+Declaration(Class(pmdco:PMD_0080597))
+Declaration(Class(pmdco:PMD_0100000))
+Declaration(Class(pmdco:PMD_0100001))
+Declaration(Class(pmdco:PMD_0100002))
+Declaration(Class(pmdco:PMD_0100003))
+Declaration(Class(pmdco:PMD_0100004))
+Declaration(Class(pmdco:PMD_0100005))
+Declaration(ObjectProperty(obo:RO_0002220))
+Declaration(ObjectProperty(pmdco:PMD_0025998))
 Declaration(AnnotationProperty(skos:comment))
 
 
@@ -29,6 +118,412 @@ Declaration(AnnotationProperty(skos:comment))
 #   Classes
 ############################
 
+# Class: pmdco:PMD_0000503 (OBSOLETE ASTM grainsize)
+
+
+# Class: pmdco:PMD_0000512 (DEPRECATED Aggregatzustand)
+
+
+# Class: pmdco:PMD_0000591 (Kristallstruktur)
+
+
+# Class: pmdco:PMD_0000595 (Defektdichte)
+
+
+# Class: pmdco:PMD_0000663 (kristallit)
+
+SubClassOf(pmdco:PMD_0000663 pmdco:PMD_0020003)
+
+# Class: pmdco:PMD_0000853 (kristallographische Textur)
+
+
+# Class: pmdco:PMD_0000896 (pressure)
+
+
+# Class: pmdco:PMD_0000942 (specific surface area)
+
+
+# Class: pmdco:PMD_0000967 (temperature)
+
+
+# Class: pmdco:PMD_0020000 (phase (thermodynamic))
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020000 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020000 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020003 (crystal)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020003 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020112 (OBSOLETE grain size distribution)
+
+
+# Class: pmdco:PMD_0020160 (ferrous metal microconstituent)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020160 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020160 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020160 "Microconstiutents were coined in the times of light-optical metallography and are related to the differences that can be observed using this experimental process. 
+
+In metallography the term phase is sometimes used to denote microconstituents. To avoid confusion, the term phase should only be used for thermodynamic phases."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020160 "ferrous metal microconstituent"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020160 "A portion of matter that is at the same time an object at the microscopic scale which in turn is part of some ferrous metal."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0020160 "Pearlite is a microconstituent that has as parts some entities (lamellae) that at the same time are the thermodynamic phases ferrite (α-Fe) and cementite (Fe3C) . The characteristic spatial arrangement is in that case the lamellar orientation of the phases."@en)
+AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020160 "true"^^xsd:boolean)
+SubClassOf(pmdco:PMD_0020160 ObjectIntersectionOf(pmdco:PMD_0000001 ObjectIntersectionOf(ObjectUnionOf(obo:BFO_0000027 obo:BFO_0000030) ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000639))))
+DisjointUnion(pmdco:PMD_0020160 pmdco:PMD_0020280 pmdco:PMD_0020285 pmdco:PMD_0020286 pmdco:PMD_0020300 pmdco:PMD_0020301 pmdco:PMD_0020302 pmdco:PMD_0020303)
+
+# Class: pmdco:PMD_0020197 (lattice point)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020197 "Same as lattice point from CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020197 "DEPRECATED lattice point"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020197 <https://w3id.org/pmd/cryo/CRYO_0000405>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020197 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020197 "DEPRECATED A lattice point is a fiat point that represents a position in a crystal lattice at which structural entities are regularly arranged."@en)
+
+# Class: pmdco:PMD_0020198 (interstitial site)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020198 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020198 "DEPRECATED interstitial site"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020198 <https://w3id.org/pmd/cryo/CRYO_0000443>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020198 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020198 "DEPRECATED An interstitial site is a site that is located between regular lattice points in a crystal structure."@en)
+
+# Class: pmdco:PMD_0020199 (slip plane)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020199 "slip plane"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020199 "A slip plane is a fiat surface that corresponds to a crystallographic plane of a 3D crystal along which dislocations can glide"@en)
+SubClassOf(pmdco:PMD_0020199 obo:BFO_0000146)
+
+# Class: pmdco:PMD_0020206 (DEPRECATED unit cell)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020206 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020206 "DEPRECATED unit cell"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0020206 <https://w3id.org/pmd/cryo/CRYO_0000000>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0020206 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0020206 "DEPRECATED Unit cell is a immaterial entity that represents the a smallest volume element a repetitive arrangement of which can build  up the whole crystal lattice without overplaps or gaps, and there is no further partition of the unit cell that could itself be used as a unit cell."@en)
+
+# Class: pmdco:PMD_0020208 (slip direction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020208 "slip direction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020208 "A slip direction is a fiat line that corresponds to the crystallographic direction along which dislocations glide os a slip plane."@en)
+SubClassOf(pmdco:PMD_0020208 obo:BFO_0000142)
+
+# Class: pmdco:PMD_0020213 (grain boundary)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020213 "the part of a grain that is close to the grain boundary and possibly characterized by disorder is a fiat object part (grain surface layer)
+
+a grain boundary in 3D is characterized by 5 macroscopic grain boundary parameters as defined by:
+- orientation of the grain boundary plane (2 parameters)
+- misorientiation accross the grain boundary plane (3 parameters)"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020213 "grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020213 "A grain boundary is a fiat surface that separates adjacent grains in a polycrystalline material and is characterized by a discontinuity in crystallographic orientation."@en)
+SubClassOf(pmdco:PMD_0020213 obo:BFO_0000024)
+SubClassOf(pmdco:PMD_0020213 ObjectExactCardinality(2 obo:RO_0002350 ObjectIntersectionOf(pmdco:PMD_0020003 ObjectSomeValuesFrom(pmdco:PMD_0025998 pmdco:PMD_0020241))))
+
+# Class: pmdco:PMD_0020224 (vacancy (crystal))
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "Kamilla: is it a sublcass of lattice point? aka vacancy is a lattice point not occupied with  an atom / ion")
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020224 "TODO: replace topObjectProperty with occupies spatial region"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0020224 "vacancy (crystal)"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020224 "site at lattice point at which the crystal forming entity is missing"@en)
+SubClassOf(pmdco:PMD_0020224 obo:BFO_0000147)
+SubClassOf(pmdco:PMD_0020224 ObjectSomeValuesFrom(owl:topObjectProperty <https://w3id.org/pmd/cryo/CRYO_0000405>))
+
+# Class: pmdco:PMD_0020233 (dislocation)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020233 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020233 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020233 "dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020233 "a linear site in a cystal that interrupts the cystal ordering"@en)
+SubClassOf(pmdco:PMD_0020233 obo:BFO_0000142)
+
+# Class: pmdco:PMD_0020234 (screw dislocation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020234 "screw dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020234 "a dislocation characterized by its Burgers vector being parallel parallel to dislocation line, characterized by shearing the crystal lattice by one plane."@en)
+SubClassOf(pmdco:PMD_0020234 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020235 (edge dislocation)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020235 "TODO: add dislocation line, move Burgers bector from qualities to fiat lines,  move normal and parallel to from NOES to micro, write axioms")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020235 "edge dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020235 "a dislocation characterized by its Burgers vector being parallel normal to dislocation line, visible as one extra half plane in the crystal lattice"@en)
+SubClassOf(pmdco:PMD_0020235 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020236 (mixed dislocation)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020236 "Kamilla: changed equivalent class axiom from \"screw dislocation and edge dislocation\" to \"has member *both of these*\" cause mixed dislocation has both of these types, resulting to angle between dislocation line and Burgers vector varying from 0° to 90°. The previous axiom was wrong from MSE point of view, stating that mixed dislocation is at the same time screw and edge, i.e., the angle is at the same time 0° and 90°")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020236 "mixed dislocation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020236 "a dislocation that spans edge dislocation as well as screw dislocation"@en)
+EquivalentClasses(pmdco:PMD_0020236 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020234) ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020235)))
+SubClassOf(pmdco:PMD_0020236 pmdco:PMD_0020233)
+
+# Class: pmdco:PMD_0020238 (high angle grain boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020238 "high angle grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020238 "a grain boundary whose adjacent crystalls have a high angle of misalignment"@en)
+SubClassOf(pmdco:PMD_0020238 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0020239 (low angle grain boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020239 "low angle grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020239 "a grain boundary whose adjacent crystalls have a small angle of misalignment"@en)
+SubClassOf(pmdco:PMD_0020239 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0020240 (twin boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020240 "twin boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020240 "grain boundary without distorted lattice"@en)
+SubClassOf(pmdco:PMD_0020240 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0020280 (austenite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020280 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020280 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020280 "austenite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020280 "ferrous metal microconstituent which at the same time is a face-centered cubic iron crystall object or object aggregate"@en)
+SubClassOf(pmdco:PMD_0020280 pmdco:PMD_0020000)
+SubClassOf(pmdco:PMD_0020280 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020280 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000134> ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_18248))))))
+
+# Class: pmdco:PMD_0020285 (pearlite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020285 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020285 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020285 "pearlite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020285 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some clearly lamella shaped entities that at the same time are cementite thermodynamic phase"@en)
+SubClassOf(pmdco:PMD_0020285 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020285 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027002)) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027002 pmdco:PMD_0027010))))
+SubClassOf(pmdco:PMD_0020285 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026008))
+
+# Class: pmdco:PMD_0020286 (widmanstatten structure)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020286 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020286 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020286 "widmanstatten structure"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0020286 "Kamilla: not unique to Fe-C alloys")
+AnnotationAssertion(skos:definition pmdco:PMD_0020286 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some entities that at the same time are cementite thermodynamic phase"@en)
+SubClassOf(pmdco:PMD_0020286 pmdco:PMD_0020160)
+
+# Class: pmdco:PMD_0020300 (bainite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020300 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020300 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020300 "bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020300 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate and has part some finely dispersed entities that at the same time are cementite thermodynamic phase"@en)
+SubClassOf(pmdco:PMD_0020300 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020300 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026005) ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026017)))
+
+# Class: pmdco:PMD_0020301 (ferrite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020301 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020301 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:comment pmdco:PMD_0020301 "Alternative axiom: 'located in' some 
+('bravais lattice cubic body-centered' and ('has part' some 
+('lattice point' and ('reference lattice point of' some 
+('regular atom site' and ('location of' some CHEBI_18248))))))")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020301 "ferrite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020301 "ferrous metal microconstituent which at the same time is a body centered cubic iron crystall object or object aggregate"@en)
+SubClassOf(pmdco:PMD_0020301 pmdco:PMD_0020000)
+SubClassOf(pmdco:PMD_0020301 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020301 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000135> ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_18248))))))
+
+# Class: pmdco:PMD_0020302 (ledeburite)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020302 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020302 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020302 "ledeburite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020302 "ferrous metal microconstituent which at the same time is a face centered cubic iron crystall object or object aggregate and has part some entities that at the same time are cementite thermodynamic phase"@en)
+SubClassOf(pmdco:PMD_0020302 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020302 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0027010)))
+
+# Class: pmdco:PMD_0020303 (martensite (microconstituent))
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020303 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0020303 "The \"part of\" and \"input of\" OPs are debatable"@en)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020303 "PERSON: Philipp von Hartrott")
+AnnotationAssertion(rdfs:label pmdco:PMD_0020303 "martensite (microconstituent)"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0020303 "TODO: some things to consider: martensite is not only Fe-C microconstituent
+Writing axioms with cementite is too restrictive, it might be nitride, etc.")
+AnnotationAssertion(skos:definition pmdco:PMD_0020303 "ferrous metal microconstituent which at the same time is a tetragonal body centered iron crystall object or object aggregate"@en)
+SubClassOf(pmdco:PMD_0020303 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0020303 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026005)))
+SubClassOf(pmdco:PMD_0020303 ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026002))
+
+# Class: pmdco:PMD_0020335 (characteristic material property)
+
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020335 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020335 "PERSON: Philipp von Hartrott")
+
+# Class: pmdco:PMD_0020417 (crystallographic packet)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020417 "crystallographic packet"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020417 "an object that has crytallgraphic blocks as part"@en)
+SubClassOf(pmdco:PMD_0020417 obo:BFO_0000030)
+SubClassOf(pmdco:PMD_0020417 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020418))
+
+# Class: pmdco:PMD_0020418 (crystallographic block)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0020418 "crystallographic block"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0020418 "an object that has laths as parts"@en)
+SubClassOf(pmdco:PMD_0020418 obo:BFO_0000030)
+SubClassOf(pmdco:PMD_0020418 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027005))
+
+# Class: pmdco:PMD_0022550 (Frenkel defect)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0022550 "For now, featuring only atoms, cause the cation option is applicable to metals, i.e., cation + electron gas, which is a more sophisticated representation."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0022550 "Frenkel defect"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0022550 "Frenkel defect is a point defect that forms when an atom or a cation moves from lattice point to an interstitial site, creating a vacancy."@en)
+SubClassOf(pmdco:PMD_0022550 obo:BFO_0000029)
+SubClassOf(pmdco:PMD_0022550 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020224) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000443> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_33250)))))
+
+# Class: pmdco:PMD_0022551 (DEPRECATED tetrahedral void)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0022551 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0022551 "DEPRECATED tetrahedral void"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0022551 <https://w3id.org/pmd/cryo/CRYO_0000446>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0022551 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0022551 "DEPRECATED tetrahedral void is an interstitial site in a close-packed lattice where one sphere (atom or ion) from the top layer sits in the triangular gap formed by 3 spheres of the bottom layer."@en)
+
+# Class: pmdco:PMD_0025001 (Zusammensetzung)
+
+
+# Class: pmdco:PMD_0025038 (DEPRECATED octahedral void)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0025038 "Moved to CryO")
+AnnotationAssertion(rdfs:label pmdco:PMD_0025038 "DEPRECATED octahedral void"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0025038 <https://w3id.org/pmd/cryo/CRYO_0000445>)
+AnnotationAssertion(owl:deprecated pmdco:PMD_0025038 "true"^^xsd:boolean)
+AnnotationAssertion(skos:definition pmdco:PMD_0025038 "DEPRECATED octahedral void is an interstitial site in a close-packed lattice where one triangular void from the top layer of spheres (atoms or ions) sits over the triangular gap of the bottom layer."@en)
+
+# Class: pmdco:PMD_0026001 (martensite (phase))
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026001 "TBD if phase or microconstituant are specified outputs of transformation"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0026001 "martensite (phase)"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026001 "Martensite (phase) is a ferrous metal phase with either tetragonal body-centered or distorted cubic body-centered crystal lattice. The Fe atoms are located at the lattice points, i.e., regular atom sites, and C atoms are located in interstitial sites."@en)
+SubClassOf(pmdco:PMD_0026001 pmdco:PMD_0020000)
+SubClassOf(pmdco:PMD_0026001 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(ObjectUnionOf(<https://w3id.org/pmd/cryo/CRYO_0000135> <https://w3id.org/pmd/cryo/CRYO_0000140>) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_18248))) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000443> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_27594))))) ObjectSomeValuesFrom(obo:RO_0002353 pmdco:PMD_0026002)))
+
+# Class: pmdco:PMD_0026002 (martensitic transformation)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026002 "The \"rapid cooling\" part of the axiom is to be done; the shear displacement of the lattice taking place to be done")
+AnnotationAssertion(rdfs:label pmdco:PMD_0026002 "martensitic transformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026002 "Martensitic transformation is a process which has austenite as specified input and happens similtuneously with rapid cooling of the material"@en)
+SubClassOf(pmdco:PMD_0026002 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0026002 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002233 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020303)))
+
+# Class: pmdco:PMD_0026003 (lath martensite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026003 "lath martensite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026003 "Lath martensite is a microconstituent which has the following hierarchical microstructure (from small to big): lath-shapes grains that are at the same time martensite phase have small angle grain boundaries between  them and are arranged into blocks that are arranged into pellets. The latter are located in the prior austenite grains."@en)
+SubClassOf(pmdco:PMD_0026003 pmdco:PMD_0020303)
+SubClassOf(pmdco:PMD_0026003 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020417 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020238) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020418 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020239) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0026001 pmdco:PMD_0027004)))))))
+
+# Class: pmdco:PMD_0026004 (plate martensite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026004 "plate martensite"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0026004 "Fe-C only")
+AnnotationAssertion(skos:definition pmdco:PMD_0026004 "plate martensite is a martensite that has plate-like martensite phase (i.e., crystal lattice) with twin boundaries."@en)
+SubClassOf(pmdco:PMD_0026004 pmdco:PMD_0020303)
+SubClassOf(pmdco:PMD_0026004 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(ObjectIntersectionOf(pmdco:PMD_0026001 pmdco:PMD_0026012) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020240))))
+
+# Class: pmdco:PMD_0026005 (prior aistenite grain boundary)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026005 "prior aistenite grain boundary"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026005 "prior aistenite grain boundary is a grain boundary that remained after a phase transformation as the austenite transformed into other phase or microconstituent"@en)
+EquivalentClasses(pmdco:PMD_0026005 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:RO_0001000 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0020280)))))
+SubClassOf(pmdco:PMD_0026005 pmdco:PMD_0020213)
+
+# Class: pmdco:PMD_0026006 (lamellar colony)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026006 "lamellar colony"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026006 "Lamellar colony is an aggregate of alternating, approximately parallel lamellae of two phases, distinguished from neighbouring colonies by a change in lamellar orientation."@en)
+SubClassOf(pmdco:PMD_0026006 pmdco:PMD_0000890)
+SubClassOf(pmdco:PMD_0026006 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027002))
+
+# Class: pmdco:PMD_0026007 (pearlite colony)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026007 "pearlite colony"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026007 "lamellar colony formed by eutectoid decomposition of austenite, whose lamellae are ferrite and cementite"@en)
+SubClassOf(pmdco:PMD_0026007 pmdco:PMD_0026006)
+SubClassOf(pmdco:PMD_0026007 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027002)) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027002 pmdco:PMD_0027010))))
+
+# Class: pmdco:PMD_0026008 (pearlite block)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026008 "pearlite block"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0026008 "pearlite nodule"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026008 "aggregate of pearlite colonies"@en)
+SubClassOf(pmdco:PMD_0026008 pmdco:PMD_0000890)
+SubClassOf(pmdco:PMD_0026008 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026007))
+
+# Class: pmdco:PMD_0026009 (pearlitic transformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026009 "pearlitic transformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026009 "eutectoid decomposition in steels where austenite is transfrormed into pearlite"@en)
+SubClassOf(pmdco:PMD_0026009 pmdco:PMD_0020147)
+SubClassOf(pmdco:PMD_0026009 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002233 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020285)))
+
+# Class: pmdco:PMD_0026010 (interlamellar spacing)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026010 "interlamellar spacing"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026010 "Interlamellar spacing is the distance from a lamella of one phase to the next lamella of the same phase in lamellar colony"@en)
+SubClassOf(pmdco:PMD_0026010 pmdco:PMD_0020335)
+SubClassOf(pmdco:PMD_0026010 ObjectSomeValuesFrom(obo:RO_0000080 pmdco:PMD_0026006))
+
+# Class: pmdco:PMD_0026011 (sheaf)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026011 "The shape is featured in axioms for the lath- and plate-like bainite"@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0026011 "sheaf"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026011 "sheaf is a object aggregate consisting of parallely arranged ferrite plates or laths in bainite."@en)
+SubClassOf(pmdco:PMD_0026011 obo:BFO_0000027)
+SubClassOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020301))
+
+# Class: pmdco:PMD_0026012 (plate (grain))
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026012 "plate (grain)"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0026012 "platelet"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026012 "plate (grain) is a crystallite with a shape elongated in two directions, i.e., the length and wdith are considerably larger than thickness."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0026012 "ferrite plate in bainite"@en)
+SubClassOf(pmdco:PMD_0026012 pmdco:PMD_0000663)
+
+# Class: pmdco:PMD_0026013 (granular bainite)
+
+AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0026013 "The shape of the ferrtitic grains could be asserted")
+AnnotationAssertion(rdfs:label pmdco:PMD_0026013 "granular bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026013 "Granular bainite consists of irregular bainite grains and martensite."@en)
+SubClassOf(pmdco:PMD_0026013 pmdco:PMD_0020300)
+SubClassOf(pmdco:PMD_0026013 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(ObjectIntersectionOf(pmdco:PMD_0000663 pmdco:PMD_0020301) ObjectSomeValuesFrom(obo:RO_0000086 pmdco:PMD_0050155)))))
+
+# Class: pmdco:PMD_0026014 (lath-like bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026014 "lath-like bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026014 "Plate-like bainite is a bainite that ferrite grains have lath shape")
+EquivalentClasses(pmdco:PMD_0026014 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0027004))))))
+SubClassOf(pmdco:PMD_0026014 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0026015 (plate-like bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026015 "plate-like bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026015 "Plate-like bainite is a bainite that ferrite grains have plate shape"@en)
+EquivalentClasses(pmdco:PMD_0026015 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0026011 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0020301 pmdco:PMD_0026012))))))
+SubClassOf(pmdco:PMD_0026015 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0026016 (cementite-free bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026016 "cementite-free bainite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026016 "Cementite-free bainite consits of ferrite laths and mixure of martensite and retained austenite at the the ferrite grain boundaries"@en)
+SubClassOf(pmdco:PMD_0026016 pmdco:PMD_0020300)
+SubClassOf(pmdco:PMD_0026016 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0026001)))
+
+# Class: pmdco:PMD_0026017 (bainitic transformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026017 "bainitic transformation"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0026017 "TODO add nature of the transformation: diffusionless shear of austenite into ferrite and limited diffusion and thus precipitation of carbides (what to do with carbide-free bainite tho)")
+AnnotationAssertion(skos:definition pmdco:PMD_0026017 "bainitic transformation is a solid-state phase transformation that occurs simultaneously with cooling at intermediate rates, has austenite as input and bainite as output."@en)
+SubClassOf(pmdco:PMD_0026017 obo:BFO_0000015)
+SubClassOf(pmdco:PMD_0026017 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_0002233 pmdco:PMD_0020280) ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020300)))
+
 # Class: pmdco:PMD_0027001 (lamella)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0027001 obo:IAO_0000122)
@@ -36,8 +531,7 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0027001 "PERSON: PMDco Team")
 AnnotationAssertion(rdfs:label pmdco:PMD_0027001 "lamella"@en)
 AnnotationAssertion(skos:comment pmdco:PMD_0027001 "It may part of a lamellae object oggregate")
 AnnotationAssertion(skos:definition pmdco:PMD_0027001 "lamella is an object that represents a thin, flat, plate-like layer or flake within microstructure."@en)
-SubClassOf(pmdco:PMD_0027001 obo:BFO_0000030)
-SubClassOf(pmdco:PMD_0027001 ObjectIntersectionOf(pmdco:PMD_0020000 pmdco:PMD_0020003))
+SubClassOf(pmdco:PMD_0027001 pmdco:PMD_0000663)
 DisjointClasses(pmdco:PMD_0027001 pmdco:PMD_0027004)
 
 # Class: pmdco:PMD_0027002 (lamellae)
@@ -49,7 +543,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0027002 "lamellae"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0027002 "lamellae is an object aggregate that is part of some microconstituent and at the same time a single thermodynamic phase"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0027002 "ferrite lamellae in perlite microcontituent"@en)
 SubClassOf(pmdco:PMD_0027002 obo:BFO_0000027)
-SubClassOf(pmdco:PMD_0027002 ObjectAllValuesFrom(obo:RO_0002351 pmdco:PMD_0027001))
+SubClassOf(pmdco:PMD_0027002 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027001))
 
 # Class: pmdco:PMD_0027003 (average lamella thickness)
 
@@ -63,29 +557,161 @@ SubClassOf(pmdco:PMD_0027003 ObjectIntersectionOf(ObjectSomeValuesFrom(obo:RO_00
 
 # Class: pmdco:PMD_0027004 (lath)
 
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0027004 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0027004 "PERSON: PMDco Team")
 AnnotationAssertion(rdfs:label pmdco:PMD_0027004 "lath"@en)
 AnnotationAssertion(skos:comment pmdco:PMD_0027004 "A lath is a crystal of a single phase. e.g., cementite in a crystallite of bainite microcontituent."@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0027004 "Lath is an elongated object and at the same time a crystal and a thermodynamic phase"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027004 "Lath is a crystallite elongated only in one direction, i.e., its length is considerably larger than its width and thickness"@en)
 AnnotationAssertion(skos:example pmdco:PMD_0027004 "lath of cementite embedded in ferrite matix in bainite microconstituent"@en)
-SubClassOf(pmdco:PMD_0027004 ObjectIntersectionOf(pmdco:PMD_0020000 pmdco:PMD_0020003))
+SubClassOf(pmdco:PMD_0027004 pmdco:PMD_0000663)
 
 # Class: pmdco:PMD_0027005 (laths)
 
+AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0027005 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0027005 "PERSON: PMDco Team")
 AnnotationAssertion(rdfs:label pmdco:PMD_0027005 "laths"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0027005 "an object aggregate of multiple lath objects"@en)
 SubClassOf(pmdco:PMD_0027005 obo:BFO_0000027)
 SubClassOf(pmdco:PMD_0027005 ObjectAllValuesFrom(obo:RO_0002351 pmdco:PMD_0027004))
 
+# Class: pmdco:PMD_0027006 (dislocation wall)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020000 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020000 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020003 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020003 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0020335 "PERSON: Philipp von Hartrott")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0020335 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0027004 "PERSON: PMDco Team")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0027004 <http://purl.obolibrary.org/obo/IAO_0000122>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> pmdco:PMD_0027005 "PERSON: PMDco Team")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> pmdco:PMD_0027005 <http://purl.obolibrary.org/obo/IAO_0000122>)
+AnnotationAssertion(rdfs:label pmdco:PMD_0027006 "dislocation wall"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027006 "dislocation wall is a planar arrangement or localized boundary of dislocations inside a crystal lattice"@en)
+SubClassOf(pmdco:PMD_0027006 obo:BFO_0000146)
+SubClassOf(pmdco:PMD_0027006 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020233))
 
+# Class: pmdco:PMD_0027007 (dislocation cell)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027007 "dislocation cell"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027007 "dislocation cell is a microstructural feature in deformed crystal consisting of a nearly dislocation-free volume enclosed by tangled networks of dislocations forming cell walls"@en)
+SubClassOf(pmdco:PMD_0027007 obo:BFO_0000029)
+SubClassOf(pmdco:PMD_0027007 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020233))
+SubClassOf(pmdco:PMD_0027007 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0027006))
+
+# Class: pmdco:PMD_0027008 (stacking fault)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027008 "stacking fault"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027008 "stacking fault is a planar defect in  hcp or fcc crystal characterized by a local error in the layering sequence of atomic planes"@en)
+SubClassOf(pmdco:PMD_0027008 obo:BFO_0000146)
+
+# Class: pmdco:PMD_0027009 (Cottrell cloud)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027009 "Cottrell cloud"@en)
+AnnotationAssertion(skos:altLabel pmdco:PMD_0027009 "Cottrell atmosphere")
+AnnotationAssertion(skos:definition pmdco:PMD_0027009 "Cottrell cloud is a site which contains a dislocation and at least one interstitial atom at its core. The formation of the Cottrell cloud is guided by the reduction of residual stress due to lattice distortion around a interstitial atom, as dislocation has greater vacancy at its core."@en)
+SubClassOf(pmdco:PMD_0027009 obo:BFO_0000029)
+
+# Class: pmdco:PMD_0027010 (cementite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027010 "cementite"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027010 "ferrous metal microconstituent which at the same time an intermetallic phase of Fe3C with orthorhombic crystal lattice")
+SubClassOf(pmdco:PMD_0027010 pmdco:PMD_0020000)
+SubClassOf(pmdco:PMD_0027010 pmdco:PMD_0020160)
+SubClassOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000131> ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_18248))) ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(<https://w3id.org/pmd/cryo/CRYO_0000442> ObjectSomeValuesFrom(obo:RO_0001015 obo:CHEBI_27594))))))
+
+# Class: pmdco:PMD_0027011 (upper bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027011 "upper bainite"@en)
+EquivalentClasses(pmdco:PMD_0027011 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002) ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(pmdco:PMD_0020213 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0026011)))))))
+SubClassOf(pmdco:PMD_0027011 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0027012 (lower bainite)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027012 "lower bainite"@en)
+EquivalentClasses(pmdco:PMD_0027012 ObjectIntersectionOf(pmdco:PMD_0020300 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(pmdco:PMD_0027010 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002) ObjectSomeValuesFrom(obo:RO_0001025 ObjectIntersectionOf(pmdco:PMD_0020301 ObjectUnionOf(pmdco:PMD_0026012 pmdco:PMD_0027004)))))))
+SubClassOf(pmdco:PMD_0027012 pmdco:PMD_0020300)
+
+# Class: pmdco:PMD_0027013 (deformation band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027013 "deformation band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027013 "TODO: express axiomaltically the orientation
+Express that it is an output of a deformation process where plastic strain is realized")
+AnnotationAssertion(skos:definition pmdco:PMD_0027013 "deformation band is a part of a crystallite which is characterized by a local lattice rotation in respect to the parent crystallite"@en)
+SubClassOf(pmdco:PMD_0027013 obo:BFO_0000024)
+SubClassOf(pmdco:PMD_0027013 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000663))
+
+# Class: pmdco:PMD_0027014 (shear band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027014 "shear band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027014 "TODO axiom that there was a (plastic) deformation process which has temporal part work-hardening natural process and another temporal would be stain localization?")
+AnnotationAssertion(skos:definition pmdco:PMD_0027014 "shear band is a fiat object part of a microstrucrture of a material which underwent severe  plastic deformation. It is a region of a localized deformation,"@en)
+SubClassOf(pmdco:PMD_0027014 obo:BFO_0000024)
+SubClassOf(pmdco:PMD_0027014 ObjectSomeValuesFrom(obo:BFO_0000050 pmdco:PMD_0000857))
+
+# Class: pmdco:PMD_0027015 (persistent slip band)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027015 "persistent slip band"@en)
+AnnotationAssertion(skos:comment pmdco:PMD_0027015 "Subclass of immaterial entity??")
+AnnotationAssertion(skos:definition pmdco:PMD_0027015 "persistent slip band is site which constist of parallel slip bands in 3D space and dislocation walls organized parallel to each other."@en)
+SubClassOf(pmdco:PMD_0027015 obo:BFO_0000029)
+
+# Class: pmdco:PMD_0027016 (dislocation motion)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027016 "dislocation motion"@en)
+SubClassOf(pmdco:PMD_0027016 obo:BFO_0000015)
+
+# Class: pmdco:PMD_0027017 (dislocation glide)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027017 "dislocation glide"@en)
+SubClassOf(pmdco:PMD_0027017 pmdco:PMD_0027016)
+
+# Class: pmdco:PMD_0027018 (dislocation climb)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027018 "dislocation climb"@en)
+SubClassOf(pmdco:PMD_0027018 pmdco:PMD_0027016)
+
+# Class: pmdco:PMD_0027019 (defect interaction)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0027019 "defect interaction"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0027019 "processes including generation, anihilation, and interaction between defects"@en)
+SubClassOf(pmdco:PMD_0027019 obo:BFO_0000015)
+
+# Class: pmdco:PMD_0080597 (pmdco:PMD_0080597)
+
+
+# Class: pmdco:PMD_0100000 (Frank-Read source)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100000 "Frank-Read source"@en)
+SubClassOf(pmdco:PMD_0100000 obo:BFO_0000030)
+SubClassOf(pmdco:PMD_0100000 ObjectIntersectionOf(ObjectIntersectionOf(ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BFO_0000030 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020025))) ObjectSomeValuesFrom(obo:RO_0000056 pmdco:PMD_0100001)) ObjectSomeValuesFrom(obo:BFO_0000051 pmdco:PMD_0020233)))
+
+# Class: pmdco:PMD_0100001 (dislocation generation process)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100001 "dislocation generation process"@en)
+SubClassOf(pmdco:PMD_0100001 pmdco:PMD_0027019)
+SubClassOf(pmdco:PMD_0100001 ObjectIntersectionOf(obo:BFO_0000015 ObjectSomeValuesFrom(obo:RO_0002234 pmdco:PMD_0020233)))
+
+# Class: pmdco:PMD_0100002 (hierarchichal microconstituent)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100002 "hierarchichal microconstituent"@en)
+AnnotationAssertion(rdfs:seeAlso pmdco:PMD_0100002 "https://doi.org/10.1002/srin.202300238"^^xsd:anyURI)
+AnnotationAssertion(skos:definition pmdco:PMD_0100002 "a microconstitent that is internally hierarchichally organized and is consisting of a single thermodynamic phase."@en)
+AnnotationAssertion(skos:example pmdco:PMD_0100002 "Examples include martensite, bainitic ferrite (ferritic matrix of bainite), etc."@en)
+SubClassOf(pmdco:PMD_0100002 pmdco:PMD_0100003)
+
+# Class: pmdco:PMD_0100003 (microconstituent)
+
+AnnotationAssertion(rdfs:comment pmdco:PMD_0100003 "Microconstiutents were coined in the times of light-optical metallography and are related to the differences that can be observed using this experimental process. 
+
+In metallography the term phase is sometimes used to denote microconstituents. To avoid confusion, the term phase should only be used for thermodynamic phases."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0100003 "microconstituent"@en)
+SubClassOf(pmdco:PMD_0100003 pmdco:PMD_0000001)
+
+# Class: pmdco:PMD_0100004 (multiphase microconstituent (mixture))
+
+AnnotationAssertion(obo:IAO_0000115 pmdco:PMD_0100004 "A portion of matter that has more than one thermodynamic phases arranged in a characteristic spatial configuration (morphology) as parts."@en)
+AnnotationAssertion(rdfs:label pmdco:PMD_0100004 "multiphase microconstituent (mixture)"@en)
+SubClassOf(pmdco:PMD_0100004 pmdco:PMD_0100003)
+SubClassOf(pmdco:PMD_0100004 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020000))
+
+# Class: pmdco:PMD_0100005 (monophase microconstituent)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0100005 "monophase microconstituent"@en)
+EquivalentClasses(pmdco:PMD_0100005 ObjectIntersectionOf(pmdco:PMD_0020000 pmdco:PMD_0100003))
+SubClassOf(pmdco:PMD_0100005 pmdco:PMD_0100003)
+
+
+DisjointClasses(pmdco:PMD_0000503 pmdco:PMD_0000512 pmdco:PMD_0000591 pmdco:PMD_0000595 pmdco:PMD_0000853 pmdco:PMD_0000896 pmdco:PMD_0000942 pmdco:PMD_0000967 pmdco:PMD_0020112 pmdco:PMD_0020160 pmdco:PMD_0025001 pmdco:PMD_0080597)
+DisjointClasses(pmdco:PMD_0020280 pmdco:PMD_0020285 pmdco:PMD_0020286 pmdco:PMD_0020300 pmdco:PMD_0020301 pmdco:PMD_0020302 pmdco:PMD_0020303)
 )

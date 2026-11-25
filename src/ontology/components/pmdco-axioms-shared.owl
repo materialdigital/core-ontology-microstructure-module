@@ -15,6 +15,7 @@ Import(<https://w3id.org/pmd/co/components/pmdco-datatransformation.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-devices.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-manufacturing.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-materials.owl>)
+Import(<https://w3id.org/pmd/co/components/pmdco-microstructure.owl>)
 Import(<https://w3id.org/pmd/co/components/pmdco-qualities.owl>)
 
 Declaration(Class(obo:ENVO_01000665))

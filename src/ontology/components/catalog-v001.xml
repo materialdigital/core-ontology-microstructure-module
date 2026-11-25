@@ -9,6 +9,7 @@
   <uri name="https://w3id.org/pmd/co/imports/bfo_import.owl" uri="../imports/bfo_import.owl"/>
   <uri name="https://w3id.org/pmd/co/imports/stato_import.owl" uri="../imports/stato_import.owl"/>
   <uri name="https://w3id.org/pmd/co/imports/chebi_import.owl" uri="../imports/chebi_import.owl"/>
+  <uri name="https://w3id.org/pmd/co/imports/cryo_import.owl" uri="../imports/cryo_import.owl"/>
 
   <uri name="https://w3id.org/pmd/co/components/imports-edit.owl" uri="imports-edit.owl"/>
   <uri name="https://w3id.org/pmd/co/components/pmdco-shared.owl" uri="pmdco-shared.owl"/>
