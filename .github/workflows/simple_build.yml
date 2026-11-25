@@ -18,16 +18,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-          
-      - name: ODK update
-        run: cd src/ontology && odk.py update
 
-      - name: Build ontology
-        env:
-          ROBOT_ENV: 'ROBOT_JAVA_ARGS=-Xmx6G'
-          DEFAULT_BRANCH: main
-        #run: cd src/ontology && make IMP=false MIR=false all_assets
-        run: cd src/ontology && mkdir -p mirror && touch mirror/bfo.owl && make IMP=false MIR=false all_assets
+      - name: Build pmdco-full.owl
+        run: cd src/ontology && robot merge --catalog catalog-v001.xml -i pmdco-edit.owl annotate --ontology-iri https://w3id.org/pmd/co/pmdco-full.owl -o ../../pmdco-full.owl
 
       - name: Commit files # commit the src folder
         uses: EndBug/add-and-commit@v9
