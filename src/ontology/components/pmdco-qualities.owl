@@ -349,6 +349,8 @@ Declaration(Class(pmdco:PMD_0025037))
 Declaration(Class(pmdco:PMD_0025039))
 Declaration(Class(pmdco:PMD_0025040))
 Declaration(Class(pmdco:PMD_0025997))
+Declaration(Class(pmdco:PMD_0026019))
+Declaration(Class(pmdco:PMD_0026020))
 Declaration(Class(pmdco:PMD_0027001))
 Declaration(Class(pmdco:PMD_0027002))
 Declaration(Class(pmdco:PMD_0027003))
@@ -634,7 +636,7 @@ AnnotationAssertion(owl:deprecated pmdco:PMD_0020020 "true"^^xsd:boolean)
 AnnotationAssertion(skos:definition pmdco:PMD_0020020 "DEPRECATED A relation between participants of a process indicating that some of the participants SDCs are affected during the process due to the interaction of the participants."@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020020 "DEPRECATED Eine Beziehung zwischen Teilnehmern eines Prozesses, die darauf hinweist, dass einige SDCs der Teilnehmer während des Prozesses aufgrund der Interaktion der Teilnehmer betroffen sind."@de)
 
-# Object Property: pmdco:PMD_0025013 (verändert die Qualität)
+# Object Property: pmdco:PMD_0025013 (changes quality)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025013 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025013 "PERSON: Kamilla Zaripova")
@@ -796,7 +798,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0000503 "Die ASTM-Korngröße ist 
 AnnotationAssertion(skos:definition pmdco:PMD_0000503 "The ASTM grain size is a quality that is measured through a process that follows the ASTM standard."@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000503 "true"^^xsd:boolean)
 
-# Class: pmdco:PMD_0000505 (acoustic absorption coefficient)
+# Class: pmdco:PMD_0000505 (Schallabsorptionskoeffizient)
 
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000505 "PERSON: Joerg Waitelonis")
 AnnotationAssertion(rdfs:label pmdco:PMD_0000505 "Schallabsorptionskoeffizient"@de)
@@ -1527,7 +1529,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0000961 "The sublimation point is 
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0000961 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0000961 pmdco:PMD_0020164)
 
-# Class: pmdco:PMD_0000965 (surface layer (fiat object part))
+# Class: pmdco:PMD_0000965 (Oberflächenschicht (Fiat-Objektteil))
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0000965 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0000965 "PERSON: Joerg Waitelonis")
@@ -1630,7 +1632,7 @@ SubClassOf(pmdco:PMD_0001008 pmdco:PMD_0000802)
 
 SubClassOf(pmdco:PMD_0001035 ObjectUnionOf(ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000142) ObjectSomeValuesFrom(pmdco:PMD_0025999 obo:BFO_0000146)))
 
-# Class: pmdco:PMD_0001046 (Tiefe)
+# Class: pmdco:PMD_0001046 (depth)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0001046 "Tiefe"@de)
 SubClassOf(pmdco:PMD_0001046 pmdco:PMD_0040001)
@@ -1764,7 +1766,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0020005 "porosity"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0020005 "itensive quality embodiying the fraction of the materials (enclosing) spatial region occupied by pores."@en)
 SubClassOf(pmdco:PMD_0020005 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0020022 (corrosion)
+# Class: pmdco:PMD_0020022 (Korrosion)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0020022 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0020022 "PERSON: Philipp von Hartrott")
@@ -1990,7 +1992,7 @@ AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020133 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0020133 pmdco:PMD_0023000)
 SubClassOf(pmdco:PMD_0020133 ObjectSomeValuesFrom(obo:RO_0000080 ObjectUnionOf(obo:BFO_0000024 obo:BFO_0000027 obo:BFO_0000030)))
 
-# Class: pmdco:PMD_0020134 (DEPRECATED Reizrolle)
+# Class: pmdco:PMD_0020134 (DEPRECATED stimulus role)
 
 AnnotationAssertion(rdfs:comment pmdco:PMD_0020134 "Will deal with causality later")
 AnnotationAssertion(rdfs:label pmdco:PMD_0020134 "DEPRECATED Reizrolle"@de)
@@ -3155,7 +3157,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Der Außendurchmesser ist
 AnnotationAssertion(skos:definition pmdco:PMD_0025017 "Outer diameter is a length of a straight line from one outer surface of an object or space to the other side of its outer surface through the center of an object or space when it has the inside and outside surface."@en)
 SubClassOf(pmdco:PMD_0025017 pmdco:PMD_0050051)
 
-# Class: pmdco:PMD_0025018 (geometric relational quality)
+# Class: pmdco:PMD_0025018 (geometrische relationale Qualität)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0025018 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025018 "PERSON: Kamilla Zaripova")
@@ -3243,6 +3245,18 @@ AnnotationAssertion(obo:IAO_0000117 pmdco:PMD_0025997 "PERSON: Kamilla Zaripova"
 AnnotationAssertion(rdfs:label pmdco:PMD_0025997 "concentration value specification"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0025997 "a value specification that contains information about quantitative share of a part relative to a specified whole."@en)
 AnnotationAssertion(skos:example pmdco:PMD_0025997 "2.05 wt.% of carbon in steel, 4 vol.% of nitric acid in a solution"@en)
+
+# Class: pmdco:PMD_0026019 (plastic deformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026019 "plastic deformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026019 "plastic defomation is an irreversible change in the material shape"@en)
+SubClassOf(pmdco:PMD_0026019 pmdco:PMD_0000596)
+
+# Class: pmdco:PMD_0026020 (elastic deformation)
+
+AnnotationAssertion(rdfs:label pmdco:PMD_0026020 "elastic deformation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026020 "elastic deformation is a change in the shape of the material that can be reversed if the force, causing the deformation, is removed"@en)
+SubClassOf(pmdco:PMD_0026020 pmdco:PMD_0026019)
 
 # Class: pmdco:PMD_0027003 (average lamella thickness)
 
@@ -4075,7 +4089,7 @@ AnnotationAssertion(rdfs:label pmdco:PMD_0080054 "enthalpy of vaporization"@en)
 AnnotationAssertion(skos:definition pmdco:PMD_0080054 "the amount of energy required to convert an entity from liquid to gaseous aggregtate state at constant temperature and pressure"@en)
 SubClassOf(pmdco:PMD_0080054 pmdco:PMD_0080052)
 
-# Class: pmdco:PMD_0080055 (auto-ignition temperature)
+# Class: pmdco:PMD_0080055 (Selbstzündungstemperatur)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080055 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080055 "Necessary and sufficient conditions for 'auto-ignition temperature' have not yet been formalized. The term is defined as a specific subtype of 'thermo dynamic quality'. Distinguishing criteria are domain-specific and depend on measurement conventions not yet expressed as OWL restrictions."@en)
@@ -5494,7 +5508,7 @@ AnnotationAssertion(skos:example pmdco:PMD_0080186 "Polished aluminum foil has h
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080186 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080186 pmdco:PMD_0000877)
 
-# Class: pmdco:PMD_0080187 (Strahlungsabsorptionsfähigkeit)
+# Class: pmdco:PMD_0080187 (radiation absorption capability)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080187 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080187 "Necessary and sufficient conditions for 'radiation absorption capability' have not yet been formalized. The term is defined as a specific subtype of 'optical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5670,7 +5684,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0080202 "Thermoschockbeständigkei
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0080202 "true"^^xsd:boolean)
 SubClassOf(pmdco:PMD_0080202 pmdco:PMD_0020353)
 
-# Class: pmdco:PMD_0080203 (radiation emission capability)
+# Class: pmdco:PMD_0080203 (Strahlungsemissionsfähigkeit)
 
 AnnotationAssertion(obo:IAO_0000114 pmdco:PMD_0080203 obo:IAO_0000122)
 AnnotationAssertion(obo:IAO_0000116 pmdco:PMD_0080203 "Necessary and sufficient conditions for 'radiation emission capability' have not yet been formalized. The term is defined as a specific subtype of 'physical capability'. Distinguishing criteria are domain-specific and depend on measurement conventions or source terminology not yet expressed as OWL restrictions."@en)
@@ -5757,7 +5771,7 @@ AnnotationAssertion(skos:definition pmdco:PMD_0020007 "Monoklines Bravais-Gitter
 AnnotationAssertion(skos:definition pmdco:PMD_0020007 "monoclinic Bravais lattice with primitive centering (mP), having one 2-fold rotation axis with one oblique angle and two right angles between unit cell axes"@en)
 AnnotationAssertion(pmdco:PMD_0000060 pmdco:PMD_0020007 "true"^^xsd:boolean)
 
-# Individual: pmdco:PMD_0020008 (OBSOLETE bravais lattice monoclinic base-centered)
+# Individual: pmdco:PMD_0020008 (Bravais-Gitter monoklin basiszentriert)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0020008 "Bravais-Gitter monoklin basiszentriert"@de)
 AnnotationAssertion(rdfs:label pmdco:PMD_0020008 "OBSOLETE bravais lattice monoclinic base-centered"@en)
