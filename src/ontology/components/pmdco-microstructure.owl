@@ -543,7 +543,7 @@ SubClassOf(pmdco:PMD_0026018 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersect
 # Class: pmdco:PMD_0026021 (grain boundary strengthening)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026021 "grain boundary strengthening"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0026021 "contribution of grain boundaries to hinder dislocation motion during plastic defomation")
+AnnotationAssertion(skos:definition pmdco:PMD_0026021 "contribution of grain boundaries to hinder dislocation motion during plastic deformation"@en)
 AnnotationAssertion(pmdco:PMD_0050117 pmdco:PMD_0026021 "ΔσGB")
 EquivalentClasses(pmdco:PMD_0026021 ObjectIntersectionOf(pmdco:PMD_0026018 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020213)))))
 SubClassOf(pmdco:PMD_0026021 pmdco:PMD_0026018)
@@ -551,23 +551,23 @@ SubClassOf(pmdco:PMD_0026021 pmdco:PMD_0026018)
 # Class: pmdco:PMD_0026022 (precipitate strengthening)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026022 "precipitate strengthening"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0026022 "contribution of precipitates in microstructure to hinder dislocation motion during plastic defomation")
+AnnotationAssertion(skos:definition pmdco:PMD_0026022 "contribution of precipitates in microstructure to hinder dislocation motion during plastic deformation"@en)
 AnnotationAssertion(pmdco:PMD_0050117 pmdco:PMD_0026022 "ΔσPS")
-EquivalentClasses(pmdco:PMD_0026022 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 ObjectIntersectionOf(obo:BFO_0000030 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002))))))
+EquivalentClasses(pmdco:PMD_0026022 ObjectIntersectionOf(pmdco:PMD_0026018 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 ObjectIntersectionOf(obo:BFO_0000030 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020002)))))))
 SubClassOf(pmdco:PMD_0026022 pmdco:PMD_0026018)
 
 # Class: pmdco:PMD_0026023 (solid solution strengthening)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026023 "solid solution strengthening"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0026023 "contribution of solute atoms in solid solution to hinder dislocation motion during plastic defomation"@en)
+AnnotationAssertion(skos:definition pmdco:PMD_0026023 "contribution of solute atoms in solid solution to hinder dislocation motion during plastic deformation"@en)
 AnnotationAssertion(pmdco:PMD_0050117 pmdco:PMD_0026023 "Δσss")
-EquivalentClasses(pmdco:PMD_0026023 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 ObjectIntersectionOf(obo:CHEBI_33250 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020227))))))
+EquivalentClasses(pmdco:PMD_0026023 ObjectIntersectionOf(pmdco:PMD_0026018 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 ObjectIntersectionOf(obo:CHEBI_33250 ObjectSomeValuesFrom(obo:RO_0000087 pmdco:PMD_0020227)))))))
 SubClassOf(pmdco:PMD_0026023 pmdco:PMD_0026018)
 
 # Class: pmdco:PMD_0026024 (dislocation strengthening)
 
 AnnotationAssertion(rdfs:label pmdco:PMD_0026024 "dislocation strengthening"@en)
-AnnotationAssertion(skos:definition pmdco:PMD_0026024 "contribution of dislocation forest in microstructure to hinder dislocation motion during plastic defomation")
+AnnotationAssertion(skos:definition pmdco:PMD_0026024 "contribution of dislocation forest in microstructure to hinder dislocation motion during plastic deformation"@en)
 AnnotationAssertion(pmdco:PMD_0050117 pmdco:PMD_0026024 "ΔσDIS")
 EquivalentClasses(pmdco:PMD_0026024 ObjectIntersectionOf(pmdco:PMD_0026018 ObjectSomeValuesFrom(obo:RO_0000092 ObjectIntersectionOf(obo:BFO_0000027 ObjectSomeValuesFrom(obo:RO_0002351 pmdco:PMD_0020233)))))
 SubClassOf(pmdco:PMD_0026024 pmdco:PMD_0026018)
